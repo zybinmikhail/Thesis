@@ -1,0 +1,76 @@
+num	name	x	z	y
+1	1  Cerebellar Grey Matter	30.00	-30.00	80.00
+2	2  Anterior Supramarginal (BA40a)	45.00	50.00	37.75
+3	3  Posterior Superior Parietal (BA7p)	25.00	45.00	65.20
+4	4  Anterior Superior Parietal (BA5/BA7a)	30.00	55.00	49.00
+5	5  Retrosplenial (BA29/30)	5.00	10.00	49.00
+6	6  Anterior Middle Temporal (BA37-aMT)	55.00	5.00	65.20
+7	7  Orbitofrontal (BA47)	25.00	-10.00	-28.25
+8	8  Cingulate Posterior (BA23a)	5.00	35.00	25.80
+9	9  2ary Somatosensory Cortex	55.00	30.00	37.75
+10	10 2ary/3ary Visual Posterior (BA18/19p)	15.00	20.00	85.00
+11	11 2ary Auditory Posterior (BA21p)	60.00	-10.00	36.00
+12	12 Premotor Posterior (BA6p)	25.00	60.00	9.35
+13	13 Premotor Precentral (BA6prc)	35.00	45.00	9.35
+14	14 1ary Visual Posterior (BA17p)	40.00	10.00	85.00
+15	15 1ary Motor (BA4)	45.00	35.00	9.35
+16	16 1ary Auditory (BA41/42)	45.00	10.00	25.20
+17	17 1ary Visual Anterior (BA17a)	15.00	15.00	65.20
+18	18 1ary Somatosensory (BA3/1/2)	60.00	30.00	9.35
+19	19 Posterior Middle Temporal (BA37-pMT)	45.00	5.00	85.00
+20	20 Posterior Fusiform (BA37m)	10.00	-5.00	65.20
+21	21 FEF Lateral (BA8)	35.00	50.00	-18.75
+22	22 Premotor Medial (BA6m)	5.00	65.00	-3.50
+23	23 Insular Anterior Cortex	30.00	5.00	-18.75
+24	24 Cingulate Posterior (BA23p)	5.00	30.00	49.00
+25	25 Posterior Inferior Temporal (BA20p)	55.00	-25.00	36.00
+26	26 2ary Auditory, language (BA22a)	50.00	-5.00	9.35
+27	27 2ary/3ary Visual Anterior (BA18/19a)	45.00	20.00	65.20
+28	28 2ary Auditory, Wernicke (BA22p)	60.00	20.00	37.75
+29	29 Precuneus (BA7m)	5.00	50.00	65.20
+30	30 Premotor Anterior Lateral (BA6a)	45.00	40.00	-3.50
+31	31 Supramarginal Posterior (BA40p)	40.00	45.00	49.00
+32	32 Ventrolateral Prefrontal, Broca (BA44)	50.00	20.00	-18.75
+33	33 Anterior Inferior Temporal (BA20a)	50.00	-30.00	9.35
+34	34 Dorsolateral Prefrontal (BA9)	15.00	55.00	-28.25
+35	35 Dorsolateral Prefrontal Medial (BA9m)	5.00	40.00	-28.25
+36	36 FEF Medial (BA8m)	5.00	50.00	-18.75
+37	37 2ary Auditory Anterior (BA21a)	55.00	-15.00	9.35
+38	38 Anterior Prefrontal (BA10)	15.00	25.00	-32.00
+39	39 Frontopolar (BA10fp)	15.00	0.00	-35.00
+40	40 Cingulate Anterior (BA32g)	5.00	15.00	-28.25
+41	41 Angular (BA39)	48.00	28.00	65.20
+42	42 Cingulate Subcallosal (BA25)	5.00	-10.00	-3.50
+43	43 Temporopolar (BA38)	35.00	-20.00	-18.75
+44	44 Dorsolateral Prefrontal (BA46)	40.00	25.00	-28.25
+45	45 Ventrolateral Prefrontal, Broca (BA45)	45.00	5.00	-28.25
+46	46 Prefrontal Medial (BA10m)	5.00	0.00	-32.00
+47	47 Cingulate Posterior (BA31)	5.00	50.00	25.80
+48	48 Cingulate Anterior (BA24)	45.00	40.00	-3.50
+49	49 Cingulate Anterior (BA32)	5.00	35.00	-18.75
+50	50 Orbitofrontal (BA11)	15.00	-15.00	-28.25
+51	51 Piriform Cortex	15.00	-10.00	-3.50
+52	52 Amygdala	5.00	10.00	10.70
+53	53 Insular Posterior Cortex	35.00	12.00	25.20
+54	54 Entorhinal Cortex	15.00	-25.00	9.35
+55	55 Hippocampus, CA3 / Dentate Gyrus	30.00	-10.00	25.80
+56	56 Nucleus Accumbens	15.00	5.00	-18.75
+57	57 Caudate	15.00	20.00	-10.00
+58	58 Putamen	25.00	5.00	9.35
+59	59 Deep Nuclei - Dentate Nucleus	5.00	-30.00	80.00
+60	60 Superior Colliculus	5.00	-2.00	37.75
+61	61 Pulvinar Thalamus	18.00	5.00	25.20
+62	62 Red Nucleus	5.00	-5.00	25.20
+63	63 Substantia Nigra	5.00	-12.00	25.20
+64	64 Globus Pallidus	15.00	0.00	9.35
+65	65 Hippocampus, CA1	30.00	-15.00	25.20
+66	66 Subiculum	20.00	-15.00	25.20
+67	67 Ventral Anterior Thalamus	5.00	5.00	9.35
+68	68 Medial Dorsal Thalamus	5.00	10.00	25.80
+69	69 Hypothalamus	5.00	-5.00	9.35
+70	70 Ventral Lateral Thalamus	20.00	5.00	25.80
+71	71 External Capsule	22.00	10.00	-18.75
+72	72 Internal Capsule	10.00	15.00	9.35
+73	73 Corpus Callosum Anterior	5.00	15.00	-18.75
+74	74 Corpus Callosum Posterior	10.00	20.00	36.00
+75	75 Cerebellar White Matter	10.00	-30.00	80.00

@@ -1,0 +1,589 @@
+,Batch_number,Sample,Data_type,MS#,MS#2,Brain_abbr,New#,Region_detailed,Region_bulk,parsed_names,pos_name,state,MS_number
+0,1,170426_BM_pos_1-30_MS1_HA_259,MS,1.0,MS1,HA,259,25 Posterior Inferior Temporal (BA20p),Associative cortex,HA_259,170426_BM_pos_1-30_MS1_HA_259.mzXML,healthy,
+1,1,170426_BM_pos_1-30_MS2_HA_502,MS,2.0,MS2,HA,502,2  Anterior Supramarginal (BA40a),Associative cortex,HA_502,170426_BM_pos_1-30_MS2_HA_502.mzXML,healthy,
+2,1,170426_BM_pos_1-30_MS3_HA_16,MS,3.0,MS3,HA,16,21 FEF Lateral (BA8),Secondary cortex,HA_16,170426_BM_pos_1-30_MS3_HA_16.mzXML,healthy,
+3,1,170426_BM_pos_1-30_MS4_HA_556,MS,4.0,MS4,HA,556,"65 Hippocampus, CA1",Limbic cortex,HA_556,170426_BM_pos_1-30_MS4_HA_556.mzXML,healthy,
+4,1,170426_BM_pos_1-30_MS5_HA_98,MS,5.0,MS5,HA,98,29 Precuneus (BA7m),Associative cortex,HA_98,170426_BM_pos_1-30_MS5_HA_98.mzXML,healthy,
+5,1,170426_BM_pos_1-30_MS6_HA_5,MS,6.0,MS6,HA,5,56 Nucleus Accumbens,Basal Ganglia,HA_5,170426_BM_pos_1-30_MS6_HA_5.mzXML,healthy,
+6,1,170426_BM_pos_1-30_MS7_HA_37,MS,7.0,MS7,HA,37,"28 2ary Auditory, Wernicke (BA22p)",Secondary cortex,HA_37,170426_BM_pos_1-30_MS7_HA_37.mzXML,healthy,
+7,1,170426_BM_pos_1-30_MS8_HA_692,MS,8.0,MS8,HA,692,59 Deep Nuclei - Dentate Nucleus,Cerebellum,HA_692,170426_BM_pos_1-30_MS8_HA_692.mzXML,healthy,
+8,1,170426_BM_pos_1-30_MS9_HA_381,MS,9.0,MS9,HA,381,27 2ary/3ary Visual Anterior (BA18/19a),Secondary cortex,HA_381,170426_BM_pos_1-30_MS9_HA_381.mzXML,healthy,
+9,1,170426_BM_pos_1-30_MS10_HA_384,MS,10.0,MS10,HA,384,9  2ary Somatosensory Cortex,Secondary cortex,HA_384,170426_BM_pos_1-30_MS10_HA_384.mzXML,healthy,
+10,1,170426_BM_pos_1-30_MS11_HA_42,MS,11.0,MS11,HA,42,30 Premotor Anterior Lateral (BA6a),Secondary cortex,HA_42,170426_BM_pos_1-30_MS11_HA_42.mzXML,healthy,
+11,1,170426_BM_pos_1-30_MS12_HA_596,MS,12.0,MS12,HA,596,73 Corpus Callosum Anterior,White matter,HA_596,170426_BM_pos_1-30_MS12_HA_596.mzXML,healthy,
+12,1,170426_BM_pos_1-30_MS13_HA_436,MS,13.0,MS13,HA,436,20 Posterior Fusiform (BA37m),Secondary cortex,HA_436,170426_BM_pos_1-30_MS13_HA_436.mzXML,healthy,
+13,1,170426_BM_pos_1-30_MS14_HA_140,MS,14.0,MS14,HA,140,53 Insular Posterior Cortex,Associative cortex,HA_140,170426_BM_pos_1-30_MS14_HA_140.mzXML,healthy,
+14,1,170426_BM_pos_1-30_MS15_HA_490,MS,15.0,MS15,HA,490,3  Posterior Superior Parietal (BA7p),Associative cortex,HA_490,170426_BM_pos_1-30_MS15_HA_490.mzXML,healthy,
+15,1,170426_BM_pos_1-30_MS16_HA_149,MS,16.0,MS16,HA,149,"55 Hippocampus, CA3 / Dentate Gyrus",Limbic cortex,HA_149,170426_BM_pos_1-30_MS16_HA_149.mzXML,healthy,
+16,1,170426_BM_pos_1-30_MS17_HA_196,MS,17.0,MS17,HA,196,38 Anterior Prefrontal (BA10),Associative cortex,HA_196,170426_BM_pos_1-30_MS17_HA_196.mzXML,healthy,
+17,1,170426_BM_pos_1-30_MS18_HA_305,MS,18.0,MS18,HA,305,60 Superior Colliculus,Midbrain,HA_305,170426_BM_pos_1-30_MS18_HA_305.mzXML,healthy,
+18,1,170426_BM_pos_1-30_MS19_HA_295,MS,19.0,MS19,HA,295,14 1ary Visual Posterior (BA17p),Primary cortex,HA_295,170426_BM_pos_1-30_MS19_HA_295.mzXML,healthy,
+19,1,170426_BM_pos_1-30_MS20_HA_189,MS,20.0,MS20,HA,189,5  Retrosplenial (BA29/30),Limbic cortex,HA_189,170426_BM_pos_1-30_MS20_HA_189.mzXML,healthy,
+20,1,170426_BM_pos_1-30_MS21_HA_428,MS,21.0,MS21,HA,428,17 1ary Visual Anterior (BA17a),Primary cortex,HA_428,170426_BM_pos_1-30_MS21_HA_428.mzXML,healthy,
+21,1,170426_BM_pos_1-30_MS22_HA_104,MS,22.0,MS22,HA,104,19 Posterior Middle Temporal (BA37-pMT),Secondary cortex,HA_104,170426_BM_pos_1-30_MS22_HA_104.mzXML,healthy,
+22,1,170426_BM_pos_1-30_MS23_HA_121,MS,23.0,MS23,HA,121,72 Internal Capsule,White matter,HA_121,170426_BM_pos_1-30_MS23_HA_121.mzXML,healthy,
+23,1,170426_BM_pos_1-30_MS24_HA_183,MS,24.0,MS24,HA,183,51 Piriform Cortex,Primary cortex,HA_183,170426_BM_pos_1-30_MS24_HA_183.mzXML,healthy,
+24,1,170426_BM_pos_1-30_MS25_HA_409,MS,25.0,MS25,HA,409,33 Anterior Inferior Temporal (BA20a),Associative cortex,HA_409,170426_BM_pos_1-30_MS25_HA_409.mzXML,healthy,
+25,1,170426_BM_pos_1-30_MS26_HA_615,MS,26.0,MS26,HA,615,31 Supramarginal Posterior (BA40p),Associative cortex,HA_615,170426_BM_pos_1-30_MS26_HA_615.mzXML,healthy,
+26,1,170426_BM_pos_1-30_MS27_HA_459,MS,27.0,MS27,HA,459,68 Medial Dorsal Thalamus,Thalamus,HA_459,170426_BM_pos_1-30_MS27_HA_459.mzXML,healthy,
+27,1,170426_BM_pos_1-30_MS28_HA_187,MS,28.0,MS28,HA,187,36 FEF Medial (BA8m),Secondary cortex,HA_187,170426_BM_pos_1-30_MS28_HA_187.mzXML,healthy,
+28,1,170426_BM_pos_1-30_MS29_HA_299,MS,29.0,MS29,HA,299,48 Cingulate Anterior (BA24),Limbic cortex,HA_299,170426_BM_pos_1-30_MS29_HA_299.mzXML,healthy,
+29,1,170426_BM_pos_1-30_MS30_HA_287,MS,30.0,MS30,HA,287,13 Premotor Precentral (BA6prc),Secondary cortex,HA_287,170426_BM_pos_1-30_MS30_HA_287.mzXML,healthy,
+30,1,170426_BM_pos_1-30_MS31_HA_482,MS,31.0,MS31,HA,482,23 Insular Anterior Cortex,Associative cortex,HA_482,170426_BM_pos_1-30_MS31_HA_482.mzXML,healthy,
+31,1,170426_BM_pos_1-30_MS32_HA_362,MS,32.0,MS32,HA,362,61 Pulvinar Thalamus,Thalamus,HA_362,170426_BM_pos_1-30_MS32_HA_362.mzXML,healthy,
+32,1,170426_BM_pos_1-30_MS33_HA_147,MS,33.0,MS33,HA,147,50 Orbitofrontal (BA11),Associative cortex,HA_147,170426_BM_pos_1-30_MS33_HA_147.mzXML,healthy,
+33,1,170426_BM_pos_1-30_MS34_HA_237,MS,34.0,MS34,HA,237,1  Cerebellar Grey Matter,Cerebellum,HA_237,170426_BM_pos_1-30_MS34_HA_237.mzXML,healthy,
+34,1,170426_BM_pos_1-30_MS35_HA_254,MS,35.0,MS35,HA,254,37 2ary Auditory Anterior (BA21a),Secondary cortex,HA_254,170426_BM_pos_1-30_MS35_HA_254.mzXML,healthy,
+35,1,170426_BM_pos_1-30_MS36_HA_518,MS,36.0,MS36,HA,518,"32 Ventrolateral Prefrontal, Broca (BA44)",Associative cortex,HA_518,170426_BM_pos_1-30_MS36_HA_518.mzXML,healthy,
+36,1,170426_BM_pos_1-30_MS37_HA_657,MS,37.0,MS37,HA,657,66 Subiculum,Limbic cortex,HA_657,170426_BM_pos_1-30_MS37_HA_657.mzXML,healthy,
+37,1,170426_BM_pos_1-30_MS38_HA_460,MS,38.0,MS38,HA,460,69 Hypothalamus,Hypothalamus,HA_460,170426_BM_pos_1-30_MS38_HA_460.mzXML,healthy,
+38,1,170426_BM_pos_1-30_MS39_HA_233,MS,39.0,MS39,HA,233,67 Ventral Anterior Thalamus,Thalamus,HA_233,170426_BM_pos_1-30_MS39_HA_233.mzXML,healthy,
+39,1,170426_BM_pos_1-30_MS40_HA_577,MS,40.0,MS40,HA,577,71 External Capsule,White matter,HA_577,170426_BM_pos_1-30_MS40_HA_577.mzXML,healthy,
+40,1,170426_BM_pos_1-30_MS41_HA_261,MS,41.0,MS41,HA,261,35 Dorsolateral Prefrontal Medial (BA9m),Associative cortex,HA_261,170426_BM_pos_1-30_MS41_HA_261.mzXML,healthy,
+41,1,170426_BM_pos_1-30_MS42_HA_355,MS,42.0,MS42,HA,355,52 Amygdala,Limbic cortex,HA_355,170426_BM_pos_1-30_MS42_HA_355.mzXML,healthy,
+42,1,170426_BM_pos_1-30_MS43_HA_66,MS,43.0,MS43,HA,66,34 Dorsolateral Prefrontal (BA9),Associative cortex,HA_66,170426_BM_pos_1-30_MS43_HA_66.mzXML,healthy,
+43,1,170426_BM_pos_1-30_MS44_HA_644,MS,44.0,MS44,HA,644,62 Red Nucleus,Midbrain,HA_644,170426_BM_pos_1-30_MS44_HA_644.mzXML,healthy,
+44,1,170426_BM_pos_1-30_MS45_HA_592,MS,45.0,MS45,HA,592,"45 Ventrolateral Prefrontal, Broca (BA45)",Associative cortex,HA_592,170426_BM_pos_1-30_MS45_HA_592.mzXML,healthy,
+45,1,170426_BM_pos_1-30_MS46_HA_691,MS,46.0,MS46,HA,691,5  Retrosplenial (BA29/30),Limbic cortex,HA_691,170426_BM_pos_1-30_MS46_HA_691.mzXML,healthy,
+46,1,170426_BM_pos_1-30_MS47_HA_30,MS,47.0,MS47,HA,30,75 Cerebellar White Matter,Cerebellum,HA_30,170426_BM_pos_1-30_MS47_HA_30.mzXML,healthy,
+47,1,170426_BM_pos_1-30_MS48_HA_506,MS,48.0,MS48,HA,506,54 Entorhinal Cortex,Limbic cortex,HA_506,170426_BM_pos_1-30_MS48_HA_506.mzXML,healthy,
+48,2,170426_BM_pos_1-30_MS49_HA_686,MS,49.0,MS49,HA,686,70 Ventral Lateral Thalamus,Thalamus,HA_686,170426_BM_pos_1-30_MS49_HA_686.mzXML,healthy,
+49,2,170426_BM_pos_1-30_MS50_HA_43,MS,50.0,MS50,HA,43,15 1ary Motor (BA4),Primary cortex,HA_43,170426_BM_pos_1-30_MS50_HA_43.mzXML,healthy,
+50,2,170426_pos_1-30_MS51_HA_273,MS,51.0,MS51,HA,273,58 Putamen,Basal Ganglia,HA_273,170426_pos_1-30_MS51_HA_273.mzXML,healthy,
+51,2,170426_pos_1-30_MS52_HA_555,MS,52.0,MS52,HA,555,7  Orbitofrontal (BA47),Associative cortex,HA_555,170426_pos_1-30_MS52_HA_555.mzXML,healthy,
+52,2,170426_pos_1-30_MS53_HA_296,MS,53.0,MS53,HA,296,40 Cingulate Anterior (BA32g),Limbic cortex,HA_296,170426_pos_1-30_MS53_HA_296.mzXML,healthy,
+53,2,170426_pos_1-30_MS54_HA_52,MS,54.0,MS54,HA,52,22 Premotor Medial (BA6m),Secondary cortex,HA_52,170426_pos_1-30_MS54_HA_52.mzXML,healthy,
+54,2,170426_pos_1-30_MS55_HA_168,MS,55.0,MS55,HA,168,8  Cingulate Posterior (BA23a),Limbic cortex,HA_168,170426_pos_1-30_MS55_HA_168.mzXML,healthy,
+55,2,170426_pos_1-30_MS56_HA_315,MS,56.0,MS56,HA,315,39 Frontopolar (BA10fp),Associative cortex,HA_315,170426_pos_1-30_MS56_HA_315.mzXML,healthy,
+56,2,170426_pos_1-30_MS57_HA_331,MS,57.0,MS57,HA,331,4  Anterior Superior Parietal (BA5/BA7a),Associative cortex,HA_331,170426_pos_1-30_MS57_HA_331.mzXML,healthy,
+57,2,170426_pos_1-30_MS58_HA_650,MS,58.0,MS58,HA,650,"26 2ary Auditory, language (BA22a)",Secondary cortex,HA_650,170426_pos_1-30_MS58_HA_650.mzXML,healthy,
+58,2,170426_pos_1-30_MS59_HA_244,MS,59.0,MS59,HA,244,49 Cingulate Anterior (BA32),Limbic cortex,HA_244,170426_pos_1-30_MS59_HA_244.mzXML,healthy,
+59,2,170426_pos_1-30_MS60_HA_492,MS,60.0,MS60,HA,492,10 2ary/3ary Visual Posterior (BA18/19p),Secondary cortex,HA_492,170426_pos_1-30_MS60_HA_492.mzXML,healthy,
+60,2,170426_pos_1-30_MS61_HA_214,MS,61.0,MS61,HA,214,41 Angular (BA39),Associative cortex,HA_214,170426_pos_1-30_MS61_HA_214.mzXML,healthy,
+61,2,170426_pos_1-30_MS62_HA_648,MS,62.0,MS62,HA,648,42 Cingulate Subcallosal (BA25),Limbic cortex,HA_648,170426_pos_1-30_MS62_HA_648.mzXML,healthy,
+62,2,170426_pos_1-30_MS63_HA_159,MS,63.0,MS63,HA,159,16 1ary Auditory (BA41/42),Primary cortex,HA_159,170426_pos_1-30_MS63_HA_159.mzXML,healthy,
+63,2,170426_pos_1-30_MS64_HA_539,MS,64.0,MS64,HA,539,47 Cingulate Posterior (BA31),Limbic cortex,HA_539,170426_pos_1-30_MS64_HA_539.mzXML,healthy,
+64,2,170426_pos_1-30_MS65_HA_177,MS,65.0,MS65,HA,177,11 2ary Auditory Posterior (BA21p),Secondary cortex,HA_177,170426_pos_1-30_MS65_HA_177.mzXML,healthy,
+65,2,170426_pos_1-30_MS66_HA_252,MS,66.0,MS66,HA,252,12 Premotor Posterior (BA6p),Secondary cortex,HA_252,170426_pos_1-30_MS66_HA_252.mzXML,healthy,
+66,2,170426_pos_1-30_MS67_HA_479,MS,67.0,MS67,HA,479,63 Substantia Nigra,Basal Ganglia,HA_479,170426_pos_1-30_MS67_HA_479.mzXML,healthy,
+67,2,170426_pos_1-30_MS68_HA_354,MS,68.0,MS68,HA,354,24 Cingulate Posterior (BA23p),Limbic cortex,HA_354,170426_pos_1-30_MS68_HA_354.mzXML,healthy,
+68,2,170426_pos_1-30_MS69_HA_483,MS,69.0,MS69,HA,483,43 Temporopolar (BA38),Associative cortex,HA_483,170426_pos_1-30_MS69_HA_483.mzXML,healthy,
+69,2,170426_pos_1-30_MS70_HA_494,MS,70.0,MS70,HA,494,59 Deep Nuclei - Dentate Nucleus,Cerebellum,HA_494,170426_pos_1-30_MS70_HA_494.mzXML,healthy,
+70,2,170426_pos_1-30_MS71_HA_467,MS,71.0,MS71,HA,467,44 Dorsolateral Prefrontal (BA46),Associative cortex,HA_467,170426_pos_1-30_MS71_HA_467.mzXML,healthy,
+71,2,170426_pos_1-30_MS72_HA_432,MS,72.0,MS72,HA,432,57 Caudate,Basal Ganglia,HA_432,170426_pos_1-30_MS72_HA_432.mzXML,healthy,
+72,2,170426_pos_1-30_MS73_HA_1,MS,73.0,MS73,HA,1,46 Prefrontal Medial (BA10m),Associative cortex,HA_1,170426_pos_1-30_MS73_HA_1.mzXML,healthy,
+73,2,170426_pos_1-30_MS74_HA_498,MS,74.0,MS74,HA,498,64 Globus Pallidus,Basal Ganglia,HA_498,170426_pos_1-30_MS74_HA_498.mzXML,healthy,
+74,2,170426_pos_1-30_MS75_HA_116,MS,75.0,MS75,HA,116,74 Corpus Callosum Posterior,White matter,HA_116,170426_pos_1-30_MS75_HA_116.mzXML,healthy,
+75,2,170426_pos_1-30_MS76_HA_119,MS,76.0,MS76,HA,119,18 1ary Somatosensory (BA3/1/2),Primary cortex,HA_119,170426_pos_1-30_MS76_HA_119.mzXML,healthy,
+76,2,170426_pos_1-30_MS77_HA_357,MS,77.0,MS77,HA,357,6  Anterior Middle Temporal (BA37-aMT),Secondary cortex,HA_357,170426_pos_1-30_MS77_HA_357.mzXML,healthy,
+77,4,170426_pos_1-30_MS237_HB_505,MS,237.0,MS237,HB,505,66 Subiculum,Limbic cortex,HB_505,170426_pos_1-30_MS237_HB_505.mzXML,healthy,
+78,4,170426_pos_1-30_MS238_HB_161,MS,238.0,MS238,HB,161,"28 2ary Auditory, Wernicke (BA22p)",Secondary cortex,HB_161,170426_pos_1-30_MS238_HB_161.mzXML,healthy,
+79,4,170426_pos_1-30_MS239_HB_531,MS,239.0,MS239,HB,531,74 Corpus Callosum Posterior,White matter,HB_531,170426_pos_1-30_MS239_HB_531.mzXML,healthy,
+80,4,170426_pos_1-30_MS240_HB_19,MS,240.0,MS240,HB,19,7  Orbitofrontal (BA47),Associative cortex,HB_19,170426_pos_1-30_MS240_HB_19.mzXML,healthy,
+81,4,170426_pos_1-30_MS241_HB_226,MS,241.0,MS241,HB,226,52 Amygdala,Limbic cortex,HB_226,170426_pos_1-30_MS241_HB_226.mzXML,healthy,
+82,4,170426_pos_1-30_MS242_HB_160,MS,242.0,MS242,HB,160,29 Precuneus (BA7m),Associative cortex,HB_160,170426_pos_1-30_MS242_HB_160.mzXML,healthy,
+83,4,170426_pos_1-30_MS243_HB_194,MS,243.0,MS243,HB,194,57 Caudate,Basal Ganglia,HB_194,170426_pos_1-30_MS243_HB_194.mzXML,healthy,
+84,4,170426_pos_1-30_MS244_HB_26,MS,244.0,MS244,HB,26,48 Cingulate Anterior (BA24),Limbic cortex,HB_26,170426_pos_1-30_MS244_HB_26.mzXML,healthy,
+85,4,170426_pos_1-30_MS245_HB_619,MS,245.0,MS245,HB,619,36 FEF Medial (BA8m),Secondary cortex,HB_619,170426_pos_1-30_MS245_HB_619.mzXML,healthy,
+86,4,170426_pos_1-30_MS246_HB_449,MS,246.0,MS246,HB,449,3  Posterior Superior Parietal (BA7p),Associative cortex,HB_449,170426_pos_1-30_MS246_HB_449.mzXML,healthy,
+87,4,170426_pos_1-30_MS247_HB_629,MS,247.0,MS247,HB,629,23 Insular Anterior Cortex,Associative cortex,HB_629,170426_pos_1-30_MS247_HB_629.mzXML,healthy,
+88,4,170426_pos_1-30_MS248_HB_445,MS,248.0,MS248,HB,445,67 Ventral Anterior Thalamus,Thalamus,HB_445,170426_pos_1-30_MS248_HB_445.mzXML,healthy,
+89,4,170426_pos_1-30_MS249_HB_471,MS,249.0,MS249,HB,471,"26 2ary Auditory, language (BA22a)",Secondary cortex,HB_471,170426_pos_1-30_MS249_HB_471.mzXML,healthy,
+90,4,170426_pos_1-30_MS250_HB_486,MS,250.0,MS250,HB,486,40 Cingulate Anterior (BA32g),Limbic cortex,HB_486,170426_pos_1-30_MS250_HB_486.mzXML,healthy,
+91,4,170426_pos_1-30_MS251_HB_653,MS,251.0,MS251,HB,653,35 Dorsolateral Prefrontal Medial (BA9m),Associative cortex,HB_653,170426_pos_1-30_MS251_HB_653.mzXML,healthy,
+92,4,170426_pos_1-30_MS252_HB_208,MS,252.0,MS252,HB,208,68 Medial Dorsal Thalamus,Thalamus,HB_208,170426_pos_1-30_MS252_HB_208.mzXML,healthy,
+93,4,170426_pos_1-30_MS253_HB_443,MS,253.0,MS253,HB,443,75 Cerebellar White Matter,Cerebellum,HB_443,170426_pos_1-30_MS253_HB_443.mzXML,healthy,
+94,4,170426_pos_1-30_MS254_HB_379,MS,254.0,MS254,HB,379,15 1ary Motor (BA4),Primary cortex,HB_379,170426_pos_1-30_MS254_HB_379.mzXML,healthy,
+95,4,170426_pos_1-30_MS255_HB_469,MS,255.0,MS255,HB,469,53 Insular Posterior Cortex,Associative cortex,HB_469,170426_pos_1-30_MS255_HB_469.mzXML,healthy,
+96,4,170426_pos_1-30_MS256_HB_22,MS,256.0,MS256,HB,22,20 Posterior Fusiform (BA37m),Secondary cortex,HB_22,170426_pos_1-30_MS256_HB_22.mzXML,healthy,
+97,4,170426_pos_1-30_MS257_HB_347,MS,257.0,MS257,HB,347,64 Globus Pallidus,Basal Ganglia,HB_347,170426_pos_1-30_MS257_HB_347.mzXML,healthy,
+98,4,170426_pos_1-30_MS258_HB_429,MS,258.0,MS258,HB,429,17 1ary Visual Anterior (BA17a),Primary cortex,HB_429,170426_pos_1-30_MS258_HB_429.mzXML,healthy,
+99,4,170426_pos_1-30_MS259_HB_465,MS,259.0,MS259,HB,465,47 Cingulate Posterior (BA31),Limbic cortex,HB_465,170426_pos_1-30_MS259_HB_465.mzXML,healthy,
+100,4,170426_pos_1-30_MS260_HB_554,MS,260.0,MS260,HB,554,22 Premotor Medial (BA6m),Secondary cortex,HB_554,170426_pos_1-30_MS260_HB_554.mzXML,healthy,
+101,4,170426_pos_1-30_MS261_HB_342,MS,261.0,MS261,HB,342,71 External Capsule,White matter,HB_342,170426_pos_1-30_MS261_HB_342.mzXML,healthy,
+102,4,170426_pos_1-30_MS262_HB_448,MS,262.0,MS262,HB,448,8  Cingulate Posterior (BA23a),Limbic cortex,HB_448,170426_pos_1-30_MS262_HB_448.mzXML,healthy,
+103,4,170426_pos_1-30_MS263_HB_350,MS,263.0,MS263,HB,350,38 Anterior Prefrontal (BA10),Associative cortex,HB_350,170426_pos_1-30_MS263_HB_350.mzXML,healthy,
+104,4,170426_pos_1-30_MS264_HB_175,MS,264.0,MS264,HB,175,62 Red Nucleus,Midbrain,HB_175,170426_pos_1-30_MS264_HB_175.mzXML,healthy,
+105,4,170426_pos_1-30_MS265_HB_599,MS,265.0,MS265,HB,599,70 Ventral Lateral Thalamus,Thalamus,HB_599,170426_pos_1-30_MS265_HB_599.mzXML,healthy,
+106,4,170426_pos_1-30_MS266_HB_424,MS,266.0,MS266,HB,424,"55 Hippocampus, CA3 / Dentate Gyrus",Limbic cortex,HB_424,170426_pos_1-30_MS266_HB_424.mzXML,healthy,
+107,4,170426_pos_1-30_MS267_HB_36,MS,267.0,MS267,HB,36,"45 Ventrolateral Prefrontal, Broca (BA45)",Associative cortex,HB_36,170426_pos_1-30_MS267_HB_36.mzXML,healthy,
+108,4,170426_pos_1-30_MS268_HB_458,MS,268.0,MS268,HB,458,"65 Hippocampus, CA1",Limbic cortex,HB_458,170426_pos_1-30_MS268_HB_458.mzXML,healthy,
+109,4,170426_pos_1-30_MS269_HB_430,MS,269.0,MS269,HB,430,63 Substantia Nigra,Basal Ganglia,HB_430,170426_pos_1-30_MS269_HB_430.mzXML,healthy,
+110,4,170426_pos_1-30_MS270_HB_171,MS,270.0,MS270,HB,171,72 Internal Capsule,White matter,HB_171,170426_pos_1-30_MS270_HB_171.mzXML,healthy,
+111,4,170426_pos_1-30_MS271_HB_298,MS,271.0,MS271,HB,298,37 2ary Auditory Anterior (BA21a),Secondary cortex,HB_298,170426_pos_1-30_MS271_HB_298.mzXML,healthy,
+112,4,170426_pos_1-30_MS272_HB_102,MS,272.0,MS272,HB,102,69 Hypothalamus,Hypothalamus,HB_102,170426_pos_1-30_MS272_HB_102.mzXML,healthy,
+113,4,170426_pos_1-30_MS273_HB_616,MS,273.0,MS273,HB,616,54 Entorhinal Cortex,Limbic cortex,HB_616,170426_pos_1-30_MS273_HB_616.mzXML,healthy,
+114,4,170426_pos_1-30_MS274_HB_270,MS,274.0,MS274,HB,270,59 Deep Nuclei - Dentate Nucleus,Cerebellum,HB_270,170426_pos_1-30_MS274_HB_270.mzXML,healthy,
+115,4,170426_pos_1-30_MS275_HB_421,MS,275.0,MS275,HB,421,60 Superior Colliculus,Midbrain,HB_421,170426_pos_1-30_MS275_HB_421.mzXML,healthy,
+116,4,170426_pos_1-30_MS276_HB_372,MS,276.0,MS276,HB,372,42 Cingulate Subcallosal (BA25),Limbic cortex,HB_372,170426_pos_1-30_MS276_HB_372.mzXML,healthy,
+117,4,170426_pos_1-30_MS277_HB_541,MS,277.0,MS277,HB,541,39 Frontopolar (BA10fp),Associative cortex,HB_541,170426_pos_1-30_MS277_HB_541.mzXML,healthy,
+118,4,170426_pos_1-30_MS278_HB_382,MS,278.0,MS278,HB,382,11 2ary Auditory Posterior (BA21p),Secondary cortex,HB_382,170426_pos_1-30_MS278_HB_382.mzXML,healthy,
+119,4,170426_pos_1-30_MS279_HB_437,MS,279.0,MS279,HB,437,5  Retrosplenial (BA29/30),Limbic cortex,HB_437,170426_pos_1-30_MS279_HB_437.mzXML,healthy,
+120,4,170426_pos_1-30_MS280_HB_634,MS,280.0,MS280,HB,634,27 2ary/3ary Visual Anterior (BA18/19a),Secondary cortex,HB_634,170426_pos_1-30_MS280_HB_634.mzXML,healthy,
+121,4,170426_pos_1-30_MS281_HB_251,MS,281.0,MS281,HB,251,73 Corpus Callosum Anterior,White matter,HB_251,170426_pos_1-30_MS281_HB_251.mzXML,healthy,
+122,4,170426_pos_1-30_MS282_HB_246,MS,282.0,MS282,HB,246,6  Anterior Middle Temporal (BA37-aMT),Secondary cortex,HB_246,170426_pos_1-30_MS282_HB_246.mzXML,healthy,
+123,4,170426_pos_1-30_MS283_HB_231,MS,283.0,MS283,HB,231,"32 Ventrolateral Prefrontal, Broca (BA44)",Associative cortex,HB_231,170426_pos_1-30_MS283_HB_231.mzXML,healthy,
+124,4,170426_pos_1-30_MS284_HB_41,MS,284.0,MS284,HB,41,41 Angular (BA39),Associative cortex,HB_41,170426_pos_1-30_MS284_HB_41.mzXML,healthy,
+125,4,170426_pos_1-30_MS285_HB_403,MS,285.0,MS285,HB,403,50 Orbitofrontal (BA11),Associative cortex,HB_403,170426_pos_1-30_MS285_HB_403.mzXML,healthy,
+126,4,170426_pos_1-30_MS286_HB_521,MS,286.0,MS286,HB,521,61 Pulvinar Thalamus,Thalamus,HB_521,170426_pos_1-30_MS286_HB_521.mzXML,healthy,
+127,4,170426_pos_1-30_MS287_HB_264,MS,287.0,MS287,HB,264,16 1ary Auditory (BA41/42),Primary cortex,HB_264,170426_pos_1-30_MS287_HB_264.mzXML,healthy,
+128,4,170426_pos_1-30_MS288_HB_397,MS,288.0,MS288,HB,397,58 Putamen,Basal Ganglia,HB_397,170426_pos_1-30_MS288_HB_397.mzXML,healthy,
+129,4,170426_pos_1-30_MS289_HB_625,MS,289.0,MS289,HB,625,10 2ary/3ary Visual Posterior (BA18/19p),Secondary cortex,HB_625,170426_pos_1-30_MS289_HB_625.mzXML,healthy,
+130,4,170426_pos_1-30_MS290_HB_535,MS,290.0,MS290,HB,535,31 Supramarginal Posterior (BA40p),Associative cortex,HB_535,170426_pos_1-30_MS290_HB_535.mzXML,healthy,
+131,4,170426_pos_1-30_MS291_HB_548,MS,291.0,MS291,HB,548,30 Premotor Anterior Lateral (BA6a),Secondary cortex,HB_548,170426_pos_1-30_MS291_HB_548.mzXML,healthy,
+132,4,170426_pos_1-30_MS292_HB_286,MS,292.0,MS292,HB,286,33 Anterior Inferior Temporal (BA20a),Associative cortex,HB_286,170426_pos_1-30_MS292_HB_286.mzXML,healthy,
+133,4,170426_pos_1-30_MS293_HB_144,MS,293.0,MS293,HB,144,2  Anterior Supramarginal (BA40a),Associative cortex,HB_144,170426_pos_1-30_MS293_HB_144.mzXML,healthy,
+134,4,170426_pos_1-30_MS294_HB_551,MS,294.0,MS294,HB,551,21 FEF Lateral (BA8),Secondary cortex,HB_551,170426_pos_1-30_MS294_HB_551.mzXML,healthy,
+135,4,170426_pos_1-30_MS295_HB_120,MS,295.0,MS295,HB,120,56 Nucleus Accumbens,Basal Ganglia,HB_120,170426_pos_1-30_MS295_HB_120.mzXML,healthy,
+136,4,170426_pos_1-30_MS296_HB_361,MS,296.0,MS296,HB,361,46 Prefrontal Medial (BA10m),Associative cortex,HB_361,170426_pos_1-30_MS296_HB_361.mzXML,healthy,
+137,4,170426_pos_1-30_MS297_HB_106,MS,297.0,MS297,HB,106,19 Posterior Middle Temporal (BA37-pMT),Secondary cortex,HB_106,170426_pos_1-30_MS297_HB_106.mzXML,healthy,
+138,4,170426_pos_1-30_MS298_HB_68,MS,298.0,MS298,HB,68,4  Anterior Superior Parietal (BA5/BA7a),Associative cortex,HB_68,170426_pos_1-30_MS298_HB_68.mzXML,healthy,
+139,4,170426_pos_1-30_MS299_HB_38,MS,299.0,MS299,HB,38,34 Dorsolateral Prefrontal (BA9),Associative cortex,HB_38,170426_pos_1-30_MS299_HB_38.mzXML,healthy,
+140,4,170426_pos_1-30_MS300_HB_308,MS,300.0,MS300,HB,308,1  Cerebellar Grey Matter,Cerebellum,HB_308,170426_pos_1-30_MS300_HB_308.mzXML,healthy,
+141,4,170426_pos_1-30_MS301_HB_679,MS,301.0,MS301,HB,679,14 1ary Visual Posterior (BA17p),Primary cortex,HB_679,170426_pos_1-30_MS301_HB_679.mzXML,healthy,
+142,4,170426_pos_1-30_MS302_HB_618,MS,302.0,MS302,HB,618,25 Posterior Inferior Temporal (BA20p),Associative cortex,HB_618,170426_pos_1-30_MS302_HB_618.mzXML,healthy,
+143,4,170426_pos_1-30_MS303_HB_476,MS,303.0,MS303,HB,476,51 Piriform Cortex,Primary cortex,HB_476,170426_pos_1-30_MS303_HB_476.mzXML,healthy,
+144,4,170426_pos_1-30_MS304_HB_591,MS,304.0,MS304,HB,591,49 Cingulate Anterior (BA32),Limbic cortex,HB_591,170426_pos_1-30_MS304_HB_591.mzXML,healthy,
+145,4,170426_pos_1-30_MS305_HB_665,MS,305.0,MS305,HB,665,43 Temporopolar (BA38),Associative cortex,HB_665,170426_pos_1-30_MS305_HB_665.mzXML,healthy,
+146,4,170426_pos_1-30_MS306_HB_326,MS,306.0,MS306,HB,326,44 Dorsolateral Prefrontal (BA46),Associative cortex,HB_326,170426_pos_1-30_MS306_HB_326.mzXML,healthy,
+147,4,170426_pos_1-30_MS307_HB_659,MS,307.0,MS307,HB,659,9  2ary Somatosensory Cortex,Secondary cortex,HB_659,170426_pos_1-30_MS307_HB_659.mzXML,healthy,
+148,4,170426_pos_1-30_MS308_HB_693,MS,308.0,MS308,HB,693,51 Piriform Cortex,Primary cortex,HB_693,170426_pos_1-30_MS308_HB_693.mzXML,healthy,
+149,4,170426_pos_1-30_MS309_HB_63,MS,309.0,MS309,HB,63,18 1ary Somatosensory (BA3/1/2),Primary cortex,HB_63,170426_pos_1-30_MS309_HB_63.mzXML,healthy,
+150,6,170426_pos_1-30_MS475_HC_689,MS,475.0,MS475,HC,689,10 2ary/3ary Visual Posterior (BA18/19p),Secondary cortex,HC_689,170426_pos_1-30_MS475_HC_689.mzXML,healthy,
+151,6,170426_pos_1-30_MS476_HC_339,MS,476.0,MS476,HC,339,16 1ary Auditory (BA41/42),Primary cortex,HC_339,170426_pos_1-30_MS476_HC_339.mzXML,healthy,
+152,6,170426_pos_1-30_MS477_HC_572,MS,477.0,MS477,HC,572,3  Posterior Superior Parietal (BA7p),Associative cortex,HC_572,170426_pos_1-30_MS477_HC_572.mzXML,healthy,
+153,6,170426_pos_1-30_MS478_HC_641,MS,478.0,MS478,HC,641,21 FEF Lateral (BA8),Secondary cortex,HC_641,170426_pos_1-30_MS478_HC_641.mzXML,healthy,
+154,6,170426_pos_1-30_MS479_HC_404,MS,479.0,MS479,HC,404,31 Supramarginal Posterior (BA40p),Associative cortex,HC_404,170426_pos_1-30_MS479_HC_404.mzXML,healthy,
+155,6,170426_pos_1-30_MS480_HC_697,MS,480.0,MS480,HC,697,27 2ary/3ary Visual Anterior (BA18/19a),Secondary cortex,HC_697,170426_pos_1-30_MS480_HC_697.mzXML,healthy,
+156,6,170426_pos_1-30_MS481_HC_399,MS,481.0,MS481,HC,399,"32 Ventrolateral Prefrontal, Broca (BA44)",Associative cortex,HC_399,170426_pos_1-30_MS481_HC_399.mzXML,healthy,
+157,6,170426_pos_1-30_MS482_HC_423,MS,482.0,MS482,HC,423,74 Corpus Callosum Posterior,White matter,HC_423,170426_pos_1-30_MS482_HC_423.mzXML,healthy,
+158,6,170426_pos_1-30_MS483_HC_694,MS,483.0,MS483,HC,694,49 Cingulate Anterior (BA32),Limbic cortex,HC_694,170426_pos_1-30_MS483_HC_694.mzXML,healthy,
+159,6,170426_pos_1-30_MS484_HC_662,MS,484.0,MS484,HC,662,53 Insular Posterior Cortex,Associative cortex,HC_662,170426_pos_1-30_MS484_HC_662.mzXML,healthy,
+160,6,170426_pos_1-30_MS485_HC_277,MS,485.0,MS485,HC,277,30 Premotor Anterior Lateral (BA6a),Secondary cortex,HC_277,170426_pos_1-30_MS485_HC_277.mzXML,healthy,
+161,6,170426_pos_1-30_MS486_HC_205,MS,486.0,MS486,HC,205,"65 Hippocampus, CA1",Limbic cortex,HC_205,170426_pos_1-30_MS486_HC_205.mzXML,healthy,
+162,6,170426_pos_1-30_MS487_HC_582,MS,487.0,MS487,HC,582,64 Globus Pallidus,Basal Ganglia,HC_582,170426_pos_1-30_MS487_HC_582.mzXML,healthy,
+163,6,170426_pos_1-30_MS488_HC_696,MS,488.0,MS488,HC,696,9  2ary Somatosensory Cortex,Secondary cortex,HC_696,170426_pos_1-30_MS488_HC_696.mzXML,healthy,
+164,6,170426_pos_1-30_MS489_HC_690,MS,489.0,MS489,HC,690,19 Posterior Middle Temporal (BA37-pMT),Secondary cortex,HC_690,170426_pos_1-30_MS489_HC_690.mzXML,healthy,
+165,6,170426_pos_1-30_MS490_HC_169,MS,490.0,MS490,HC,169,46 Prefrontal Medial (BA10m),Associative cortex,HC_169,170426_pos_1-30_MS490_HC_169.mzXML,healthy,
+166,6,170426_pos_1-30_MS491_HC_207,MS,491.0,MS491,HC,207,69 Hypothalamus,Hypothalamus,HC_207,170426_pos_1-30_MS491_HC_207.mzXML,healthy,
+167,6,170426_pos_1-30_MS492_HC_23,MS,492.0,MS492,HC,23,13 Premotor Precentral (BA6prc),Secondary cortex,HC_23,170426_pos_1-30_MS492_HC_23.mzXML,healthy,
+168,6,170426_pos_1-30_MS493_HC_680,MS,493.0,MS493,HC,680,29 Precuneus (BA7m),Associative cortex,HC_680,170426_pos_1-30_MS493_HC_680.mzXML,healthy,
+169,6,170426_pos_1-30_MS494_HC_376,MS,494.0,MS494,HC,376,36 FEF Medial (BA8m),Secondary cortex,HC_376,170426_pos_1-30_MS494_HC_376.mzXML,healthy,
+170,6,170426_pos_1-30_MS495_HC_600,MS,495.0,MS495,HC,600,47 Cingulate Posterior (BA31),Limbic cortex,HC_600,170426_pos_1-30_MS495_HC_600.mzXML,healthy,
+171,6,170426_pos_1-30_MS496_HC_239,MS,496.0,MS496,HC,239,58 Putamen,Basal Ganglia,HC_239,170426_pos_1-30_MS496_HC_239.mzXML,healthy,
+172,6,170426_pos_1-30_MS497_HC_28,MS,497.0,MS497,HC,28,49 Cingulate Anterior (BA32),Limbic cortex,HC_28,170426_pos_1-30_MS497_HC_28.mzXML,healthy,
+173,6,170426_pos_1-30_MS498_HC_146,MS,498.0,MS498,HC,146,7  Orbitofrontal (BA47),Associative cortex,HC_146,170426_pos_1-30_MS498_HC_146.mzXML,healthy,
+174,6,170426_pos_1-30_MS499_HC_110,MS,499.0,MS499,HC,110,24 Cingulate Posterior (BA23p),Limbic cortex,HC_110,170426_pos_1-30_MS499_HC_110.mzXML,healthy,
+175,6,170426_pos_1-30_MS500_HC_695,MS,500.0,MS500,HC,695,71 External Capsule,White matter,HC_695,170426_pos_1-30_MS500_HC_695.mzXML,healthy,
+176,6,170426_pos_1-30_MS501_HC_504,MS,501.0,MS501,HC,504,40 Cingulate Anterior (BA32g),Limbic cortex,HC_504,170426_pos_1-30_MS501_HC_504.mzXML,healthy,
+177,6,170426_pos_1-30_MS502_HC_225,MS,502.0,MS502,HC,225,37 2ary Auditory Anterior (BA21a),Secondary cortex,HC_225,170426_pos_1-30_MS502_HC_225.mzXML,healthy,
+178,6,170426_pos_1-30_MS503_HC_322,MS,503.0,MS503,HC,322,15 1ary Motor (BA4),Primary cortex,HC_322,170426_pos_1-30_MS503_HC_322.mzXML,healthy,
+179,6,170426_pos_1-30_MS504_HC_162,MS,504.0,MS504,HC,162,71 External Capsule,White matter,HC_162,170426_pos_1-30_MS504_HC_162.mzXML,healthy,
+180,6,170426_pos_1-30_MS505_HC_559,MS,505.0,MS505,HC,559,48 Cingulate Anterior (BA24),Limbic cortex,HC_559,170426_pos_1-30_MS505_HC_559.mzXML,healthy,
+181,6,170426_pos_1-30_MS506_HC_345,MS,506.0,MS506,HC,345,22 Premotor Medial (BA6m),Secondary cortex,HC_345,170426_pos_1-30_MS506_HC_345.mzXML,healthy,
+182,6,170426_pos_1-30_MS507_HC_455,MS,507.0,MS507,HC,455,"26 2ary Auditory, language (BA22a)",Secondary cortex,HC_455,170426_pos_1-30_MS507_HC_455.mzXML,healthy,
+183,6,170426_pos_1-30_MS508_HC_609,MS,508.0,MS508,HC,609,61 Pulvinar Thalamus,Thalamus,HC_609,170426_pos_1-30_MS508_HC_609.mzXML,healthy,
+184,6,170426_pos_1-30_MS509_HC_477,MS,509.0,MS509,HC,477,9  2ary Somatosensory Cortex,Secondary cortex,HC_477,170426_pos_1-30_MS509_HC_477.mzXML,healthy,
+185,6,170426_pos_1-30_MS510_HC_410,MS,510.0,MS510,HC,410,43 Temporopolar (BA38),Associative cortex,HC_410,170426_pos_1-30_MS510_HC_410.mzXML,healthy,
+186,6,170426_pos_1-30_MS511_HC_370,MS,511.0,MS511,HC,370,18 1ary Somatosensory (BA3/1/2),Primary cortex,HC_370,170426_pos_1-30_MS511_HC_370.mzXML,healthy,
+187,6,170426_pos_1-30_MS512_HC_587,MS,512.0,MS512,HC,587,33 Anterior Inferior Temporal (BA20a),Associative cortex,HC_587,170426_pos_1-30_MS512_HC_587.mzXML,healthy,
+188,6,170426_pos_1-30_MS513_HC_191,MS,513.0,MS513,HC,191,73 Corpus Callosum Anterior,White matter,HC_191,170426_pos_1-30_MS513_HC_191.mzXML,healthy,
+189,6,170426_pos_1-30_MS514_HC_174,MS,514.0,MS514,HC,174,4  Anterior Superior Parietal (BA5/BA7a),Associative cortex,HC_174,170426_pos_1-30_MS514_HC_174.mzXML,healthy,
+190,6,170426_pos_1-30_MS515_HC_318,MS,515.0,MS515,HC,318,6  Anterior Middle Temporal (BA37-aMT),Secondary cortex,HC_318,170426_pos_1-30_MS515_HC_318.mzXML,healthy,
+191,6,170426_pos_1-30_MS516_HC_49,MS,516.0,MS516,HC,49,70 Ventral Lateral Thalamus,Thalamus,HC_49,170426_pos_1-30_MS516_HC_49.mzXML,healthy,
+192,6,170426_pos_1-30_MS517_HC_199,MS,517.0,MS517,HC,199,39 Frontopolar (BA10fp),Associative cortex,HC_199,170426_pos_1-30_MS517_HC_199.mzXML,healthy,
+193,6,170426_pos_1-30_MS518_HC_510,MS,518.0,MS518,HC,510,60 Superior Colliculus,Midbrain,HC_510,170426_pos_1-30_MS518_HC_510.mzXML,healthy,
+194,6,170426_pos_1-30_MS519_HC_601,MS,519.0,MS519,HC,601,"55 Hippocampus, CA3 / Dentate Gyrus",Limbic cortex,HC_601,170426_pos_1-30_MS519_HC_601.mzXML,healthy,
+195,6,170426_pos_1-30_MS520_HC_54,MS,520.0,MS520,HC,54,"28 2ary Auditory, Wernicke (BA22p)",Secondary cortex,HC_54,170426_pos_1-30_MS520_HC_54.mzXML,healthy,
+196,6,170426_pos_1-30_MS521_HC_126,MS,521.0,MS521,HC,126,57 Caudate,Basal Ganglia,HC_126,170426_pos_1-30_MS521_HC_126.mzXML,healthy,
+197,6,170426_pos_1-30_MS522_HC_447,MS,522.0,MS522,HC,447,68 Medial Dorsal Thalamus,Thalamus,HC_447,170426_pos_1-30_MS522_HC_447.mzXML,healthy,
+198,6,170426_pos_1-30_MS523_HC_232,MS,523.0,MS523,HC,232,44 Dorsolateral Prefrontal (BA46),Associative cortex,HC_232,170426_pos_1-30_MS523_HC_232.mzXML,healthy,
+199,6,170426_pos_1-30_MS524_HC_341,MS,524.0,MS524,HC,341,25 Posterior Inferior Temporal (BA20p),Associative cortex,HC_341,170426_pos_1-30_MS524_HC_341.mzXML,healthy,
+200,6,170426_pos_1-30_MS525_HC_224,MS,525.0,MS525,HC,224,2  Anterior Supramarginal (BA40a),Associative cortex,HC_224,170426_pos_1-30_MS525_HC_224.mzXML,healthy,
+201,6,170426_pos_1-30_MS527_HC_485,MS,527.0,MS527,HC,485,42 Cingulate Subcallosal (BA25),Limbic cortex,HC_485,170426_pos_1-30_MS527_HC_485.mzXML,healthy,
+202,6,170426_pos_1-30_MS528_HC_622,MS,528.0,MS528,HC,622,35 Dorsolateral Prefrontal Medial (BA9m),Associative cortex,HC_622,170426_pos_1-30_MS528_HC_622.mzXML,healthy,
+203,6,170426_pos_1-30_MS529_HC_192,MS,529.0,MS529,HC,192,66 Subiculum,Limbic cortex,HC_192,170426_pos_1-30_MS529_HC_192.mzXML,healthy,
+204,6,170426_pos_1-30_MS530_HC_73,MS,530.0,MS530,HC,73,38 Anterior Prefrontal (BA10),Associative cortex,HC_73,170426_pos_1-30_MS530_HC_73.mzXML,healthy,
+205,6,170426_pos_1-30_MS531_HC_257,MS,531.0,MS531,HC,257,5  Retrosplenial (BA29/30),Limbic cortex,HC_257,170426_pos_1-30_MS531_HC_257.mzXML,healthy,
+206,6,170426_pos_1-30_MS532_HC_39,MS,532.0,MS532,HC,39,12 Premotor Posterior (BA6p),Secondary cortex,HC_39,170426_pos_1-30_MS532_HC_39.mzXML,healthy,
+207,6,170426_pos_1-30_MS533_HC_124,MS,533.0,MS533,HC,124,27 2ary/3ary Visual Anterior (BA18/19a),Secondary cortex,HC_124,170426_pos_1-30_MS533_HC_124.mzXML,healthy,
+208,6,170426_pos_1-30_MS534_HC_211,MS,534.0,MS534,HC,211,75 Cerebellar White Matter,Cerebellum,HC_211,170426_pos_1-30_MS534_HC_211.mzXML,healthy,
+209,6,170426_pos_1-30_MS535_HC_320,MS,535.0,MS535,HC,320,50 Orbitofrontal (BA11),Associative cortex,HC_320,170426_pos_1-30_MS535_HC_320.mzXML,healthy,
+210,6,170426_pos_1-30_MS536_HC_528,MS,536.0,MS536,HC,528,63 Substantia Nigra,Basal Ganglia,HC_528,170426_pos_1-30_MS536_HC_528.mzXML,healthy,
+211,6,170426_pos_1-30_MS537_HC_425,MS,537.0,MS537,HC,425,72 Internal Capsule,White matter,HC_425,170426_pos_1-30_MS537_HC_425.mzXML,healthy,
+212,6,170426_pos_1-30_MS538_HC_271,MS,538.0,MS538,HC,271,17 1ary Visual Anterior (BA17a),Primary cortex,HC_271,170426_pos_1-30_MS538_HC_271.mzXML,healthy,
+213,6,170426_pos_1-30_MS539_HC_150,MS,539.0,MS539,HC,150,20 Posterior Fusiform (BA37m),Secondary cortex,HC_150,170426_pos_1-30_MS539_HC_150.mzXML,healthy,
+214,6,170426_pos_1-30_MS540_HC_688,MS,540.0,MS540,HC,688,14 1ary Visual Posterior (BA17p),Primary cortex,HC_688,170426_pos_1-30_MS540_HC_688.mzXML,healthy,
+215,7,170426_pos_1-30_MS541_HC_268,MS,541.0,MS541,HC,268,67 Ventral Anterior Thalamus,Thalamus,HC_268,170426_pos_1-30_MS541_HC_268.mzXML,healthy,
+216,7,170426_pos_1-30_MS542_HC_62,MS,542.0,MS542,HC,62,56 Nucleus Accumbens,Basal Ganglia,HC_62,170426_pos_1-30_MS542_HC_62.mzXML,healthy,
+217,7,170426_pos_1-30_MS543_HC_590,MS,543.0,MS543,HC,590,34 Dorsolateral Prefrontal (BA9),Associative cortex,HC_590,170426_pos_1-30_MS543_HC_590.mzXML,healthy,
+218,7,170426_pos_1-30_MS544_HC_170,MS,544.0,MS544,HC,170,8  Cingulate Posterior (BA23a),Limbic cortex,HC_170,170426_pos_1-30_MS544_HC_170.mzXML,healthy,
+219,7,170426_pos_1-30_MS545_HC_649,MS,545.0,MS545,HC,649,23 Insular Anterior Cortex,Associative cortex,HC_649,170426_pos_1-30_MS545_HC_649.mzXML,healthy,
+220,7,170426_pos_1-30_MS546_HC_51,MS,546.0,MS546,HC,51,11 2ary Auditory Posterior (BA21p),Secondary cortex,HC_51,170426_pos_1-30_MS546_HC_51.mzXML,healthy,
+221,7,170426_pos_1-30_MS547_HC_451,MS,547.0,MS547,HC,451,54 Entorhinal Cortex,Limbic cortex,HC_451,170426_pos_1-30_MS547_HC_451.mzXML,healthy,
+222,7,170426_pos_1-30_MS548_HC_427,MS,548.0,MS548,HC,427,41 Angular (BA39),Associative cortex,HC_427,170426_pos_1-30_MS548_HC_427.mzXML,healthy,
+223,7,170426_pos_1-30_MS549_HC_647,MS,549.0,MS549,HC,647,1  Cerebellar Grey Matter,Cerebellum,HC_647,170426_pos_1-30_MS549_HC_647.mzXML,healthy,
+224,7,170426_pos_1-30_MS550_HC_415,MS,550.0,MS550,HC,415,52 Amygdala,Limbic cortex,HC_415,170426_pos_1-30_MS550_HC_415.mzXML,healthy,
+225,8,170426_pos_1-30_MS634_HD_593,MS,634.0,MS634,HD,593,52 Amygdala,Limbic cortex,HD_593,170426_pos_1-30_MS634_HD_593.mzXML,healthy,
+226,8,170426_pos_1-30_MS635_HD_365,MS,635.0,MS635,HD,365,21 FEF Lateral (BA8),Secondary cortex,HD_365,170426_pos_1-30_MS635_HD_365.mzXML,healthy,
+227,8,170426_pos_1-30_MS636_HD_44,MS,636.0,MS636,HD,44,63 Substantia Nigra,Basal Ganglia,HD_44,170426_pos_1-30_MS636_HD_44.mzXML,healthy,
+228,8,170426_pos_1-30_MS637_HD_128,MS,637.0,MS637,HD,128,47 Cingulate Posterior (BA31),Limbic cortex,HD_128,170426_pos_1-30_MS637_HD_128.mzXML,healthy,
+229,8,170426_pos_1-30_MS638_HD_83,MS,638.0,MS638,HD,83,30 Premotor Anterior Lateral (BA6a),Secondary cortex,HD_83,170426_pos_1-30_MS638_HD_83.mzXML,healthy,
+230,8,170426_pos_1-30_MS639_HD_580,MS,639.0,MS639,HD,580,16 1ary Auditory (BA41/42),Primary cortex,HD_580,170426_pos_1-30_MS639_HD_580.mzXML,healthy,
+231,8,170426_pos_1-30_MS640_HD_53,MS,640.0,MS640,HD,53,5  Retrosplenial (BA29/30),Limbic cortex,HD_53,170426_pos_1-30_MS640_HD_53.mzXML,healthy,
+232,8,170426_pos_1-30_MS641_HD_640,MS,641.0,MS641,HD,640,6  Anterior Middle Temporal (BA37-aMT),Secondary cortex,HD_640,170426_pos_1-30_MS641_HD_640.mzXML,healthy,
+233,8,170426_pos_1-30_MS642_HD_206,MS,642.0,MS642,HD,206,"32 Ventrolateral Prefrontal, Broca (BA44)",Associative cortex,HD_206,170426_pos_1-30_MS642_HD_206.mzXML,healthy,
+234,8,170426_pos_1-30_MS643_HD_402,MS,643.0,MS643,HD,402,14 1ary Visual Posterior (BA17p),Primary cortex,HD_402,170426_pos_1-30_MS643_HD_402.mzXML,healthy,
+235,8,170426_pos_1-30_MS644_HD_367,MS,644.0,MS644,HD,367,58 Putamen,Basal Ganglia,HD_367,170426_pos_1-30_MS644_HD_367.mzXML,healthy,
+236,8,170426_pos_1-30_MS645_HD_178,MS,645.0,MS645,HD,178,"45 Ventrolateral Prefrontal, Broca (BA45)",Associative cortex,HD_178,170426_pos_1-30_MS645_HD_178.mzXML,healthy,
+237,8,170426_pos_1-30_MS646_HD_422,MS,646.0,MS646,HD,422,37 2ary Auditory Anterior (BA21a),Secondary cortex,HD_422,170426_pos_1-30_MS646_HD_422.mzXML,healthy,
+238,8,170426_pos_1-30_MS647_HD_481,MS,647.0,MS647,HD,481,64 Globus Pallidus,Basal Ganglia,HD_481,170426_pos_1-30_MS647_HD_481.mzXML,healthy,
+239,8,170426_pos_1-30_MS648_HD_294,MS,648.0,MS648,HD,294,62 Red Nucleus,Midbrain,HD_294,170426_pos_1-30_MS648_HD_294.mzXML,healthy,
+240,8,170426_pos_1-30_MS649_HD_570,MS,649.0,MS649,HD,570,"55 Hippocampus, CA3 / Dentate Gyrus",Limbic cortex,HD_570,170426_pos_1-30_MS649_HD_570.mzXML,healthy,
+241,8,170426_pos_1-30_MS650_HD_346,MS,650.0,MS650,HD,346,34 Dorsolateral Prefrontal (BA9),Associative cortex,HD_346,170426_pos_1-30_MS650_HD_346.mzXML,healthy,
+242,8,170426_pos_1-30_MS651_HD_209,MS,651.0,MS651,HD,209,54 Entorhinal Cortex,Limbic cortex,HD_209,170426_pos_1-30_MS651_HD_209.mzXML,healthy,
+243,8,170426_pos_1-30_MS652_HD_87,MS,652.0,MS652,HD,87,29 Precuneus (BA7m),Associative cortex,HD_87,170426_pos_1-30_MS652_HD_87.mzXML,healthy,
+244,8,170426_pos_1-30_MS653_HD_400,MS,653.0,MS653,HD,400,56 Nucleus Accumbens,Basal Ganglia,HD_400,170426_pos_1-30_MS653_HD_400.mzXML,healthy,
+245,8,170426_pos_1-30_MS654_HD_195,MS,654.0,MS654,HD,195,24 Cingulate Posterior (BA23p),Limbic cortex,HD_195,170426_pos_1-30_MS654_HD_195.mzXML,healthy,
+246,8,170426_pos_1-30_MS655_HD_666,MS,655.0,MS655,HD,666,3  Posterior Superior Parietal (BA7p),Associative cortex,HD_666,170426_pos_1-30_MS655_HD_666.mzXML,healthy,
+247,8,170426_pos_1-30_MS656_HD_637,MS,656.0,MS656,HD,637,8  Cingulate Posterior (BA23a),Limbic cortex,HD_637,170426_pos_1-30_MS656_HD_637.mzXML,healthy,
+248,8,170426_pos_1-30_MS657_HD_197,MS,657.0,MS657,HD,197,75 Cerebellar White Matter,Cerebellum,HD_197,170426_pos_1-30_MS657_HD_197.mzXML,healthy,
+249,8,170426_pos_1-30_MS658_HD_698,MS,658.0,MS658,HD,698,66 Subiculum,Limbic cortex,HD_698,170426_pos_1-30_MS658_HD_698.mzXML,healthy,
+250,8,170426_pos_1-30_MS659_HD_433,MS,659.0,MS659,HD,433,67 Ventral Anterior Thalamus,Thalamus,HD_433,170426_pos_1-30_MS659_HD_433.mzXML,healthy,
+251,8,170426_pos_1-30_MS660_HD_664,MS,660.0,MS660,HD,664,23 Insular Anterior Cortex,Associative cortex,HD_664,170426_pos_1-30_MS660_HD_664.mzXML,healthy,
+252,8,170426_pos_1-30_MS661_HD_386,MS,661.0,MS661,HD,386,19 Posterior Middle Temporal (BA37-pMT),Secondary cortex,HD_386,170426_pos_1-30_MS661_HD_386.mzXML,healthy,
+253,8,170426_pos_1-30_MS662_HD_129,MS,662.0,MS662,HD,129,46 Prefrontal Medial (BA10m),Associative cortex,HD_129,170426_pos_1-30_MS662_HD_129.mzXML,healthy,
+254,8,170426_pos_1-30_MS663_HD_335,MS,663.0,MS663,HD,335,33 Anterior Inferior Temporal (BA20a),Associative cortex,HD_335,170426_pos_1-30_MS663_HD_335.mzXML,healthy,
+255,8,170426_pos_1-30_MS664_HD_297,MS,664.0,MS664,HD,297,38 Anterior Prefrontal (BA10),Associative cortex,HD_297,170426_pos_1-30_MS664_HD_297.mzXML,healthy,
+256,8,170426_pos_1-30_MS665_HD_243,MS,665.0,MS665,HD,243,11 2ary Auditory Posterior (BA21p),Secondary cortex,HD_243,170426_pos_1-30_MS665_HD_243.mzXML,healthy,
+257,8,170426_pos_1-30_MS666_HD_462,MS,666.0,MS666,HD,462,15 1ary Motor (BA4),Primary cortex,HD_462,170426_pos_1-30_MS666_HD_462.mzXML,healthy,
+258,8,170426_pos_1-30_MS667_HD_89,MS,667.0,MS667,HD,89,41 Angular (BA39),Associative cortex,HD_89,170426_pos_1-30_MS667_HD_89.mzXML,healthy,
+259,8,170426_pos_1-30_MS668_HD_95,MS,668.0,MS668,HD,95,61 Pulvinar Thalamus,Thalamus,HD_95,170426_pos_1-30_MS668_HD_95.mzXML,healthy,
+260,8,170426_pos_1-30_MS669_HD_594,MS,669.0,MS669,HD,594,25 Posterior Inferior Temporal (BA20p),Associative cortex,HD_594,170426_pos_1-30_MS669_HD_594.mzXML,healthy,
+261,8,170426_pos_1-30_MS670_HD_454,MS,670.0,MS670,HD,454,"65 Hippocampus, CA1",Limbic cortex,HD_454,170426_pos_1-30_MS670_HD_454.mzXML,healthy,
+262,8,170426_pos_1-30_MS671_HD_360,MS,671.0,MS671,HD,360,72 Internal Capsule,White matter,HD_360,170426_pos_1-30_MS671_HD_360.mzXML,healthy,
+263,8,170426_pos_1-30_MS672_HD_138,MS,672.0,MS672,HD,138,66 Subiculum,Limbic cortex,HD_138,170426_pos_1-30_MS672_HD_138.mzXML,healthy,
+264,8,170426_pos_1-30_MS673_HD_61,MS,673.0,MS673,HD,61,7  Orbitofrontal (BA47),Associative cortex,HD_61,170426_pos_1-30_MS673_HD_61.mzXML,healthy,
+265,8,170426_pos_1-30_MS674_HD_204,MS,674.0,MS674,HD,204,18 1ary Somatosensory (BA3/1/2),Primary cortex,HD_204,170426_pos_1-30_MS674_HD_204.mzXML,healthy,
+266,8,170426_pos_1-30_MS675_HD_463,MS,675.0,MS675,HD,463,17 1ary Visual Anterior (BA17a),Primary cortex,HD_463,170426_pos_1-30_MS675_HD_463.mzXML,healthy,
+267,8,170426_pos_1-30_MS676_HD_474,MS,676.0,MS676,HD,474,69 Hypothalamus,Hypothalamus,HD_474,170426_pos_1-30_MS676_HD_474.mzXML,healthy,
+268,8,170426_pos_1-30_MS677_HD_58,MS,677.0,MS677,HD,58,31 Supramarginal Posterior (BA40p),Associative cortex,HD_58,170426_pos_1-30_MS677_HD_58.mzXML,healthy,
+269,8,170426_pos_1-30_MS678_HD_283,MS,678.0,MS678,HD,283,22 Premotor Medial (BA6m),Secondary cortex,HD_283,170426_pos_1-30_MS678_HD_283.mzXML,healthy,
+270,8,170426_pos_1-30_MS679_HD_265,MS,679.0,MS679,HD,265,49 Cingulate Anterior (BA32),Limbic cortex,HD_265,170426_pos_1-30_MS679_HD_265.mzXML,healthy,
+271,8,170426_pos_1-30_MS680_HD_24,MS,680.0,MS680,HD,24,74 Corpus Callosum Posterior,White matter,HD_24,170426_pos_1-30_MS680_HD_24.mzXML,healthy,
+272,8,170426_pos_1-30_MS681_HD_332,MS,681.0,MS681,HD,332,42 Cingulate Subcallosal (BA25),Limbic cortex,HD_332,170426_pos_1-30_MS681_HD_332.mzXML,healthy,
+273,8,170426_pos_1-30_MS682_HD_516,MS,682.0,MS682,HD,516,50 Orbitofrontal (BA11),Associative cortex,HD_516,170426_pos_1-30_MS682_HD_516.mzXML,healthy,
+274,8,170426_pos_1-30_MS683_HD_567,MS,683.0,MS683,HD,567,71 External Capsule,White matter,HD_567,170426_pos_1-30_MS683_HD_567.mzXML,healthy,
+275,8,170426_pos_1-30_MS684_HD_589,MS,684.0,MS684,HD,589,"26 2ary Auditory, language (BA22a)",Secondary cortex,HD_589,170426_pos_1-30_MS684_HD_589.mzXML,healthy,
+276,8,170426_pos_1-30_MS685_HD_530,MS,685.0,MS685,HD,530,48 Cingulate Anterior (BA24),Limbic cortex,HD_530,170426_pos_1-30_MS685_HD_530.mzXML,healthy,
+277,8,170426_pos_1-30_MS686_HD_34,MS,686.0,MS686,HD,34,1  Cerebellar Grey Matter,Cerebellum,HD_34,170426_pos_1-30_MS686_HD_34.mzXML,healthy,
+278,8,170426_pos_1-30_MS687_HD_393,MS,687.0,MS687,HD,393,51 Piriform Cortex,Primary cortex,HD_393,170426_pos_1-30_MS687_HD_393.mzXML,healthy,
+279,8,170426_pos_1-30_MS688_HD_611,MS,688.0,MS688,HD,611,9  2ary Somatosensory Cortex,Secondary cortex,HD_611,170426_pos_1-30_MS688_HD_611.mzXML,healthy,
+280,8,170426_pos_1-30_MS689_HD_78,MS,689.0,MS689,HD,78,"28 2ary Auditory, Wernicke (BA22p)",Secondary cortex,HD_78,170426_pos_1-30_MS689_HD_78.mzXML,healthy,
+281,8,170426_pos_1-30_MS690_HD_21,MS,690.0,MS690,HD,21,40 Cingulate Anterior (BA32g),Limbic cortex,HD_21,170426_pos_1-30_MS690_HD_21.mzXML,healthy,
+282,8,170426_pos_1-30_MS691_HD_337,MS,691.0,MS691,HD,337,2  Anterior Supramarginal (BA40a),Associative cortex,HD_337,170426_pos_1-30_MS691_HD_337.mzXML,healthy,
+283,8,170426_pos_1-30_MS692_HD_6,MS,692.0,MS692,HD,6,53 Insular Posterior Cortex,Associative cortex,HD_6,170426_pos_1-30_MS692_HD_6.mzXML,healthy,
+284,8,170426_pos_1-30_MS693_HD_674,MS,693.0,MS693,HD,674,39 Frontopolar (BA10fp),Associative cortex,HD_674,170426_pos_1-30_MS693_HD_674.mzXML,healthy,
+285,8,170426_pos_1-30_MS694_HD_50,MS,694.0,MS694,HD,50,10 2ary/3ary Visual Posterior (BA18/19p),Secondary cortex,HD_50,170426_pos_1-30_MS694_HD_50.mzXML,healthy,
+286,8,170426_pos_1-30_MS695_HD_683,MS,695.0,MS695,HD,683,73 Corpus Callosum Anterior,White matter,HD_683,170426_pos_1-30_MS695_HD_683.mzXML,healthy,
+287,8,170426_pos_1-30_MS696_HD_148,MS,696.0,MS696,HD,148,70 Ventral Lateral Thalamus,Thalamus,HD_148,170426_pos_1-30_MS696_HD_148.mzXML,healthy,
+288,8,170426_pos_1-30_MS697_HD_579,MS,697.0,MS697,HD,579,43 Temporopolar (BA38),Associative cortex,HD_579,170426_pos_1-30_MS697_HD_579.mzXML,healthy,
+289,8,170426_pos_1-30_MS698_HD_387,MS,698.0,MS698,HD,387,36 FEF Medial (BA8m),Secondary cortex,HD_387,170426_pos_1-30_MS698_HD_387.mzXML,healthy,
+290,8,170426_pos_1-30_MS699_HD_549,MS,699.0,MS699,HD,549,27 2ary/3ary Visual Anterior (BA18/19a),Secondary cortex,HD_549,170426_pos_1-30_MS699_HD_549.mzXML,healthy,
+291,8,170426_pos_1-30_MS700_HD_336,MS,700.0,MS700,HD,336,59 Deep Nuclei - Dentate Nucleus,Cerebellum,HD_336,170426_pos_1-30_MS700_HD_336.mzXML,healthy,
+292,8,170426_pos_1-30_MS701_HD_358,MS,701.0,MS701,HD,358,44 Dorsolateral Prefrontal (BA46),Associative cortex,HD_358,170426_pos_1-30_MS701_HD_358.mzXML,healthy,
+293,8,170426_pos_1-30_MS702_HD_623,MS,702.0,MS702,HD,623,68 Medial Dorsal Thalamus,Thalamus,HD_623,170426_pos_1-30_MS702_HD_623.mzXML,healthy,
+294,8,170426_pos_1-30_MS703_HD_388,MS,703.0,MS703,HD,388,4  Anterior Superior Parietal (BA5/BA7a),Associative cortex,HD_388,170426_pos_1-30_MS703_HD_388.mzXML,healthy,
+297,8,170426_pos_1-30_MS706_HD_699,MS,706.0,MS706,HD,699,11 2ary Auditory Posterior (BA21p),Secondary cortex,HD_699,170426_pos_1-30_MS706_HD_699.mzXML,healthy,
+0,Batch1,Batch1_Sch_Br_x30_pos_1-01_29.mzXML,MS,,,H1,29,1  Cerebellar Grey Matter,Cerebellum,1_01,Batch1_Sch_Br_x30_pos_1-01_29.mzXML,schiz,29.0
+1,Batch2,Batch2_Sch_Br_x30_pos_2-01_167.mzXML,MS,,,H2,167,1  Cerebellar Grey Matter,Cerebellum,2_01,Batch2_Sch_Br_x30_pos_2-01_167.mzXML,schiz,167.0
+2,Batch3,Batch3_Sch_Br_x30_pos_3-01_261.mzXML,MS,,,H3,261,1  Cerebellar Grey Matter,Cerebellum,3_01,Batch3_Sch_Br_x30_pos_3-01_261.mzXML,schiz,261.0
+3,Batch4,Batch4_Sch_Br_x30_pos_5-01_343.mzXML,MS,,,H5,343,1  Cerebellar Grey Matter,Cerebellum,5_01,Batch4_Sch_Br_x30_pos_5-01_343.mzXML,schiz,343.0
+4,Batch1,Batch1_Sch_Br_x30_pos_1-10_22.mzXML,MS,,,H1,22,10 2ary/3ary Visual Posterior (BA18/19p),Secondary cortex,1_10,Batch1_Sch_Br_x30_pos_1-10_22.mzXML,schiz,22.0
+5,Batch2,Batch2_Sch_Br_x30_pos_2-10_125.mzXML,MS,,,H2,125,10 2ary/3ary Visual Posterior (BA18/19p),Secondary cortex,2_10,Batch2_Sch_Br_x30_pos_2-10_125.mzXML,schiz,125.0
+6,Batch3,Batch3_Sch_Br_x30_pos_3-10_248.mzXML,MS,,,H3,248,10 2ary/3ary Visual Posterior (BA18/19p),Secondary cortex,3_10,Batch3_Sch_Br_x30_pos_3-10_248.mzXML,schiz,248.0
+7,Batch4,Batch4_Sch_Br_x30_pos_5-10_342.mzXML,MS,,,H5,342,10 2ary/3ary Visual Posterior (BA18/19p),Secondary cortex,5_10,Batch4_Sch_Br_x30_pos_5-10_342.mzXML,schiz,342.0
+8,Batch1,Batch1_Sch_Br_x30_pos_1-11_80.mzXML,MS,,,H1,80,11 2ary Auditory Posterior (BA21p),Secondary cortex,1_11,Batch1_Sch_Br_x30_pos_1-11_80.mzXML,schiz,80.0
+9,Batch2,Batch2_Sch_Br_x30_pos_2-11_104.mzXML,MS,,,H2,104,11 2ary Auditory Posterior (BA21p),Secondary cortex,2_11,Batch2_Sch_Br_x30_pos_2-11_104.mzXML,schiz,104.0
+10,Batch3,Batch3_Sch_Br_x30_pos_3-11_226.mzXML,MS,,,H3,226,11 2ary Auditory Posterior (BA21p),Secondary cortex,3_11,Batch3_Sch_Br_x30_pos_3-11_226.mzXML,schiz,226.0
+11,Batch4,Batch4_Sch_Br_x30_pos_5-11_289.mzXML,MS,,,H5,289,11 2ary Auditory Posterior (BA21p),Secondary cortex,5_11,Batch4_Sch_Br_x30_pos_5-11_289.mzXML,schiz,289.0
+12,Batch1,Batch1_Sch_Br_x30_pos_1-12_15.mzXML,MS,,,H1,15,12 Premotor Posterior (BA6p),Secondary cortex,1_12,Batch1_Sch_Br_x30_pos_1-12_15.mzXML,schiz,15.0
+13,Batch2,Batch2_Sch_Br_x30_pos_2-12_172.mzXML,MS,,,H2,172,12 Premotor Posterior (BA6p),Secondary cortex,2_12,Batch2_Sch_Br_x30_pos_2-12_172.mzXML,schiz,172.0
+14,Batch3,Batch3_Sch_Br_x30_pos_3-12_185.mzXML,MS,,,H3,185,12 Premotor Posterior (BA6p),Secondary cortex,3_12,Batch3_Sch_Br_x30_pos_3-12_185.mzXML,schiz,185.0
+15,Batch4,Batch4_Sch_Br_x30_pos_5-12_324.mzXML,MS,,,H5,324,12 Premotor Posterior (BA6p),Secondary cortex,5_12,Batch4_Sch_Br_x30_pos_5-12_324.mzXML,schiz,324.0
+16,Batch1,Batch1_Sch_Br_x30_pos_1-13_18.mzXML,MS,,,H1,18,13 Premotor Precentral (BA6prc),Secondary cortex,1_13,Batch1_Sch_Br_x30_pos_1-13_18.mzXML,schiz,18.0
+17,Batch3,Batch3_Sch_Br_x30_pos_3-13_259.mzXML,MS,,,H3,259,13 Premotor Precentral (BA6prc),Secondary cortex,3_13,Batch3_Sch_Br_x30_pos_3-13_259.mzXML,schiz,259.0
+18,Batch4,Batch4_Sch_Br_x30_pos_5-13_279.mzXML,MS,,,H5,279,13 Premotor Precentral (BA6prc),Secondary cortex,5_13,Batch4_Sch_Br_x30_pos_5-13_279.mzXML,schiz,279.0
+19,Batch2,Batch2_Sch_Br_x30_pos_2-13_169.mzXML,MS,,,H2,169,13 Premotor Precentral (BA6prc),Secondary cortex,2_13,Batch2_Sch_Br_x30_pos_2-13_169.mzXML,schiz,169.0
+20,Batch1,Batch1_Sch_Br_x30_pos_1-14_34.mzXML,MS,,,H1,34,14 1ary Visual Posterior (BA17p),Primary cortex,1_14,Batch1_Sch_Br_x30_pos_1-14_34.mzXML,schiz,34.0
+21,Batch2,Batch2_Sch_Br_x30_pos_2-14_110.mzXML,MS,,,H2,110,14 1ary Visual Posterior (BA17p),Primary cortex,2_14,Batch2_Sch_Br_x30_pos_2-14_110.mzXML,schiz,110.0
+22,Batch3,Batch3_Sch_Br_x30_pos_3-14_189.mzXML,MS,,,H3,189,14 1ary Visual Posterior (BA17p),Primary cortex,3_14,Batch3_Sch_Br_x30_pos_3-14_189.mzXML,schiz,189.0
+23,Batch4,Batch4_Sch_Br_x30_pos_5-14_316.mzXML,MS,,,H5,316,14 1ary Visual Posterior (BA17p),Primary cortex,5_14,Batch4_Sch_Br_x30_pos_5-14_316.mzXML,schiz,316.0
+24,Batch1,Batch1_Sch_Br_x30_pos_1-15_81.mzXML,MS,,,H1,81,15 1ary Motor (BA4),Primary cortex,1_15,Batch1_Sch_Br_x30_pos_1-15_81.mzXML,schiz,81.0
+25,Batch2,Batch2_Sch_Br_x30_pos_2-15_148.mzXML,MS,,,H2,148,15 1ary Motor (BA4),Primary cortex,2_15,Batch2_Sch_Br_x30_pos_2-15_148.mzXML,schiz,148.0
+26,Batch3,Batch3_Sch_Br_x30_pos_3-15_193.mzXML,MS,,,H3,193,15 1ary Motor (BA4),Primary cortex,3_15,Batch3_Sch_Br_x30_pos_3-15_193.mzXML,schiz,193.0
+27,Batch4,Batch4_Sch_Br_x30_pos_5-15_352.mzXML,MS,,,H5,352,15 1ary Motor (BA4),Primary cortex,5_15,Batch4_Sch_Br_x30_pos_5-15_352.mzXML,schiz,352.0
+28,Batch1,Batch1_Sch_Br_x30_pos_1-16_38.mzXML,MS,,,H1,38,16 1ary Auditory (BA41/42),Primary cortex,1_16,Batch1_Sch_Br_x30_pos_1-16_38.mzXML,schiz,38.0
+29,Batch2,Batch2_Sch_Br_x30_pos_2-16_124.mzXML,MS,,,H2,124,16 1ary Auditory (BA41/42),Primary cortex,2_16,Batch2_Sch_Br_x30_pos_2-16_124.mzXML,schiz,124.0
+30,Batch3,Batch3_Sch_Br_x30_pos_3-16_234.mzXML,MS,,,H3,234,16 1ary Auditory (BA41/42),Primary cortex,3_16,Batch3_Sch_Br_x30_pos_3-16_234.mzXML,schiz,234.0
+31,Batch4,Batch4_Sch_Br_x30_pos_5-16_304.mzXML,MS,,,H5,304,16 1ary Auditory (BA41/42),Primary cortex,5_16,Batch4_Sch_Br_x30_pos_5-16_304.mzXML,schiz,304.0
+32,Batch1,Batch1_Sch_Br_x30_pos_1-17_73.mzXML,MS,,,H1,73,17 1ary Visual Anterior (BA17a),Primary cortex,1_17,Batch1_Sch_Br_x30_pos_1-17_73.mzXML,schiz,73.0
+33,Batch2,Batch2_Sch_Br_x30_pos_2-17_168.mzXML,MS,,,H2,168,17 1ary Visual Anterior (BA17a),Primary cortex,2_17,Batch2_Sch_Br_x30_pos_2-17_168.mzXML,schiz,168.0
+34,Batch3,Batch3_Sch_Br_x30_pos_3-17_243.mzXML,MS,,,H3,243,17 1ary Visual Anterior (BA17a),Primary cortex,3_17,Batch3_Sch_Br_x30_pos_3-17_243.mzXML,schiz,243.0
+35,Batch4,Batch4_Sch_Br_x30_pos_5-17_292.mzXML,MS,,,H5,292,17 1ary Visual Anterior (BA17a),Primary cortex,5_17,Batch4_Sch_Br_x30_pos_5-17_292.mzXML,schiz,292.0
+36,Batch1,Batch1_Sch_Br_x30_pos_1-18_42.mzXML,MS,,,H1,42,18 1ary Somatosensory (BA3/1/2),Primary cortex,1_18,Batch1_Sch_Br_x30_pos_1-18_42.mzXML,schiz,42.0
+37,Batch2,Batch2_Sch_Br_x30_pos_2-18_134.mzXML,MS,,,H2,134,18 1ary Somatosensory (BA3/1/2),Primary cortex,2_18,Batch2_Sch_Br_x30_pos_2-18_134.mzXML,schiz,134.0
+38,Batch3,Batch3_Sch_Br_x30_pos_3-18_198.mzXML,MS,,,H3,198,18 1ary Somatosensory (BA3/1/2),Primary cortex,3_18,Batch3_Sch_Br_x30_pos_3-18_198.mzXML,schiz,198.0
+39,Batch4,Batch4_Sch_Br_x30_pos_5-18_293.mzXML,MS,,,H5,293,18 1ary Somatosensory (BA3/1/2),Primary cortex,5_18,Batch4_Sch_Br_x30_pos_5-18_293.mzXML,schiz,293.0
+40,Batch1,Batch1_Sch_Br_x30_pos_1-19_43.mzXML,MS,,,H1,43,19 Posterior Middle Temporal (BA37-pMT),Secondary cortex,1_19,Batch1_Sch_Br_x30_pos_1-19_43.mzXML,schiz,43.0
+41,Batch2,Batch2_Sch_Br_x30_pos_2-19_136.mzXML,MS,,,H2,136,19 Posterior Middle Temporal (BA37-pMT),Secondary cortex,2_19,Batch2_Sch_Br_x30_pos_2-19_136.mzXML,schiz,136.0
+42,Batch3,Batch3_Sch_Br_x30_pos_3-19_204.mzXML,MS,,,H3,204,19 Posterior Middle Temporal (BA37-pMT),Secondary cortex,3_19,Batch3_Sch_Br_x30_pos_3-19_204.mzXML,schiz,204.0
+43,Batch4,Batch4_Sch_Br_x30_pos_5-19_274.mzXML,MS,,,H5,274,19 Posterior Middle Temporal (BA37-pMT),Secondary cortex,5_19,Batch4_Sch_Br_x30_pos_5-19_274.mzXML,schiz,274.0
+44,Batch1,Batch1_Sch_Br_x30_pos_1-02_63.mzXML,MS,,,H1,63,2  Anterior Supramarginal (BA40a),Associative cortex,1_02,Batch1_Sch_Br_x30_pos_1-02_63.mzXML,schiz,63.0
+45,Batch2,Batch2_Sch_Br_x30_pos_2-02_143.mzXML,MS,,,H2,143,2  Anterior Supramarginal (BA40a),Associative cortex,2_02,Batch2_Sch_Br_x30_pos_2-02_143.mzXML,schiz,143.0
+46,Batch3,Batch3_Sch_Br_x30_pos_3-02_196.mzXML,MS,,,H3,196,2  Anterior Supramarginal (BA40a),Associative cortex,3_02,Batch3_Sch_Br_x30_pos_3-02_196.mzXML,schiz,196.0
+47,Batch4,Batch4_Sch_Br_x30_pos_5-02_351.mzXML,MS,,,H5,351,2  Anterior Supramarginal (BA40a),Associative cortex,5_02,Batch4_Sch_Br_x30_pos_5-02_351.mzXML,schiz,351.0
+48,Batch1,Batch1_Sch_Br_x30_pos_1-20_5.mzXML,MS,,,H1,5,20 Posterior Fusiform (BA37m),Secondary cortex,1_20,Batch1_Sch_Br_x30_pos_1-20_5.mzXML,schiz,5.0
+49,Batch2,Batch2_Sch_Br_x30_pos_2-20_102.mzXML,MS,,,H2,102,20 Posterior Fusiform (BA37m),Secondary cortex,2_20,Batch2_Sch_Br_x30_pos_2-20_102.mzXML,schiz,102.0
+50,Batch3,Batch3_Sch_Br_x30_pos_3-20_262.mzXML,MS,,,H3,262,20 Posterior Fusiform (BA37m),Secondary cortex,3_20,Batch3_Sch_Br_x30_pos_3-20_262.mzXML,schiz,262.0
+51,Batch4,Batch4_Sch_Br_x30_pos_5-20_288.mzXML,MS,,,H5,288,20 Posterior Fusiform (BA37m),Secondary cortex,5_20,Batch4_Sch_Br_x30_pos_5-20_288.mzXML,schiz,288.0
+52,Batch1,Batch1_Sch_Br_x30_pos_1-21_47.mzXML,MS,,,H1,47,21 FEF Lateral (BA8),Secondary cortex,1_21,Batch1_Sch_Br_x30_pos_1-21_47.mzXML,schiz,47.0
+53,Batch2,Batch2_Sch_Br_x30_pos_2-21_142.mzXML,MS,,,H2,142,21 FEF Lateral (BA8),Secondary cortex,2_21,Batch2_Sch_Br_x30_pos_2-21_142.mzXML,schiz,142.0
+54,Batch4,Batch4_Sch_Br_x30_pos_5-21_334.mzXML,MS,,,H5,334,21 FEF Lateral (BA8),Secondary cortex,5_21,Batch4_Sch_Br_x30_pos_5-21_334.mzXML,schiz,334.0
+55,Batch1,Batch1_Sch_Br_x30_pos_1-22_44.mzXML,MS,,,H1,44,22 Premotor Medial (BA6m),Secondary cortex,1_22,Batch1_Sch_Br_x30_pos_1-22_44.mzXML,schiz,44.0
+56,Batch2,Batch2_Sch_Br_x30_pos_2-22_158.mzXML,MS,,,H2,158,22 Premotor Medial (BA6m),Secondary cortex,2_22,Batch2_Sch_Br_x30_pos_2-22_158.mzXML,schiz,158.0
+57,Batch3,Batch3_Sch_Br_x30_pos_3-22_246.mzXML,MS,,,H3,246,22 Premotor Medial (BA6m),Secondary cortex,3_22,Batch3_Sch_Br_x30_pos_3-22_246.mzXML,schiz,246.0
+58,Batch4,Batch4_Sch_Br_x30_pos_5-22_306.mzXML,MS,,,H5,306,22 Premotor Medial (BA6m),Secondary cortex,5_22,Batch4_Sch_Br_x30_pos_5-22_306.mzXML,schiz,306.0
+59,Batch1,Batch1_Sch_Br_x30_pos_1-23_79.mzXML,MS,,,H1,79,23 Insular Anterior Cortex,Associative cortex,1_23,Batch1_Sch_Br_x30_pos_1-23_79.mzXML,schiz,79.0
+60,Batch2,Batch2_Sch_Br_x30_pos_2-23_99.mzXML,MS,,,H2,99,23 Insular Anterior Cortex,Associative cortex,2_23,Batch2_Sch_Br_x30_pos_2-23_99.mzXML,schiz,99.0
+61,Batch3,Batch3_Sch_Br_x30_pos_3-23_207.mzXML,MS,,,H3,207,23 Insular Anterior Cortex,Associative cortex,3_23,Batch3_Sch_Br_x30_pos_3-23_207.mzXML,schiz,207.0
+62,Batch4,Batch4_Sch_Br_x30_pos_5-23_278.mzXML,MS,,,H5,278,23 Insular Anterior Cortex,Associative cortex,5_23,Batch4_Sch_Br_x30_pos_5-23_278.mzXML,schiz,278.0
+63,Batch1,Batch1_Sch_Br_x30_pos_1-24_59.mzXML,MS,,,H1,59,24 Cingulate Posterior (BA23p),Limbic cortex,1_24,Batch1_Sch_Br_x30_pos_1-24_59.mzXML,schiz,59.0
+64,Batch2,Batch2_Sch_Br_x30_pos_2-24_150.mzXML,MS,,,H2,150,24 Cingulate Posterior (BA23p),Limbic cortex,2_24,Batch2_Sch_Br_x30_pos_2-24_150.mzXML,schiz,150.0
+65,Batch3,Batch3_Sch_Br_x30_pos_3-24_217.mzXML,MS,,,H3,217,24 Cingulate Posterior (BA23p),Limbic cortex,3_24,Batch3_Sch_Br_x30_pos_3-24_217.mzXML,schiz,217.0
+66,Batch4,Batch4_Sch_Br_x30_pos_5-24_299.mzXML,MS,,,H5,299,24 Cingulate Posterior (BA23p),Limbic cortex,5_24,Batch4_Sch_Br_x30_pos_5-24_299.mzXML,schiz,299.0
+67,Batch1,Batch1_Sch_Br_x30_pos_1-25_68.mzXML,MS,,,H1,68,25 Posterior Inferior Temporal (BA20p),Associative cortex,1_25,Batch1_Sch_Br_x30_pos_1-25_68.mzXML,schiz,68.0
+68,Batch2,Batch2_Sch_Br_x30_pos_2-25_96.mzXML,MS,,,H2,96,25 Posterior Inferior Temporal (BA20p),Associative cortex,2_25,Batch2_Sch_Br_x30_pos_2-25_96.mzXML,schiz,96.0
+69,Batch3,Batch3_Sch_Br_x30_pos_3-25_252.mzXML,MS,,,H3,252,25 Posterior Inferior Temporal (BA20p),Associative cortex,3_25,Batch3_Sch_Br_x30_pos_3-25_252.mzXML,schiz,252.0
+70,Batch4,Batch4_Sch_Br_x30_pos_5-25_314.mzXML,MS,,,H5,314,25 Posterior Inferior Temporal (BA20p),Associative cortex,5_25,Batch4_Sch_Br_x30_pos_5-25_314.mzXML,schiz,314.0
+71,Batch1,Batch1_Sch_Br_x30_pos_1-26_54.mzXML,MS,,,H1,54,"26 2ary Auditory, language (BA22a)",Secondary cortex,1_26,Batch1_Sch_Br_x30_pos_1-26_54.mzXML,schiz,54.0
+72,Batch2,Batch2_Sch_Br_x30_pos_2-26_157.mzXML,MS,,,H2,157,"26 2ary Auditory, language (BA22a)",Secondary cortex,2_26,Batch2_Sch_Br_x30_pos_2-26_157.mzXML,schiz,157.0
+73,Batch3,Batch3_Sch_Br_x30_pos_3-26_195.mzXML,MS,,,H3,195,"26 2ary Auditory, language (BA22a)",Secondary cortex,3_26,Batch3_Sch_Br_x30_pos_3-26_195.mzXML,schiz,195.0
+74,Batch4,Batch4_Sch_Br_x30_pos_5-26_276.mzXML,MS,,,H5,276,"26 2ary Auditory, language (BA22a)",Secondary cortex,5_26,Batch4_Sch_Br_x30_pos_5-26_276.mzXML,schiz,276.0
+75,Batch1,Batch1_Sch_Br_x30_pos_1-27_3.mzXML,MS,,,H1,3,27 2ary/3ary Visual Anterior (BA18/19a),Secondary cortex,1_27,Batch1_Sch_Br_x30_pos_1-27_3.mzXML,schiz,3.0
+76,Batch2,Batch2_Sch_Br_x30_pos_2-27_98.mzXML,MS,,,H2,98,27 2ary/3ary Visual Anterior (BA18/19a),Secondary cortex,2_27,Batch2_Sch_Br_x30_pos_2-27_98.mzXML,schiz,98.0
+77,Batch3,Batch3_Sch_Br_x30_pos_3-27_239.mzXML,MS,,,H3,239,27 2ary/3ary Visual Anterior (BA18/19a),Secondary cortex,3_27,Batch3_Sch_Br_x30_pos_3-27_239.mzXML,schiz,239.0
+78,Batch4,Batch4_Sch_Br_x30_pos_5-27_319.mzXML,MS,,,H5,319,27 2ary/3ary Visual Anterior (BA18/19a),Secondary cortex,5_27,Batch4_Sch_Br_x30_pos_5-27_319.mzXML,schiz,319.0
+79,Batch1,Batch1_Sch_Br_x30_pos_1-28_78.mzXML,MS,,,H1,78,"28 2ary Auditory, Wernicke (BA22p)",Secondary cortex,1_28,Batch1_Sch_Br_x30_pos_1-28_78.mzXML,schiz,78.0
+80,Batch2,Batch2_Sch_Br_x30_pos_2-28_111.mzXML,MS,,,H2,111,"28 2ary Auditory, Wernicke (BA22p)",Secondary cortex,2_28,Batch2_Sch_Br_x30_pos_2-28_111.mzXML,schiz,111.0
+81,Batch3,Batch3_Sch_Br_x30_pos_3-28_247.mzXML,MS,,,H3,247,"28 2ary Auditory, Wernicke (BA22p)",Secondary cortex,3_28,Batch3_Sch_Br_x30_pos_3-28_247.mzXML,schiz,247.0
+82,Batch4,Batch4_Sch_Br_x30_pos_5-28_350.mzXML,MS,,,H5,350,"28 2ary Auditory, Wernicke (BA22p)",Secondary cortex,5_28,Batch4_Sch_Br_x30_pos_5-28_350.mzXML,schiz,350.0
+83,Batch1,Batch1_Sch_Br_x30_pos_1-29_49.mzXML,MS,,,H1,49,29 Precuneus (BA7m),Associative cortex,1_29,Batch1_Sch_Br_x30_pos_1-29_49.mzXML,schiz,49.0
+84,Batch2,Batch2_Sch_Br_x30_pos_2-29_146.mzXML,MS,,,H2,146,29 Precuneus (BA7m),Associative cortex,2_29,Batch2_Sch_Br_x30_pos_2-29_146.mzXML,schiz,146.0
+85,Batch3,Batch3_Sch_Br_x30_pos_3-29_250.mzXML,MS,,,H3,250,29 Precuneus (BA7m),Associative cortex,3_29,Batch3_Sch_Br_x30_pos_3-29_250.mzXML,schiz,250.0
+86,Batch1,Batch1_Sch_Br_x30_pos_1-03_30.mzXML,MS,,,H1,30,3  Posterior Superior Parietal (BA7p),Associative cortex,1_03,Batch1_Sch_Br_x30_pos_1-03_30.mzXML,schiz,30.0
+87,Batch2,Batch2_Sch_Br_x30_pos_2-03_152.mzXML,MS,,,H2,152,3  Posterior Superior Parietal (BA7p),Associative cortex,2_03,Batch2_Sch_Br_x30_pos_2-03_152.mzXML,schiz,152.0
+88,Batch3,Batch3_Sch_Br_x30_pos_3-03_197.mzXML,MS,,,H3,197,3  Posterior Superior Parietal (BA7p),Associative cortex,3_03,Batch3_Sch_Br_x30_pos_3-03_197.mzXML,schiz,197.0
+89,Batch4,Batch4_Sch_Br_x30_pos_5-03_294.mzXML,MS,,,H5,294,3  Posterior Superior Parietal (BA7p),Associative cortex,5_03,Batch4_Sch_Br_x30_pos_5-03_294.mzXML,schiz,294.0
+90,Batch1,Batch1_Sch_Br_x30_pos_1-30_69.mzXML,MS,,,H1,69,30 Premotor Anterior Lateral (BA6a),Secondary cortex,1_30,Batch1_Sch_Br_x30_pos_1-30_69.mzXML,schiz,69.0
+91,Batch2,Batch2_Sch_Br_x30_pos_2-30_117.mzXML,MS,,,H2,117,30 Premotor Anterior Lateral (BA6a),Secondary cortex,2_30,Batch2_Sch_Br_x30_pos_2-30_117.mzXML,schiz,117.0
+92,Batch3,Batch3_Sch_Br_x30_pos_3-30_228.mzXML,MS,,,H3,228,30 Premotor Anterior Lateral (BA6a),Secondary cortex,3_30,Batch3_Sch_Br_x30_pos_3-30_228.mzXML,schiz,228.0
+93,Batch4,Batch4_Sch_Br_x30_pos_5-30_322.mzXML,MS,,,H5,322,30 Premotor Anterior Lateral (BA6a),Secondary cortex,5_30,Batch4_Sch_Br_x30_pos_5-30_322.mzXML,schiz,322.0
+94,Batch1,Batch1_Sch_Br_x30_pos_1-31_27.mzXML,MS,,,H1,27,31 Supramarginal Posterior (BA40p),Associative cortex,1_31,Batch1_Sch_Br_x30_pos_1-31_27.mzXML,schiz,27.0
+95,Batch2,Batch2_Sch_Br_x30_pos_2-31_156.mzXML,MS,,,H2,156,31 Supramarginal Posterior (BA40p),Associative cortex,2_31,Batch2_Sch_Br_x30_pos_2-31_156.mzXML,schiz,156.0
+96,Batch3,Batch3_Sch_Br_x30_pos_3-31_238.mzXML,MS,,,H3,238,31 Supramarginal Posterior (BA40p),Associative cortex,3_31,Batch3_Sch_Br_x30_pos_3-31_238.mzXML,schiz,238.0
+97,Batch4,Batch4_Sch_Br_x30_pos_5-31_298.mzXML,MS,,,H5,298,31 Supramarginal Posterior (BA40p),Associative cortex,5_31,Batch4_Sch_Br_x30_pos_5-31_298.mzXML,schiz,298.0
+98,Batch1,Batch1_Sch_Br_x30_pos_1-32_74.mzXML,MS,,,H1,74,"32 Ventrolateral Prefrontal, Broca (BA44)",Associative cortex,1_32,Batch1_Sch_Br_x30_pos_1-32_74.mzXML,schiz,74.0
+99,Batch2,Batch2_Sch_Br_x30_pos_2-32_113.mzXML,MS,,,H2,113,"32 Ventrolateral Prefrontal, Broca (BA44)",Associative cortex,2_32,Batch2_Sch_Br_x30_pos_2-32_113.mzXML,schiz,113.0
+100,Batch3,Batch3_Sch_Br_x30_pos_3-32_208.mzXML,MS,,,H3,208,"32 Ventrolateral Prefrontal, Broca (BA44)",Associative cortex,3_32,Batch3_Sch_Br_x30_pos_3-32_208.mzXML,schiz,208.0
+101,Batch4,Batch4_Sch_Br_x30_pos_5-32_323.mzXML,MS,,,H5,323,"32 Ventrolateral Prefrontal, Broca (BA44)",Associative cortex,5_32,Batch4_Sch_Br_x30_pos_5-32_323.mzXML,schiz,323.0
+102,Batch1,Batch1_Sch_Br_x30_pos_1-33_35.mzXML,MS,,,H1,35,33 Anterior Inferior Temporal (BA20a),Associative cortex,1_33,Batch1_Sch_Br_x30_pos_1-33_35.mzXML,schiz,35.0
+103,Batch2,Batch2_Sch_Br_x30_pos_2-33_120.mzXML,MS,,,H2,120,33 Anterior Inferior Temporal (BA20a),Associative cortex,2_33,Batch2_Sch_Br_x30_pos_2-33_120.mzXML,schiz,120.0
+104,Batch3,Batch3_Sch_Br_x30_pos_3-33_212.mzXML,MS,,,H3,212,33 Anterior Inferior Temporal (BA20a),Associative cortex,3_33,Batch3_Sch_Br_x30_pos_3-33_212.mzXML,schiz,212.0
+105,Batch4,Batch4_Sch_Br_x30_pos_5-33_300.mzXML,MS,,,H5,300,33 Anterior Inferior Temporal (BA20a),Associative cortex,5_33,Batch4_Sch_Br_x30_pos_5-33_300.mzXML,schiz,300.0
+106,Batch1,Batch1_Sch_Br_x30_pos_1-34_51.mzXML,MS,,,H1,51,34 Dorsolateral Prefrontal (BA9),Associative cortex,1_34,Batch1_Sch_Br_x30_pos_1-34_51.mzXML,schiz,51.0
+107,Batch2,Batch2_Sch_Br_x30_pos_2-34_107.mzXML,MS,,,H2,107,34 Dorsolateral Prefrontal (BA9),Associative cortex,2_34,Batch2_Sch_Br_x30_pos_2-34_107.mzXML,schiz,107.0
+108,Batch3,Batch3_Sch_Br_x30_pos_3-34_190.mzXML,MS,,,H3,190,34 Dorsolateral Prefrontal (BA9),Associative cortex,3_34,Batch3_Sch_Br_x30_pos_3-34_190.mzXML,schiz,190.0
+109,Batch4,Batch4_Sch_Br_x30_pos_5-34_297.mzXML,MS,,,H5,297,34 Dorsolateral Prefrontal (BA9),Associative cortex,5_34,Batch4_Sch_Br_x30_pos_5-34_297.mzXML,schiz,297.0
+110,Batch1,Batch1_Sch_Br_x30_pos_1-35_39.mzXML,MS,,,H1,39,35 Dorsolateral Prefrontal Medial (BA9m),Associative cortex,1_35,Batch1_Sch_Br_x30_pos_1-35_39.mzXML,schiz,39.0
+111,Batch2,Batch2_Sch_Br_x30_pos_2-35_159.mzXML,MS,,,H2,159,35 Dorsolateral Prefrontal Medial (BA9m),Associative cortex,2_35,Batch2_Sch_Br_x30_pos_2-35_159.mzXML,schiz,159.0
+112,Batch3,Batch3_Sch_Br_x30_pos_3-35_200.mzXML,MS,,,H3,200,35 Dorsolateral Prefrontal Medial (BA9m),Associative cortex,3_35,Batch3_Sch_Br_x30_pos_3-35_200.mzXML,schiz,200.0
+113,Batch4,Batch4_Sch_Br_x30_pos_5-35_282.mzXML,MS,,,H5,282,35 Dorsolateral Prefrontal Medial (BA9m),Associative cortex,5_35,Batch4_Sch_Br_x30_pos_5-35_282.mzXML,schiz,282.0
+114,Batch1,Batch1_Sch_Br_x30_pos_1-36_4.mzXML,MS,,,H1,4,36 FEF Medial (BA8m),Secondary cortex,1_36,Batch1_Sch_Br_x30_pos_1-36_4.mzXML,schiz,4.0
+115,Batch2,Batch2_Sch_Br_x30_pos_2-36_145.mzXML,MS,,,H2,145,36 FEF Medial (BA8m),Secondary cortex,2_36,Batch2_Sch_Br_x30_pos_2-36_145.mzXML,schiz,145.0
+116,Batch3,Batch3_Sch_Br_x30_pos_3-36_223.mzXML,MS,,,H3,223,36 FEF Medial (BA8m),Secondary cortex,3_36,Batch3_Sch_Br_x30_pos_3-36_223.mzXML,schiz,223.0
+117,Batch4,Batch4_Sch_Br_x30_pos_5-36_283.mzXML,MS,,,H5,283,36 FEF Medial (BA8m),Secondary cortex,5_36,Batch4_Sch_Br_x30_pos_5-36_283.mzXML,schiz,283.0
+118,Batch1,Batch1_Sch_Br_x30_pos_1-37_6.mzXML,MS,,,H1,6,37 2ary Auditory Anterior (BA21a),Secondary cortex,1_37,Batch1_Sch_Br_x30_pos_1-37_6.mzXML,schiz,6.0
+119,Batch2,Batch2_Sch_Br_x30_pos_2-37_105.mzXML,MS,,,H2,105,37 2ary Auditory Anterior (BA21a),Secondary cortex,2_37,Batch2_Sch_Br_x30_pos_2-37_105.mzXML,schiz,105.0
+120,Batch3,Batch3_Sch_Br_x30_pos_3-37_186.mzXML,MS,,,H3,186,37 2ary Auditory Anterior (BA21a),Secondary cortex,3_37,Batch3_Sch_Br_x30_pos_3-37_186.mzXML,schiz,186.0
+121,Batch4,Batch4_Sch_Br_x30_pos_5-37_280.mzXML,MS,,,H5,280,37 2ary Auditory Anterior (BA21a),Secondary cortex,5_37,Batch4_Sch_Br_x30_pos_5-37_280.mzXML,schiz,280.0
+122,Batch1,Batch1_Sch_Br_x30_pos_1-38_65.mzXML,MS,,,H1,65,38 Anterior Prefrontal (BA10),Associative cortex,1_38,Batch1_Sch_Br_x30_pos_1-38_65.mzXML,schiz,65.0
+123,Batch2,Batch2_Sch_Br_x30_pos_2-38_170.mzXML,MS,,,H2,170,38 Anterior Prefrontal (BA10),Associative cortex,2_38,Batch2_Sch_Br_x30_pos_2-38_170.mzXML,schiz,170.0
+124,Batch3,Batch3_Sch_Br_x30_pos_3-38_260.mzXML,MS,,,H3,260,38 Anterior Prefrontal (BA10),Associative cortex,3_38,Batch3_Sch_Br_x30_pos_3-38_260.mzXML,schiz,260.0
+125,Batch4,Batch4_Sch_Br_x30_pos_5-38_329.mzXML,MS,,,H5,329,38 Anterior Prefrontal (BA10),Associative cortex,5_38,Batch4_Sch_Br_x30_pos_5-38_329.mzXML,schiz,329.0
+126,Batch1,Batch1_Sch_Br_x30_pos_1-39_17.mzXML,MS,,,H1,17,39 Frontopolar (BA10fp),Associative cortex,1_39,Batch1_Sch_Br_x30_pos_1-39_17.mzXML,schiz,17.0
+127,Batch2,Batch2_Sch_Br_x30_pos_2-39_94.mzXML,MS,,,H2,94,39 Frontopolar (BA10fp),Associative cortex,2_39,Batch2_Sch_Br_x30_pos_2-39_94.mzXML,schiz,94.0
+128,Batch3,Batch3_Sch_Br_x30_pos_3-39_201.mzXML,MS,,,H3,201,39 Frontopolar (BA10fp),Associative cortex,3_39,Batch3_Sch_Br_x30_pos_3-39_201.mzXML,schiz,201.0
+129,Batch4,Batch4_Sch_Br_x30_pos_5-39_339.mzXML,MS,,,H5,339,39 Frontopolar (BA10fp),Associative cortex,5_39,Batch4_Sch_Br_x30_pos_5-39_339.mzXML,schiz,339.0
+130,Batch1,Batch1_Sch_Br_x30_pos_1-04_46.mzXML,MS,,,H1,46,4  Anterior Superior Parietal (BA5/BA7a),Associative cortex,1_04,Batch1_Sch_Br_x30_pos_1-04_46.mzXML,schiz,46.0
+131,Batch2,Batch2_Sch_Br_x30_pos_2-04_95.mzXML,MS,,,H2,95,4  Anterior Superior Parietal (BA5/BA7a),Associative cortex,2_04,Batch2_Sch_Br_x30_pos_2-04_95.mzXML,schiz,95.0
+132,Batch3,Batch3_Sch_Br_x30_pos_3-04_244.mzXML,MS,,,H3,244,4  Anterior Superior Parietal (BA5/BA7a),Associative cortex,3_04,Batch3_Sch_Br_x30_pos_3-04_244.mzXML,schiz,244.0
+133,Batch4,Batch4_Sch_Br_x30_pos_5-04_311.mzXML,MS,,,H5,311,4  Anterior Superior Parietal (BA5/BA7a),Associative cortex,5_04,Batch4_Sch_Br_x30_pos_5-04_311.mzXML,schiz,311.0
+134,Batch1,Batch1_Sch_Br_x30_pos_1-40_61.mzXML,MS,,,H1,61,40 Cingulate Anterior (BA32g),Limbic cortex,1_40,Batch1_Sch_Br_x30_pos_1-40_61.mzXML,schiz,61.0
+135,Batch2,Batch2_Sch_Br_x30_pos_2-40_93.mzXML,MS,,,H2,93,40 Cingulate Anterior (BA32g),Limbic cortex,2_40,Batch2_Sch_Br_x30_pos_2-40_93.mzXML,schiz,93.0
+136,Batch3,Batch3_Sch_Br_x30_pos_3-40_245.mzXML,MS,,,H3,245,40 Cingulate Anterior (BA32g),Limbic cortex,3_40,Batch3_Sch_Br_x30_pos_3-40_245.mzXML,schiz,245.0
+137,Batch1,Batch1_Sch_Br_x30_pos_1-41_40.mzXML,MS,,,H1,40,41 Angular (BA39),Associative cortex,1_41,Batch1_Sch_Br_x30_pos_1-41_40.mzXML,schiz,40.0
+138,Batch2,Batch2_Sch_Br_x30_pos_2-41_100.mzXML,MS,,,H2,100,41 Angular (BA39),Associative cortex,2_41,Batch2_Sch_Br_x30_pos_2-41_100.mzXML,schiz,100.0
+139,Batch3,Batch3_Sch_Br_x30_pos_3-41_216.mzXML,MS,,,H3,216,41 Angular (BA39),Associative cortex,3_41,Batch3_Sch_Br_x30_pos_3-41_216.mzXML,schiz,216.0
+140,Batch4,Batch4_Sch_Br_x30_pos_5-41_291.mzXML,MS,,,H5,291,41 Angular (BA39),Associative cortex,5_41,Batch4_Sch_Br_x30_pos_5-41_291.mzXML,schiz,291.0
+141,Batch1,Batch1_Sch_Br_x30_pos_1-42_56.mzXML,MS,,,H1,56,42 Cingulate Subcallosal (BA25),Limbic cortex,1_42,Batch1_Sch_Br_x30_pos_1-42_56.mzXML,schiz,56.0
+142,Batch2,Batch2_Sch_Br_x30_pos_2-42_171.mzXML,MS,,,H2,171,42 Cingulate Subcallosal (BA25),Limbic cortex,2_42,Batch2_Sch_Br_x30_pos_2-42_171.mzXML,schiz,171.0
+143,Batch3,Batch3_Sch_Br_x30_pos_3-42_188.mzXML,MS,,,H3,188,42 Cingulate Subcallosal (BA25),Limbic cortex,3_42,Batch3_Sch_Br_x30_pos_3-42_188.mzXML,schiz,188.0
+144,Batch4,Batch4_Sch_Br_x30_pos_5-42_333.mzXML,MS,,,H5,333,42 Cingulate Subcallosal (BA25),Limbic cortex,5_42,Batch4_Sch_Br_x30_pos_5-42_333.mzXML,schiz,333.0
+145,Batch1,Batch1_Sch_Br_x30_pos_1-43_8.mzXML,MS,,,H1,8,43 Temporopolar (BA38),Associative cortex,1_43,Batch1_Sch_Br_x30_pos_1-43_8.mzXML,schiz,8.0
+146,Batch2,Batch2_Sch_Br_x30_pos_2-43_161.mzXML,MS,,,H2,161,43 Temporopolar (BA38),Associative cortex,2_43,Batch2_Sch_Br_x30_pos_2-43_161.mzXML,schiz,161.0
+147,Batch3,Batch3_Sch_Br_x30_pos_3-43_205.mzXML,MS,,,H3,205,43 Temporopolar (BA38),Associative cortex,3_43,Batch3_Sch_Br_x30_pos_3-43_205.mzXML,schiz,205.0
+148,Batch4,Batch4_Sch_Br_x30_pos_5-43_326.mzXML,MS,,,H5,326,43 Temporopolar (BA38),Associative cortex,5_43,Batch4_Sch_Br_x30_pos_5-43_326.mzXML,schiz,326.0
+149,Batch1,Batch1_Sch_Br_x30_pos_1-44_21.mzXML,MS,,,H1,21,44 Dorsolateral Prefrontal (BA46),Associative cortex,1_44,Batch1_Sch_Br_x30_pos_1-44_21.mzXML,schiz,21.0
+150,Batch2,Batch2_Sch_Br_x30_pos_2-44_116.mzXML,MS,,,H2,116,44 Dorsolateral Prefrontal (BA46),Associative cortex,2_44,Batch2_Sch_Br_x30_pos_2-44_116.mzXML,schiz,116.0
+151,Batch4,Batch4_Sch_Br_x30_pos_5-44_327.mzXML,MS,,,H5,327,44 Dorsolateral Prefrontal (BA46),Associative cortex,5_44,Batch4_Sch_Br_x30_pos_5-44_327.mzXML,schiz,327.0
+152,Batch3,Batch3_Sch_Br_x30_pos_3-44_236.mzXML,MS,,,H3,236,44 Dorsolateral Prefrontal (BA46),Associative cortex,3_44,Batch3_Sch_Br_x30_pos_3-44_236.mzXML,schiz,236.0
+153,Batch1,Batch1_Sch_Br_x30_pos_1-45_67.mzXML,MS,,,H1,67,"45 Ventrolateral Prefrontal, Broca (BA45)",Associative cortex,1_45,Batch1_Sch_Br_x30_pos_1-45_67.mzXML,schiz,67.0
+154,Batch2,Batch2_Sch_Br_x30_pos_2-45_122.mzXML,MS,,,H2,122,"45 Ventrolateral Prefrontal, Broca (BA45)",Associative cortex,2_45,Batch2_Sch_Br_x30_pos_2-45_122.mzXML,schiz,122.0
+155,Batch3,Batch3_Sch_Br_x30_pos_3-45_227.mzXML,MS,,,H3,227,"45 Ventrolateral Prefrontal, Broca (BA45)",Associative cortex,3_45,Batch3_Sch_Br_x30_pos_3-45_227.mzXML,schiz,227.0
+156,Batch4,Batch4_Sch_Br_x30_pos_5-45_285.mzXML,MS,,,H5,285,"45 Ventrolateral Prefrontal, Broca (BA45)",Associative cortex,5_45,Batch4_Sch_Br_x30_pos_5-45_285.mzXML,schiz,285.0
+157,Batch1,Batch1_Sch_Br_x30_pos_1-46_13.mzXML,MS,,,H1,13,46 Prefrontal Medial (BA10m),Associative cortex,1_46,Batch1_Sch_Br_x30_pos_1-46_13.mzXML,schiz,13.0
+158,Batch2,Batch2_Sch_Br_x30_pos_2-46_133.mzXML,MS,,,H2,133,46 Prefrontal Medial (BA10m),Associative cortex,2_46,Batch2_Sch_Br_x30_pos_2-46_133.mzXML,schiz,133.0
+159,Batch3,Batch3_Sch_Br_x30_pos_3-46_210.mzXML,MS,,,H3,210,46 Prefrontal Medial (BA10m),Associative cortex,3_46,Batch3_Sch_Br_x30_pos_3-46_210.mzXML,schiz,210.0
+160,Batch4,Batch4_Sch_Br_x30_pos_5-46_313.mzXML,MS,,,H5,313,46 Prefrontal Medial (BA10m),Associative cortex,5_46,Batch4_Sch_Br_x30_pos_5-46_313.mzXML,schiz,313.0
+161,Batch1,Batch1_Sch_Br_x30_pos_1-47_45.mzXML,MS,,,H1,45,47 Cingulate Posterior (BA31),Limbic cortex,1_47,Batch1_Sch_Br_x30_pos_1-47_45.mzXML,schiz,45.0
+162,Batch2,Batch2_Sch_Br_x30_pos_2-47_154.mzXML,MS,,,H2,154,47 Cingulate Posterior (BA31),Limbic cortex,2_47,Batch2_Sch_Br_x30_pos_2-47_154.mzXML,schiz,154.0
+163,Batch4,Batch4_Sch_Br_x30_pos_5-47_295.mzXML,MS,,,H5,295,47 Cingulate Posterior (BA31),Limbic cortex,5_47,Batch4_Sch_Br_x30_pos_5-47_295.mzXML,schiz,295.0
+164,Batch3,Batch3_Sch_Br_x30_pos_3-47_229.mzXML,MS,,,H3,229,47 Cingulate Posterior (BA31),Limbic cortex,3_47,Batch3_Sch_Br_x30_pos_3-47_229.mzXML,schiz,229.0
+165,Batch1,Batch1_Sch_Br_x30_pos_1-48_11.mzXML,MS,,,H1,11,48 Cingulate Anterior (BA24),Limbic cortex,1_48,Batch1_Sch_Br_x30_pos_1-48_11.mzXML,schiz,11.0
+166,Batch2,Batch2_Sch_Br_x30_pos_2-48_165.mzXML,MS,,,H2,165,48 Cingulate Anterior (BA24),Limbic cortex,2_48,Batch2_Sch_Br_x30_pos_2-48_165.mzXML,schiz,165.0
+167,Batch3,Batch3_Sch_Br_x30_pos_3-48_183.mzXML,MS,,,H3,183,48 Cingulate Anterior (BA24),Limbic cortex,3_48,Batch3_Sch_Br_x30_pos_3-48_183.mzXML,schiz,183.0
+168,Batch4,Batch4_Sch_Br_x30_pos_5-48_345.mzXML,MS,,,H5,345,48 Cingulate Anterior (BA24),Limbic cortex,5_48,Batch4_Sch_Br_x30_pos_5-48_345.mzXML,schiz,345.0
+169,Batch1,Batch1_Sch_Br_x30_pos_1-49_7.mzXML,MS,,,H1,7,49 Cingulate Anterior (BA32),Limbic cortex,1_49,Batch1_Sch_Br_x30_pos_1-49_7.mzXML,schiz,7.0
+170,Batch2,Batch2_Sch_Br_x30_pos_2-49_106.mzXML,MS,,,H2,106,49 Cingulate Anterior (BA32),Limbic cortex,2_49,Batch2_Sch_Br_x30_pos_2-49_106.mzXML,schiz,106.0
+171,Batch3,Batch3_Sch_Br_x30_pos_3-49_241.mzXML,MS,,,H3,241,49 Cingulate Anterior (BA32),Limbic cortex,3_49,Batch3_Sch_Br_x30_pos_3-49_241.mzXML,schiz,241.0
+172,Batch4,Batch4_Sch_Br_x30_pos_5-49_336.mzXML,MS,,,H5,336,49 Cingulate Anterior (BA32),Limbic cortex,5_49,Batch4_Sch_Br_x30_pos_5-49_336.mzXML,schiz,336.0
+173,Batch1,Batch1_Sch_Br_x30_pos_1-05_77.mzXML,MS,,,H1,77,5  Retrosplenial (BA29/30),Limbic cortex,1_05,Batch1_Sch_Br_x30_pos_1-05_77.mzXML,schiz,77.0
+174,Batch2,Batch2_Sch_Br_x30_pos_2-05_108.mzXML,MS,,,H2,108,5  Retrosplenial (BA29/30),Limbic cortex,2_05,Batch2_Sch_Br_x30_pos_2-05_108.mzXML,schiz,108.0
+175,Batch3,Batch3_Sch_Br_x30_pos_3-05_211.mzXML,MS,,,H3,211,5  Retrosplenial (BA29/30),Limbic cortex,3_05,Batch3_Sch_Br_x30_pos_3-05_211.mzXML,schiz,211.0
+176,Batch4,Batch4_Sch_Br_x30_pos_5-05_340.mzXML,MS,,,H5,340,5  Retrosplenial (BA29/30),Limbic cortex,5_05,Batch4_Sch_Br_x30_pos_5-05_340.mzXML,schiz,340.0
+177,Batch1,Batch1_Sch_Br_x30_pos_1-50_64.mzXML,MS,,,H1,64,50 Orbitofrontal (BA11),Associative cortex,1_50,Batch1_Sch_Br_x30_pos_1-50_64.mzXML,schiz,64.0
+178,Batch2,Batch2_Sch_Br_x30_pos_2-50_162.mzXML,MS,,,H2,162,50 Orbitofrontal (BA11),Associative cortex,2_50,Batch2_Sch_Br_x30_pos_2-50_162.mzXML,schiz,162.0
+179,Batch3,Batch3_Sch_Br_x30_pos_3-50_222.mzXML,MS,,,H3,222,50 Orbitofrontal (BA11),Associative cortex,3_50,Batch3_Sch_Br_x30_pos_3-50_222.mzXML,schiz,222.0
+180,Batch4,Batch4_Sch_Br_x30_pos_5-50_277.mzXML,MS,,,H5,277,50 Orbitofrontal (BA11),Associative cortex,5_50,Batch4_Sch_Br_x30_pos_5-50_277.mzXML,schiz,277.0
+181,Batch1,Batch1_Sch_Br_x30_pos_1-51_1.mzXML,MS,,,H1,1,51 Piriform Cortex,Primary cortex,1_51,Batch1_Sch_Br_x30_pos_1-51_1.mzXML,schiz,1.0
+182,Batch2,Batch2_Sch_Br_x30_pos_2-51_160.mzXML,MS,,,H2,160,51 Piriform Cortex,Primary cortex,2_51,Batch2_Sch_Br_x30_pos_2-51_160.mzXML,schiz,160.0
+183,Batch3,Batch3_Sch_Br_x30_pos_3-51_233.mzXML,MS,,,H3,233,51 Piriform Cortex,Primary cortex,3_51,Batch3_Sch_Br_x30_pos_3-51_233.mzXML,schiz,233.0
+184,Batch4,Batch4_Sch_Br_x30_pos_5-51_281.mzXML,MS,,,H5,281,51 Piriform Cortex,Primary cortex,5_51,Batch4_Sch_Br_x30_pos_5-51_281.mzXML,schiz,281.0
+185,Batch1,Batch1_Sch_Br_x30_pos_1-52_57.mzXML,MS,,,H1,57,52 Amygdala,Limbic cortex,1_52,Batch1_Sch_Br_x30_pos_1-52_57.mzXML,schiz,57.0
+186,Batch2,Batch2_Sch_Br_x30_pos_2-52_118.mzXML,MS,,,H2,118,52 Amygdala,Limbic cortex,2_52,Batch2_Sch_Br_x30_pos_2-52_118.mzXML,schiz,118.0
+187,Batch3,Batch3_Sch_Br_x30_pos_3-52_225.mzXML,MS,,,H3,225,52 Amygdala,Limbic cortex,3_52,Batch3_Sch_Br_x30_pos_3-52_225.mzXML,schiz,225.0
+188,Batch4,Batch4_Sch_Br_x30_pos_5-52_273.mzXML,MS,,,H5,273,52 Amygdala,Limbic cortex,5_52,Batch4_Sch_Br_x30_pos_5-52_273.mzXML,schiz,273.0
+189,Batch1,Batch1_Sch_Br_x30_pos_1-53_2.mzXML,MS,,,H1,2,53 Insular Posterior Cortex,Associative cortex,1_53,Batch1_Sch_Br_x30_pos_1-53_2.mzXML,schiz,2.0
+190,Batch2,Batch2_Sch_Br_x30_pos_2-53_138.mzXML,MS,,,H2,138,53 Insular Posterior Cortex,Associative cortex,2_53,Batch2_Sch_Br_x30_pos_2-53_138.mzXML,schiz,138.0
+191,Batch3,Batch3_Sch_Br_x30_pos_3-53_192.mzXML,MS,,,H3,192,53 Insular Posterior Cortex,Associative cortex,3_53,Batch3_Sch_Br_x30_pos_3-53_192.mzXML,schiz,192.0
+192,Batch4,Batch4_Sch_Br_x30_pos_5-53_303.mzXML,MS,,,H5,303,53 Insular Posterior Cortex,Associative cortex,5_53,Batch4_Sch_Br_x30_pos_5-53_303.mzXML,schiz,303.0
+193,Batch1,Batch1_Sch_Br_x30_pos_1-54_26.mzXML,MS,,,H1,26,54 Entorhinal Cortex,Limbic cortex,1_54,Batch1_Sch_Br_x30_pos_1-54_26.mzXML,schiz,26.0
+194,Batch2,Batch2_Sch_Br_x30_pos_2-54_101.mzXML,MS,,,H2,101,54 Entorhinal Cortex,Limbic cortex,2_54,Batch2_Sch_Br_x30_pos_2-54_101.mzXML,schiz,101.0
+195,Batch3,Batch3_Sch_Br_x30_pos_3-54_263.mzXML,MS,,,H3,263,54 Entorhinal Cortex,Limbic cortex,3_54,Batch3_Sch_Br_x30_pos_3-54_263.mzXML,schiz,263.0
+196,Batch1,Batch1_Sch_Br_x30_pos_1-55_75.mzXML,MS,,,H1,75,"55 Hippocampus, CA3 / Dentate Gyrus",Limbic cortex,1_55,Batch1_Sch_Br_x30_pos_1-55_75.mzXML,schiz,75.0
+197,Batch2,Batch2_Sch_Br_x30_pos_2-55_128.mzXML,MS,,,H2,128,"55 Hippocampus, CA3 / Dentate Gyrus",Limbic cortex,2_55,Batch2_Sch_Br_x30_pos_2-55_128.mzXML,schiz,128.0
+198,Batch4,Batch4_Sch_Br_x30_pos_5-55_309.mzXML,MS,,,H5,309,"55 Hippocampus, CA3 / Dentate Gyrus",Limbic cortex,5_55,Batch4_Sch_Br_x30_pos_5-55_309.mzXML,schiz,309.0
+199,Batch1,Batch1_Sch_Br_x30_pos_1-56_66.mzXML,MS,,,H1,66,56 Nucleus Accumbens,Basal Ganglia,1_56,Batch1_Sch_Br_x30_pos_1-56_66.mzXML,schiz,66.0
+200,Batch2,Batch2_Sch_Br_x30_pos_2-56_140.mzXML,MS,,,H2,140,56 Nucleus Accumbens,Basal Ganglia,2_56,Batch2_Sch_Br_x30_pos_2-56_140.mzXML,schiz,140.0
+201,Batch3,Batch3_Sch_Br_x30_pos_3-56_220.mzXML,MS,,,H3,220,56 Nucleus Accumbens,Basal Ganglia,3_56,Batch3_Sch_Br_x30_pos_3-56_220.mzXML,schiz,220.0
+202,Batch4,Batch4_Sch_Br_x30_pos_5-56_305.mzXML,MS,,,H5,305,56 Nucleus Accumbens,Basal Ganglia,5_56,Batch4_Sch_Br_x30_pos_5-56_305.mzXML,schiz,305.0
+203,Batch1,Batch1_Sch_Br_x30_pos_1-57_52.mzXML,MS,,,H1,52,57 Caudate,Basal Ganglia,1_57,Batch1_Sch_Br_x30_pos_1-57_52.mzXML,schiz,52.0
+204,Batch2,Batch2_Sch_Br_x30_pos_2-57_129.mzXML,MS,,,H2,129,57 Caudate,Basal Ganglia,2_57,Batch2_Sch_Br_x30_pos_2-57_129.mzXML,schiz,129.0
+205,Batch3,Batch3_Sch_Br_x30_pos_3-57_231.mzXML,MS,,,H3,231,57 Caudate,Basal Ganglia,3_57,Batch3_Sch_Br_x30_pos_3-57_231.mzXML,schiz,231.0
+206,Batch4,Batch4_Sch_Br_x30_pos_5-57_301.mzXML,MS,,,H5,301,57 Caudate,Basal Ganglia,5_57,Batch4_Sch_Br_x30_pos_5-57_301.mzXML,schiz,301.0
+207,Batch1,Batch1_Sch_Br_x30_pos_1-58_50.mzXML,MS,,,H1,50,58 Putamen,Basal Ganglia,1_58,Batch1_Sch_Br_x30_pos_1-58_50.mzXML,schiz,50.0
+208,Batch2,Batch2_Sch_Br_x30_pos_2-58_147.mzXML,MS,,,H2,147,58 Putamen,Basal Ganglia,2_58,Batch2_Sch_Br_x30_pos_2-58_147.mzXML,schiz,147.0
+209,Batch3,Batch3_Sch_Br_x30_pos_3-58_256.mzXML,MS,,,H3,256,58 Putamen,Basal Ganglia,3_58,Batch3_Sch_Br_x30_pos_3-58_256.mzXML,schiz,256.0
+210,Batch4,Batch4_Sch_Br_x30_pos_5-58_287.mzXML,MS,,,H5,287,58 Putamen,Basal Ganglia,5_58,Batch4_Sch_Br_x30_pos_5-58_287.mzXML,schiz,287.0
+211,Batch1,Batch1_Sch_Br_x30_pos_1-59_33.mzXML,MS,,,H1,33,59 Deep Nuclei - Dentate Nucleus,Cerebellum,1_59,Batch1_Sch_Br_x30_pos_1-59_33.mzXML,schiz,33.0
+212,Batch2,Batch2_Sch_Br_x30_pos_2-59_131.mzXML,MS,,,H2,131,59 Deep Nuclei - Dentate Nucleus,Cerebellum,2_59,Batch2_Sch_Br_x30_pos_2-59_131.mzXML,schiz,131.0
+213,Batch3,Batch3_Sch_Br_x30_pos_3-59_237.mzXML,MS,,,H3,237,59 Deep Nuclei - Dentate Nucleus,Cerebellum,3_59,Batch3_Sch_Br_x30_pos_3-59_237.mzXML,schiz,237.0
+214,Batch4,Batch4_Sch_Br_x30_pos_5-59_290.mzXML,MS,,,H5,290,59 Deep Nuclei - Dentate Nucleus,Cerebellum,5_59,Batch4_Sch_Br_x30_pos_5-59_290.mzXML,schiz,290.0
+215,Batch1,Batch1_Sch_Br_x30_pos_1-06_25.mzXML,MS,,,H1,25,6  Anterior Middle Temporal (BA37-aMT),Secondary cortex,1_06,Batch1_Sch_Br_x30_pos_1-06_25.mzXML,schiz,25.0
+216,Batch2,Batch2_Sch_Br_x30_pos_2-06_135.mzXML,MS,,,H2,135,6  Anterior Middle Temporal (BA37-aMT),Secondary cortex,2_06,Batch2_Sch_Br_x30_pos_2-06_135.mzXML,schiz,135.0
+217,Batch3,Batch3_Sch_Br_x30_pos_3-06_203.mzXML,MS,,,H3,203,6  Anterior Middle Temporal (BA37-aMT),Secondary cortex,3_06,Batch3_Sch_Br_x30_pos_3-06_203.mzXML,schiz,203.0
+218,Batch4,Batch4_Sch_Br_x30_pos_5-06_353.mzXML,MS,,,H5,353,6  Anterior Middle Temporal (BA37-aMT),Secondary cortex,5_06,Batch4_Sch_Br_x30_pos_5-06_353.mzXML,schiz,353.0
+219,Batch1,Batch1_Sch_Br_x30_pos_1-60_55.mzXML,MS,,,H1,55,60 Superior Colliculus,Midbrain,1_60,Batch1_Sch_Br_x30_pos_1-60_55.mzXML,schiz,55.0
+220,Batch2,Batch2_Sch_Br_x30_pos_2-60_130.mzXML,MS,,,H2,130,60 Superior Colliculus,Midbrain,2_60,Batch2_Sch_Br_x30_pos_2-60_130.mzXML,schiz,130.0
+221,Batch3,Batch3_Sch_Br_x30_pos_3-60_224.mzXML,MS,,,H3,224,60 Superior Colliculus,Midbrain,3_60,Batch3_Sch_Br_x30_pos_3-60_224.mzXML,schiz,224.0
+222,Batch4,Batch4_Sch_Br_x30_pos_5-60_318.mzXML,MS,,,H5,318,60 Superior Colliculus,Midbrain,5_60,Batch4_Sch_Br_x30_pos_5-60_318.mzXML,schiz,318.0
+223,Batch1,Batch1_Sch_Br_x30_pos_1-61_41.mzXML,MS,,,H1,41,61 Pulvinar Thalamus,Thalamus,1_61,Batch1_Sch_Br_x30_pos_1-61_41.mzXML,schiz,41.0
+224,Batch2,Batch2_Sch_Br_x30_pos_2-61_114.mzXML,MS,,,H2,114,61 Pulvinar Thalamus,Thalamus,2_61,Batch2_Sch_Br_x30_pos_2-61_114.mzXML,schiz,114.0
+225,Batch3,Batch3_Sch_Br_x30_pos_3-61_253.mzXML,MS,,,H3,253,61 Pulvinar Thalamus,Thalamus,3_61,Batch3_Sch_Br_x30_pos_3-61_253.mzXML,schiz,253.0
+226,Batch4,Batch4_Sch_Br_x30_pos_5-61_317.mzXML,MS,,,H5,317,61 Pulvinar Thalamus,Thalamus,5_61,Batch4_Sch_Br_x30_pos_5-61_317.mzXML,schiz,317.0
+227,Batch1,Batch1_Sch_Br_x30_pos_1-62_16.mzXML,MS,,,H1,16,62 Red Nucleus,Midbrain,1_62,Batch1_Sch_Br_x30_pos_1-62_16.mzXML,schiz,16.0
+228,Batch2,Batch2_Sch_Br_x30_pos_2-62_164.mzXML,MS,,,H2,164,62 Red Nucleus,Midbrain,2_62,Batch2_Sch_Br_x30_pos_2-62_164.mzXML,schiz,164.0
+229,Batch3,Batch3_Sch_Br_x30_pos_3-62_249.mzXML,MS,,,H3,249,62 Red Nucleus,Midbrain,3_62,Batch3_Sch_Br_x30_pos_3-62_249.mzXML,schiz,249.0
+230,Batch1,Batch1_Sch_Br_x30_pos_1-63_19.mzXML,MS,,,H1,19,63 Substantia Nigra,Basal Ganglia,1_63,Batch1_Sch_Br_x30_pos_1-63_19.mzXML,schiz,19.0
+231,Batch2,Batch2_Sch_Br_x30_pos_2-63_119.mzXML,MS,,,H2,119,63 Substantia Nigra,Basal Ganglia,2_63,Batch2_Sch_Br_x30_pos_2-63_119.mzXML,schiz,119.0
+232,Batch3,Batch3_Sch_Br_x30_pos_3-63_184.mzXML,MS,,,H3,184,63 Substantia Nigra,Basal Ganglia,3_63,Batch3_Sch_Br_x30_pos_3-63_184.mzXML,schiz,184.0
+233,Batch4,Batch4_Sch_Br_x30_pos_5-63_315.mzXML,MS,,,H5,315,63 Substantia Nigra,Basal Ganglia,5_63,Batch4_Sch_Br_x30_pos_5-63_315.mzXML,schiz,315.0
+234,Batch1,Batch1_Sch_Br_x30_pos_1-64_14.mzXML,MS,,,H1,14,64 Globus Pallidus,Basal Ganglia,1_64,Batch1_Sch_Br_x30_pos_1-64_14.mzXML,schiz,14.0
+235,Batch2,Batch2_Sch_Br_x30_pos_2-64_166.mzXML,MS,,,H2,166,64 Globus Pallidus,Basal Ganglia,2_64,Batch2_Sch_Br_x30_pos_2-64_166.mzXML,schiz,166.0
+236,Batch3,Batch3_Sch_Br_x30_pos_3-64_255.mzXML,MS,,,H3,255,64 Globus Pallidus,Basal Ganglia,3_64,Batch3_Sch_Br_x30_pos_3-64_255.mzXML,schiz,255.0
+237,Batch4,Batch4_Sch_Br_x30_pos_5-64_335.mzXML,MS,,,H5,335,64 Globus Pallidus,Basal Ganglia,5_64,Batch4_Sch_Br_x30_pos_5-64_335.mzXML,schiz,335.0
+238,Batch1,Batch1_Sch_Br_x30_pos_1-65_53.mzXML,MS,,,H1,53,"65 Hippocampus, CA1",Limbic cortex,1_65,Batch1_Sch_Br_x30_pos_1-65_53.mzXML,schiz,53.0
+239,Batch2,Batch2_Sch_Br_x30_pos_2-65_123.mzXML,MS,,,H2,123,"65 Hippocampus, CA1",Limbic cortex,2_65,Batch2_Sch_Br_x30_pos_2-65_123.mzXML,schiz,123.0
+240,Batch3,Batch3_Sch_Br_x30_pos_3-65_235.mzXML,MS,,,H3,235,"65 Hippocampus, CA1",Limbic cortex,3_65,Batch3_Sch_Br_x30_pos_3-65_235.mzXML,schiz,235.0
+241,Batch4,Batch4_Sch_Br_x30_pos_5-65_330.mzXML,MS,,,H5,330,"65 Hippocampus, CA1",Limbic cortex,5_65,Batch4_Sch_Br_x30_pos_5-65_330.mzXML,schiz,330.0
+242,Batch1,Batch1_Sch_Br_x30_pos_1-66_70.mzXML,MS,,,H1,70,66 Subiculum,Limbic cortex,1_66,Batch1_Sch_Br_x30_pos_1-66_70.mzXML,schiz,70.0
+243,Batch2,Batch2_Sch_Br_x30_pos_2-66_126.mzXML,MS,,,H2,126,66 Subiculum,Limbic cortex,2_66,Batch2_Sch_Br_x30_pos_2-66_126.mzXML,schiz,126.0
+244,Batch3,Batch3_Sch_Br_x30_pos_3-66_257.mzXML,MS,,,H3,257,66 Subiculum,Limbic cortex,3_66,Batch3_Sch_Br_x30_pos_3-66_257.mzXML,schiz,257.0
+245,Batch4,Batch4_Sch_Br_x30_pos_5-66_338.mzXML,MS,,,H5,338,66 Subiculum,Limbic cortex,5_66,Batch4_Sch_Br_x30_pos_5-66_338.mzXML,schiz,338.0
+246,Batch1,Batch1_Sch_Br_x30_pos_1-67_31.mzXML,MS,,,H1,31,67 Ventral Anterior Thalamus,Thalamus,1_67,Batch1_Sch_Br_x30_pos_1-67_31.mzXML,schiz,31.0
+247,Batch3,Batch3_Sch_Br_x30_pos_3-67_202.mzXML,MS,,,H3,202,67 Ventral Anterior Thalamus,Thalamus,3_67,Batch3_Sch_Br_x30_pos_3-67_202.mzXML,schiz,202.0
+248,Batch4,Batch4_Sch_Br_x30_pos_5-67_331.mzXML,MS,,,H5,331,67 Ventral Anterior Thalamus,Thalamus,5_67,Batch4_Sch_Br_x30_pos_5-67_331.mzXML,schiz,331.0
+249,Batch1,Batch1_Sch_Br_x30_pos_1-68_58.mzXML,MS,,,H1,58,68 Medial Dorsal Thalamus,Thalamus,1_68,Batch1_Sch_Br_x30_pos_1-68_58.mzXML,schiz,58.0
+250,Batch2,Batch2_Sch_Br_x30_pos_2-68_155.mzXML,MS,,,H2,155,68 Medial Dorsal Thalamus,Thalamus,2_68,Batch2_Sch_Br_x30_pos_2-68_155.mzXML,schiz,155.0
+251,Batch3,Batch3_Sch_Br_x30_pos_3-68_191.mzXML,MS,,,H3,191,68 Medial Dorsal Thalamus,Thalamus,3_68,Batch3_Sch_Br_x30_pos_3-68_191.mzXML,schiz,191.0
+252,Batch4,Batch4_Sch_Br_x30_pos_5-68_321.mzXML,MS,,,H5,321,68 Medial Dorsal Thalamus,Thalamus,5_68,Batch4_Sch_Br_x30_pos_5-68_321.mzXML,schiz,321.0
+253,Batch1,Batch1_Sch_Br_x30_pos_1-69_37.mzXML,MS,,,H1,37,69 Hypothalamus,Hypothalamus,1_69,Batch1_Sch_Br_x30_pos_1-69_37.mzXML,schiz,37.0
+254,Batch2,Batch2_Sch_Br_x30_pos_2-69_141.mzXML,MS,,,H2,141,69 Hypothalamus,Hypothalamus,2_69,Batch2_Sch_Br_x30_pos_2-69_141.mzXML,schiz,141.0
+255,Batch4,Batch4_Sch_Br_x30_pos_5-69_328.mzXML,MS,,,H5,328,69 Hypothalamus,Hypothalamus,5_69,Batch4_Sch_Br_x30_pos_5-69_328.mzXML,schiz,328.0
+256,Batch1,Batch1_Sch_Br_x30_pos_1-07_20.mzXML,MS,,,H1,20,7  Orbitofrontal (BA47),Associative cortex,1_07,Batch1_Sch_Br_x30_pos_1-07_20.mzXML,schiz,20.0
+257,Batch2,Batch2_Sch_Br_x30_pos_2-07_144.mzXML,MS,,,H2,144,7  Orbitofrontal (BA47),Associative cortex,2_07,Batch2_Sch_Br_x30_pos_2-07_144.mzXML,schiz,144.0
+258,Batch3,Batch3_Sch_Br_x30_pos_3-07_213.mzXML,MS,,,H3,213,7  Orbitofrontal (BA47),Associative cortex,3_07,Batch3_Sch_Br_x30_pos_3-07_213.mzXML,schiz,213.0
+259,Batch4,Batch4_Sch_Br_x30_pos_5-07_286.mzXML,MS,,,H5,286,7  Orbitofrontal (BA47),Associative cortex,5_07,Batch4_Sch_Br_x30_pos_5-07_286.mzXML,schiz,286.0
+260,Batch1,Batch1_Sch_Br_x30_pos_1-70_28.mzXML,MS,,,H1,28,70 Ventral Lateral Thalamus,Thalamus,1_70,Batch1_Sch_Br_x30_pos_1-70_28.mzXML,schiz,28.0
+261,Batch2,Batch2_Sch_Br_x30_pos_2-70_137.mzXML,MS,,,H2,137,70 Ventral Lateral Thalamus,Thalamus,2_70,Batch2_Sch_Br_x30_pos_2-70_137.mzXML,schiz,137.0
+262,Batch3,Batch3_Sch_Br_x30_pos_3-70_240.mzXML,MS,,,H3,240,70 Ventral Lateral Thalamus,Thalamus,3_70,Batch3_Sch_Br_x30_pos_3-70_240.mzXML,schiz,240.0
+263,Batch4,Batch4_Sch_Br_x30_pos_5-70_349.mzXML,MS,,,H5,349,70 Ventral Lateral Thalamus,Thalamus,5_70,Batch4_Sch_Br_x30_pos_5-70_349.mzXML,schiz,349.0
+264,Batch1,Batch1_Sch_Br_x30_pos_1-71_10.mzXML,MS,,,H1,10,71 External Capsule,White matter,1_71,Batch1_Sch_Br_x30_pos_1-71_10.mzXML,schiz,10.0
+265,Batch2,Batch2_Sch_Br_x30_pos_2-71_132.mzXML,MS,,,H2,132,71 External Capsule,White matter,2_71,Batch2_Sch_Br_x30_pos_2-71_132.mzXML,schiz,132.0
+266,Batch3,Batch3_Sch_Br_x30_pos_3-71_221.mzXML,MS,,,H3,221,71 External Capsule,White matter,3_71,Batch3_Sch_Br_x30_pos_3-71_221.mzXML,schiz,221.0
+267,Batch4,Batch4_Sch_Br_x30_pos_5-71_307.mzXML,MS,,,H5,307,71 External Capsule,White matter,5_71,Batch4_Sch_Br_x30_pos_5-71_307.mzXML,schiz,307.0
+268,Batch1,Batch1_Sch_Br_x30_pos_1-72_32.mzXML,MS,,,H1,32,72 Internal Capsule,White matter,1_72,Batch1_Sch_Br_x30_pos_1-72_32.mzXML,schiz,32.0
+269,Batch2,Batch2_Sch_Br_x30_pos_2-72_109.mzXML,MS,,,H2,109,72 Internal Capsule,White matter,2_72,Batch2_Sch_Br_x30_pos_2-72_109.mzXML,schiz,109.0
+270,Batch3,Batch3_Sch_Br_x30_pos_3-72_214.mzXML,MS,,,H3,214,72 Internal Capsule,White matter,3_72,Batch3_Sch_Br_x30_pos_3-72_214.mzXML,schiz,214.0
+271,Batch4,Batch4_Sch_Br_x30_pos_5-72_346.mzXML,MS,,,H5,346,72 Internal Capsule,White matter,5_72,Batch4_Sch_Br_x30_pos_5-72_346.mzXML,schiz,346.0
+272,Batch1,Batch1_Sch_Br_x30_pos_1-73_9.mzXML,MS,,,H1,9,73 Corpus Callosum Anterior,White matter,1_73,Batch1_Sch_Br_x30_pos_1-73_9.mzXML,schiz,9.0
+273,Batch2,Batch2_Sch_Br_x30_pos_2-73_153.mzXML,MS,,,H2,153,73 Corpus Callosum Anterior,White matter,2_73,Batch2_Sch_Br_x30_pos_2-73_153.mzXML,schiz,153.0
+274,Batch3,Batch3_Sch_Br_x30_pos_3-73_187.mzXML,MS,,,H3,187,73 Corpus Callosum Anterior,White matter,3_73,Batch3_Sch_Br_x30_pos_3-73_187.mzXML,schiz,187.0
+275,Batch4,Batch4_Sch_Br_x30_pos_5-73_310.mzXML,MS,,,H5,310,73 Corpus Callosum Anterior,White matter,5_73,Batch4_Sch_Br_x30_pos_5-73_310.mzXML,schiz,310.0
+276,Batch1,Batch1_Sch_Br_x30_pos_1-74_76.mzXML,MS,,,H1,76,74 Corpus Callosum Posterior,White matter,1_74,Batch1_Sch_Br_x30_pos_1-74_76.mzXML,schiz,76.0
+277,Batch2,Batch2_Sch_Br_x30_pos_2-74_92.mzXML,MS,,,H2,92,74 Corpus Callosum Posterior,White matter,2_74,Batch2_Sch_Br_x30_pos_2-74_92.mzXML,schiz,92.0
+278,Batch3,Batch3_Sch_Br_x30_pos_3-74_251.mzXML,MS,,,H3,251,74 Corpus Callosum Posterior,White matter,3_74,Batch3_Sch_Br_x30_pos_3-74_251.mzXML,schiz,251.0
+279,Batch4,Batch4_Sch_Br_x30_pos_5-74_337.mzXML,MS,,,H5,337,74 Corpus Callosum Posterior,White matter,5_74,Batch4_Sch_Br_x30_pos_5-74_337.mzXML,schiz,337.0
+280,Batch1,Batch1_Sch_Br_x30_pos_1-75_71.mzXML,MS,,,H1,71,75 Cerebellar White Matter,Cerebellum,1_75,Batch1_Sch_Br_x30_pos_1-75_71.mzXML,schiz,71.0
+281,Batch2,Batch2_Sch_Br_x30_pos_2-75_112.mzXML,MS,,,H2,112,75 Cerebellar White Matter,Cerebellum,2_75,Batch2_Sch_Br_x30_pos_2-75_112.mzXML,schiz,112.0
+282,Batch3,Batch3_Sch_Br_x30_pos_3-75_209.mzXML,MS,,,H3,209,75 Cerebellar White Matter,Cerebellum,3_75,Batch3_Sch_Br_x30_pos_3-75_209.mzXML,schiz,209.0
+283,Batch4,Batch4_Sch_Br_x30_pos_5-75_302.mzXML,MS,,,H5,302,75 Cerebellar White Matter,Cerebellum,5_75,Batch4_Sch_Br_x30_pos_5-75_302.mzXML,schiz,302.0
+284,Batch1,Batch1_Sch_Br_x30_pos_1-08_62.mzXML,MS,,,H1,62,8  Cingulate Posterior (BA23a),Limbic cortex,1_08,Batch1_Sch_Br_x30_pos_1-08_62.mzXML,schiz,62.0
+285,Batch2,Batch2_Sch_Br_x30_pos_2-08_149.mzXML,MS,,,H2,149,8  Cingulate Posterior (BA23a),Limbic cortex,2_08,Batch2_Sch_Br_x30_pos_2-08_149.mzXML,schiz,149.0
+286,Batch3,Batch3_Sch_Br_x30_pos_3-08_215.mzXML,MS,,,H3,215,8  Cingulate Posterior (BA23a),Limbic cortex,3_08,Batch3_Sch_Br_x30_pos_3-08_215.mzXML,schiz,215.0
+287,Batch4,Batch4_Sch_Br_x30_pos_5-08_275.mzXML,MS,,,H5,275,8  Cingulate Posterior (BA23a),Limbic cortex,5_08,Batch4_Sch_Br_x30_pos_5-08_275.mzXML,schiz,275.0
+288,Batch1,Batch1_Sch_Br_x30_pos_1-09_23.mzXML,MS,,,H1,23,9  2ary Somatosensory Cortex,Secondary cortex,1_09,Batch1_Sch_Br_x30_pos_1-09_23.mzXML,schiz,23.0
+289,Batch2,Batch2_Sch_Br_x30_pos_2-09_97.mzXML,MS,,,H2,97,9  2ary Somatosensory Cortex,Secondary cortex,2_09,Batch2_Sch_Br_x30_pos_2-09_97.mzXML,schiz,97.0
+290,Batch3,Batch3_Sch_Br_x30_pos_3-09_232.mzXML,MS,,,H3,232,9  2ary Somatosensory Cortex,Secondary cortex,3_09,Batch3_Sch_Br_x30_pos_3-09_232.mzXML,schiz,232.0
+291,Batch4,Batch4_Sch_Br_x30_pos_5-09_312.mzXML,MS,,,H5,312,9  2ary Somatosensory Cortex,Secondary cortex,5_09,Batch4_Sch_Br_x30_pos_5-09_312.mzXML,schiz,312.0

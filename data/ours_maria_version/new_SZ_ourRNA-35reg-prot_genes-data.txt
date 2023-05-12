@@ -1,0 +1,140 @@
+1	Batch1_Sch_Br_x30_pos_1-01_29.mzXML	MS	NA	NA	H1	29	1  Cerebellar Grey Matter	Cerebellum
+1	Batch1_Sch_Br_x30_pos_1-15_81.mzXML	MS	NA	NA	H1	81	15 1ary Motor (BA4)	Primary cortex
+1	Batch1_Sch_Br_x30_pos_1-16_38.mzXML	MS	NA	NA	H1	38	16 1ary Auditory (BA41/42)	Primary cortex
+1	Batch1_Sch_Br_x30_pos_1-17_73.mzXML	MS	NA	NA	H1	73	17 1ary Visual Anterior (BA17a)	Primary cortex
+1	Batch1_Sch_Br_x30_pos_1-18_42.mzXML	MS	NA	NA	H1	42	18 1ary Somatosensory (BA3/1/2)	Primary cortex
+1	Batch1_Sch_Br_x30_pos_1-27_3.mzXML	MS	NA	NA	H1	3	27 2ary/3ary Visual Anterior (BA18/19a)	Secondary cortex
+1	Batch1_Sch_Br_x30_pos_1-28_78.mzXML	MS	NA	NA	H1	78	28 2ary Auditory, Wernicke (BA22p)	Secondary cortex
+1	Batch1_Sch_Br_x30_pos_1-29_49.mzXML	MS	NA	NA	H1	49	29 Precuneus (BA7m)	Associative cortex
+1	Batch1_Sch_Br_x30_pos_1-30_69.mzXML	MS	NA	NA	H1	69	30 Premotor Anterior Lateral (BA6a)	Secondary cortex
+1	Batch1_Sch_Br_x30_pos_1-31_27.mzXML	MS	NA	NA	H1	27	31 Supramarginal Posterior (BA40p)	Associative cortex
+1	Batch1_Sch_Br_x30_pos_1-32_74.mzXML	MS	NA	NA	H1	74	32 Ventrolateral Prefrontal, Broca (BA44)	Associative cortex
+1	Batch1_Sch_Br_x30_pos_1-33_35.mzXML	MS	NA	NA	H1	35	33 Anterior Inferior Temporal (BA20a)	Associative cortex
+1	Batch1_Sch_Br_x30_pos_1-34_51.mzXML	MS	NA	NA	H1	51	34 Dorsolateral Prefrontal (BA9)	Associative cortex
+1	Batch1_Sch_Br_x30_pos_1-37_6.mzXML	MS	NA	NA	H1	6	37 2ary Auditory Anterior (BA21a)	Secondary cortex
+1	Batch1_Sch_Br_x30_pos_1-43_8.mzXML	MS	NA	NA	H1	8	43 Temporopolar (BA38)	Associative cortex
+1	Batch1_Sch_Br_x30_pos_1-46_13.mzXML	MS	NA	NA	H1	13	46 Prefrontal Medial (BA10m)	Associative cortex
+1	Batch1_Sch_Br_x30_pos_1-47_45.mzXML	MS	NA	NA	H1	45	47 Cingulate Posterior (BA31)	Limbic cortex
+1	Batch1_Sch_Br_x30_pos_1-48_11.mzXML	MS	NA	NA	H1	11	48 Cingulate Anterior (BA24)	Limbic cortex
+1	Batch1_Sch_Br_x30_pos_1-49_7.mzXML	MS	NA	NA	H1	7	49 Cingulate Anterior (BA32)	Limbic cortex
+1	Batch1_Sch_Br_x30_pos_1-50_64.mzXML	MS	NA	NA	H1	64	50 Orbitofrontal (BA11)	Associative cortex
+1	Batch1_Sch_Br_x30_pos_1-52_57.mzXML	MS	NA	NA	H1	57	52 Amygdala	Limbic cortex
+1	Batch1_Sch_Br_x30_pos_1-53_2.mzXML	MS	NA	NA	H1	2	53 Insular Posterior Cortex	Associative cortex
+1	Batch1_Sch_Br_x30_pos_1-54_26.mzXML	MS	NA	NA	H1	26	54 Entorhinal Cortex	Limbic cortex
+1	Batch1_Sch_Br_x30_pos_1-55_75.mzXML	MS	NA	NA	H1	75	55 Hippocampus, CA3 / Dentate Gyrus	Limbic cortex
+1	Batch1_Sch_Br_x30_pos_1-56_66.mzXML	MS	NA	NA	H1	66	56 Nucleus Accumbens	Basal Ganglia
+1	Batch1_Sch_Br_x30_pos_1-57_52.mzXML	MS	NA	NA	H1	52	57 Caudate	Basal Ganglia
+1	Batch1_Sch_Br_x30_pos_1-58_50.mzXML	MS	NA	NA	H1	50	58 Putamen	Basal Ganglia
+1	Batch1_Sch_Br_x30_pos_1-63_19.mzXML	MS	NA	NA	H1	19	63 Substantia Nigra	Basal Ganglia
+1	Batch1_Sch_Br_x30_pos_1-64_14.mzXML	MS	NA	NA	H1	14	64 Globus Pallidus	Basal Ganglia
+1	Batch1_Sch_Br_x30_pos_1-68_58.mzXML	MS	NA	NA	H1	58	68 Medial Dorsal Thalamus	Thalamus
+1	Batch1_Sch_Br_x30_pos_1-69_37.mzXML	MS	NA	NA	H1	37	69 Hypothalamus	Hypothalamus
+1	Batch1_Sch_Br_x30_pos_1-72_32.mzXML	MS	NA	NA	H1	32	72 Internal Capsule	White matter
+1	Batch1_Sch_Br_x30_pos_1-73_9.mzXML	MS	NA	NA	H1	9	73 Corpus Callosum Anterior	White matter
+1	Batch1_Sch_Br_x30_pos_1-74_76.mzXML	MS	NA	NA	H1	76	74 Corpus Callosum Posterior	White matter
+1	Batch1_Sch_Br_x30_pos_1-75_71.mzXML	MS	NA	NA	H1	71	75 Cerebellar White Matter	Cerebellum
+1	Batch2_Sch_Br_x30_pos_2-01_167.mzXML	MS	NA	NA	H2	167	1  Cerebellar Grey Matter	Cerebellum
+1	Batch2_Sch_Br_x30_pos_2-15_148.mzXML	MS	NA	NA	H2	148	15 1ary Motor (BA4)	Primary cortex
+1	Batch2_Sch_Br_x30_pos_2-16_124.mzXML	MS	NA	NA	H2	124	16 1ary Auditory (BA41/42)	Primary cortex
+1	Batch2_Sch_Br_x30_pos_2-17_168.mzXML	MS	NA	NA	H2	168	17 1ary Visual Anterior (BA17a)	Primary cortex
+1	Batch2_Sch_Br_x30_pos_2-18_134.mzXML	MS	NA	NA	H2	134	18 1ary Somatosensory (BA3/1/2)	Primary cortex
+1	Batch2_Sch_Br_x30_pos_2-27_98.mzXML	MS	NA	NA	H2	98	27 2ary/3ary Visual Anterior (BA18/19a)	Secondary cortex
+1	Batch2_Sch_Br_x30_pos_2-28_111.mzXML	MS	NA	NA	H2	111	28 2ary Auditory, Wernicke (BA22p)	Secondary cortex
+1	Batch2_Sch_Br_x30_pos_2-29_146.mzXML	MS	NA	NA	H2	146	29 Precuneus (BA7m)	Associative cortex
+1	Batch2_Sch_Br_x30_pos_2-30_117.mzXML	MS	NA	NA	H2	117	30 Premotor Anterior Lateral (BA6a)	Secondary cortex
+1	Batch2_Sch_Br_x30_pos_2-31_156.mzXML	MS	NA	NA	H2	156	31 Supramarginal Posterior (BA40p)	Associative cortex
+1	Batch2_Sch_Br_x30_pos_2-32_113.mzXML	MS	NA	NA	H2	113	32 Ventrolateral Prefrontal, Broca (BA44)	Associative cortex
+1	Batch2_Sch_Br_x30_pos_2-33_120.mzXML	MS	NA	NA	H2	120	33 Anterior Inferior Temporal (BA20a)	Associative cortex
+1	Batch2_Sch_Br_x30_pos_2-34_107.mzXML	MS	NA	NA	H2	107	34 Dorsolateral Prefrontal (BA9)	Associative cortex
+1	Batch2_Sch_Br_x30_pos_2-37_105.mzXML	MS	NA	NA	H2	105	37 2ary Auditory Anterior (BA21a)	Secondary cortex
+1	Batch2_Sch_Br_x30_pos_2-43_161.mzXML	MS	NA	NA	H2	161	43 Temporopolar (BA38)	Associative cortex
+1	Batch2_Sch_Br_x30_pos_2-46_133.mzXML	MS	NA	NA	H2	133	46 Prefrontal Medial (BA10m)	Associative cortex
+1	Batch2_Sch_Br_x30_pos_2-47_154.mzXML	MS	NA	NA	H2	154	47 Cingulate Posterior (BA31)	Limbic cortex
+1	Batch2_Sch_Br_x30_pos_2-48_165.mzXML	MS	NA	NA	H2	165	48 Cingulate Anterior (BA24)	Limbic cortex
+1	Batch2_Sch_Br_x30_pos_2-49_106.mzXML	MS	NA	NA	H2	106	49 Cingulate Anterior (BA32)	Limbic cortex
+1	Batch2_Sch_Br_x30_pos_2-50_162.mzXML	MS	NA	NA	H2	162	50 Orbitofrontal (BA11)	Associative cortex
+1	Batch2_Sch_Br_x30_pos_2-52_118.mzXML	MS	NA	NA	H2	118	52 Amygdala	Limbic cortex
+1	Batch2_Sch_Br_x30_pos_2-53_138.mzXML	MS	NA	NA	H2	138	53 Insular Posterior Cortex	Associative cortex
+1	Batch2_Sch_Br_x30_pos_2-54_101.mzXML	MS	NA	NA	H2	101	54 Entorhinal Cortex	Limbic cortex
+1	Batch2_Sch_Br_x30_pos_2-55_128.mzXML	MS	NA	NA	H2	128	55 Hippocampus, CA3 / Dentate Gyrus	Limbic cortex
+1	Batch2_Sch_Br_x30_pos_2-56_140.mzXML	MS	NA	NA	H2	140	56 Nucleus Accumbens	Basal Ganglia
+1	Batch2_Sch_Br_x30_pos_2-57_129.mzXML	MS	NA	NA	H2	129	57 Caudate	Basal Ganglia
+1	Batch2_Sch_Br_x30_pos_2-58_147.mzXML	MS	NA	NA	H2	147	58 Putamen	Basal Ganglia
+1	Batch2_Sch_Br_x30_pos_2-63_119.mzXML	MS	NA	NA	H2	119	63 Substantia Nigra	Basal Ganglia
+1	Batch2_Sch_Br_x30_pos_2-64_166.mzXML	MS	NA	NA	H2	166	64 Globus Pallidus	Basal Ganglia
+1	Batch2_Sch_Br_x30_pos_2-68_155.mzXML	MS	NA	NA	H2	155	68 Medial Dorsal Thalamus	Thalamus
+1	Batch2_Sch_Br_x30_pos_2-69_141.mzXML	MS	NA	NA	H2	141	69 Hypothalamus	Hypothalamus
+1	Batch2_Sch_Br_x30_pos_2-72_109.mzXML	MS	NA	NA	H2	109	72 Internal Capsule	White matter
+1	Batch2_Sch_Br_x30_pos_2-73_153.mzXML	MS	NA	NA	H2	153	73 Corpus Callosum Anterior	White matter
+1	Batch2_Sch_Br_x30_pos_2-74_92.mzXML	MS	NA	NA	H2	92	74 Corpus Callosum Posterior	White matter
+1	Batch2_Sch_Br_x30_pos_2-75_112.mzXML	MS	NA	NA	H2	112	75 Cerebellar White Matter	Cerebellum
+1	Batch3_Sch_Br_x30_pos_3-01_261.mzXML	MS	NA	NA	H3	261	1  Cerebellar Grey Matter	Cerebellum
+1	Batch3_Sch_Br_x30_pos_3-15_193.mzXML	MS	NA	NA	H3	193	15 1ary Motor (BA4)	Primary cortex
+1	Batch3_Sch_Br_x30_pos_3-16_234.mzXML	MS	NA	NA	H3	234	16 1ary Auditory (BA41/42)	Primary cortex
+1	Batch3_Sch_Br_x30_pos_3-17_243.mzXML	MS	NA	NA	H3	243	17 1ary Visual Anterior (BA17a)	Primary cortex
+1	Batch3_Sch_Br_x30_pos_3-18_198.mzXML	MS	NA	NA	H3	198	18 1ary Somatosensory (BA3/1/2)	Primary cortex
+1	Batch3_Sch_Br_x30_pos_3-27_239.mzXML	MS	NA	NA	H3	239	27 2ary/3ary Visual Anterior (BA18/19a)	Secondary cortex
+1	Batch3_Sch_Br_x30_pos_3-28_247.mzXML	MS	NA	NA	H3	247	28 2ary Auditory, Wernicke (BA22p)	Secondary cortex
+1	Batch3_Sch_Br_x30_pos_3-29_250.mzXML	MS	NA	NA	H3	250	29 Precuneus (BA7m)	Associative cortex
+1	Batch3_Sch_Br_x30_pos_3-30_228.mzXML	MS	NA	NA	H3	228	30 Premotor Anterior Lateral (BA6a)	Secondary cortex
+1	Batch3_Sch_Br_x30_pos_3-31_238.mzXML	MS	NA	NA	H3	238	31 Supramarginal Posterior (BA40p)	Associative cortex
+1	Batch3_Sch_Br_x30_pos_3-32_208.mzXML	MS	NA	NA	H3	208	32 Ventrolateral Prefrontal, Broca (BA44)	Associative cortex
+1	Batch3_Sch_Br_x30_pos_3-33_212.mzXML	MS	NA	NA	H3	212	33 Anterior Inferior Temporal (BA20a)	Associative cortex
+1	Batch3_Sch_Br_x30_pos_3-34_190.mzXML	MS	NA	NA	H3	190	34 Dorsolateral Prefrontal (BA9)	Associative cortex
+1	Batch3_Sch_Br_x30_pos_3-37_186.mzXML	MS	NA	NA	H3	186	37 2ary Auditory Anterior (BA21a)	Secondary cortex
+1	Batch3_Sch_Br_x30_pos_3-43_205.mzXML	MS	NA	NA	H3	205	43 Temporopolar (BA38)	Associative cortex
+1	Batch3_Sch_Br_x30_pos_3-46_210.mzXML	MS	NA	NA	H3	210	46 Prefrontal Medial (BA10m)	Associative cortex
+1	Batch3_Sch_Br_x30_pos_3-47_229.mzXML	MS	NA	NA	H3	229	47 Cingulate Posterior (BA31)	Limbic cortex
+1	Batch3_Sch_Br_x30_pos_3-48_183.mzXML	MS	NA	NA	H3	183	48 Cingulate Anterior (BA24)	Limbic cortex
+1	Batch3_Sch_Br_x30_pos_3-49_241.mzXML	MS	NA	NA	H3	241	49 Cingulate Anterior (BA32)	Limbic cortex
+1	Batch3_Sch_Br_x30_pos_3-50_222.mzXML	MS	NA	NA	H3	222	50 Orbitofrontal (BA11)	Associative cortex
+1	Batch3_Sch_Br_x30_pos_3-52_225.mzXML	MS	NA	NA	H3	225	52 Amygdala	Limbic cortex
+1	Batch3_Sch_Br_x30_pos_3-53_192.mzXML	MS	NA	NA	H3	192	53 Insular Posterior Cortex	Associative cortex
+1	Batch3_Sch_Br_x30_pos_3-54_263.mzXML	MS	NA	NA	H3	263	54 Entorhinal Cortex	Limbic cortex
+1	Batch3_Sch_Br_x30_pos_3-55_199.mzXML	MS	NA	NA	H3	199	55 Hippocampus, CA3 / Dentate Gyrus	Limbic cortex
+1	Batch3_Sch_Br_x30_pos_3-56_220.mzXML	MS	NA	NA	H3	220	56 Nucleus Accumbens	Basal Ganglia
+1	Batch3_Sch_Br_x30_pos_3-57_231.mzXML	MS	NA	NA	H3	231	57 Caudate	Basal Ganglia
+1	Batch3_Sch_Br_x30_pos_3-58_256.mzXML	MS	NA	NA	H3	256	58 Putamen	Basal Ganglia
+1	Batch3_Sch_Br_x30_pos_3-63_184.mzXML	MS	NA	NA	H3	184	63 Substantia Nigra	Basal Ganglia
+1	Batch3_Sch_Br_x30_pos_3-64_255.mzXML	MS	NA	NA	H3	255	64 Globus Pallidus	Basal Ganglia
+1	Batch3_Sch_Br_x30_pos_3-68_191.mzXML	MS	NA	NA	H3	191	68 Medial Dorsal Thalamus	Thalamus
+1	Batch3_Sch_Br_x30_pos_3-69_258.mzXML	MS	NA	NA	H3	258	69 Hypothalamus	Hypothalamus
+1	Batch3_Sch_Br_x30_pos_3-72_214.mzXML	MS	NA	NA	H3	214	72 Internal Capsule	White matter
+1	Batch3_Sch_Br_x30_pos_3-73_187.mzXML	MS	NA	NA	H3	187	73 Corpus Callosum Anterior	White matter
+1	Batch3_Sch_Br_x30_pos_3-74_251.mzXML	MS	NA	NA	H3	251	74 Corpus Callosum Posterior	White matter
+1	Batch3_Sch_Br_x30_pos_3-75_209.mzXML	MS	NA	NA	H3	209	75 Cerebellar White Matter	Cerebellum
+1	Batch4_Sch_Br_x30_pos_5-01_343.mzXML	MS	NA	NA	H5	343	1  Cerebellar Grey Matter	Cerebellum
+1	Batch4_Sch_Br_x30_pos_5-15_352.mzXML	MS	NA	NA	H5	352	15 1ary Motor (BA4)	Primary cortex
+1	Batch4_Sch_Br_x30_pos_5-16_304.mzXML	MS	NA	NA	H5	304	16 1ary Auditory (BA41/42)	Primary cortex
+1	Batch4_Sch_Br_x30_pos_5-17_292.mzXML	MS	NA	NA	H5	292	17 1ary Visual Anterior (BA17a)	Primary cortex
+1	Batch4_Sch_Br_x30_pos_5-18_293.mzXML	MS	NA	NA	H5	293	18 1ary Somatosensory (BA3/1/2)	Primary cortex
+1	Batch4_Sch_Br_x30_pos_5-27_319.mzXML	MS	NA	NA	H5	319	27 2ary/3ary Visual Anterior (BA18/19a)	Secondary cortex
+1	Batch4_Sch_Br_x30_pos_5-28_350.mzXML	MS	NA	NA	H5	350	28 2ary Auditory, Wernicke (BA22p)	Secondary cortex
+1	Batch4_Sch_Br_x30_pos_5-29_347.mzXML	MS	NA	NA	H5	347	29 Precuneus (BA7m)	Associative cortex
+1	Batch4_Sch_Br_x30_pos_5-30_322.mzXML	MS	NA	NA	H5	322	30 Premotor Anterior Lateral (BA6a)	Secondary cortex
+1	Batch4_Sch_Br_x30_pos_5-31_298.mzXML	MS	NA	NA	H5	298	31 Supramarginal Posterior (BA40p)	Associative cortex
+1	Batch4_Sch_Br_x30_pos_5-32_323.mzXML	MS	NA	NA	H5	323	32 Ventrolateral Prefrontal, Broca (BA44)	Associative cortex
+1	Batch4_Sch_Br_x30_pos_5-33_300.mzXML	MS	NA	NA	H5	300	33 Anterior Inferior Temporal (BA20a)	Associative cortex
+1	Batch4_Sch_Br_x30_pos_5-34_297.mzXML	MS	NA	NA	H5	297	34 Dorsolateral Prefrontal (BA9)	Associative cortex
+1	Batch4_Sch_Br_x30_pos_5-37_280.mzXML	MS	NA	NA	H5	280	37 2ary Auditory Anterior (BA21a)	Secondary cortex
+1	Batch4_Sch_Br_x30_pos_5-43_326.mzXML	MS	NA	NA	H5	326	43 Temporopolar (BA38)	Associative cortex
+1	Batch4_Sch_Br_x30_pos_5-46_313.mzXML	MS	NA	NA	H5	313	46 Prefrontal Medial (BA10m)	Associative cortex
+1	Batch4_Sch_Br_x30_pos_5-47_295.mzXML	MS	NA	NA	H5	295	47 Cingulate Posterior (BA31)	Limbic cortex
+1	Batch4_Sch_Br_x30_pos_5-48_345.mzXML	MS	NA	NA	H5	345	48 Cingulate Anterior (BA24)	Limbic cortex
+1	Batch4_Sch_Br_x30_pos_5-49_336.mzXML	MS	NA	NA	H5	336	49 Cingulate Anterior (BA32)	Limbic cortex
+1	Batch4_Sch_Br_x30_pos_5-50_277.mzXML	MS	NA	NA	H5	277	50 Orbitofrontal (BA11)	Associative cortex
+1	Batch4_Sch_Br_x30_pos_5-52_273.mzXML	MS	NA	NA	H5	273	52 Amygdala	Limbic cortex
+1	Batch4_Sch_Br_x30_pos_5-53_303.mzXML	MS	NA	NA	H5	303	53 Insular Posterior Cortex	Associative cortex
+1	Batch4_Sch_Br_x30_pos_5-54_341.mzXML	MS	NA	NA	H5	341	54 Entorhinal Cortex	Limbic cortex
+1	Batch4_Sch_Br_x30_pos_5-55_309.mzXML	MS	NA	NA	H5	309	55 Hippocampus, CA3 / Dentate Gyrus	Limbic cortex
+1	Batch4_Sch_Br_x30_pos_5-56_305.mzXML	MS	NA	NA	H5	305	56 Nucleus Accumbens	Basal Ganglia
+1	Batch4_Sch_Br_x30_pos_5-57_301.mzXML	MS	NA	NA	H5	301	57 Caudate	Basal Ganglia
+1	Batch4_Sch_Br_x30_pos_5-58_287.mzXML	MS	NA	NA	H5	287	58 Putamen	Basal Ganglia
+1	Batch4_Sch_Br_x30_pos_5-63_315.mzXML	MS	NA	NA	H5	315	63 Substantia Nigra	Basal Ganglia
+1	Batch4_Sch_Br_x30_pos_5-64_335.mzXML	MS	NA	NA	H5	335	64 Globus Pallidus	Basal Ganglia
+1	Batch4_Sch_Br_x30_pos_5-68_321.mzXML	MS	NA	NA	H5	321	68 Medial Dorsal Thalamus	Thalamus
+1	Batch4_Sch_Br_x30_pos_5-69_328.mzXML	MS	NA	NA	H5	328	69 Hypothalamus	Hypothalamus
+1	Batch4_Sch_Br_x30_pos_5-72_346.mzXML	MS	NA	NA	H5	346	72 Internal Capsule	White matter
+1	Batch4_Sch_Br_x30_pos_5-73_310.mzXML	MS	NA	NA	H5	310	73 Corpus Callosum Anterior	White matter
+1	Batch4_Sch_Br_x30_pos_5-74_337.mzXML	MS	NA	NA	H5	337	74 Corpus Callosum Posterior	White matter
+1	Batch4_Sch_Br_x30_pos_5-75_302.mzXML	MS	NA	NA	H5	302	75 Cerebellar White Matter	Cerebellum

@@ -1,0 +1,140 @@
+1	170426_BM_pos_1-30_MS36_HA_518	MS	36	MS36	HA	518	32 Ventrolateral Prefrontal, Broca (BA44)	Associative cortex
+1	170426_pos_1-30_MS59_HA_244	MS	59	MS59	HA	244	49 Cingulate Anterior (BA32)	Limbic cortex
+1	170426_pos_1-30_MS72_HA_432	MS	72	MS72	HA	432	57 Caudate	Basal Ganglia
+1	170426_BM_pos_1-30_MS6_HA_5	MS	6	MS6	HA	5	56 Nucleus Accumbens	Basal Ganglia
+1	170426_BM_pos_1-30_MS12_HA_596	MS	12	MS12	HA	596	73 Corpus Callosum Anterior	White matter
+1	170426_pos_1-30_MS69_HA_483	MS	69	MS69	HA	483	43 Temporopolar (BA38)	Associative cortex
+1	170426_BM_pos_1-30_MS11_HA_42	MS	11	MS11	HA	42	30 Premotor Anterior Lateral (BA6a)	Secondary cortex
+1	170426_BM_pos_1-30_MS29_HA_299	MS	29	MS29	HA	299	48 Cingulate Anterior (BA24)	Limbic cortex
+1	170426_pos_1-30_MS51_HA_273	MS	51	MS51	HA	273	58 Putamen	Basal Ganglia
+1	170426_BM_pos_1-30_MS23_HA_121	MS	23	MS23	HA	121	72 Internal Capsule	White matter
+1	170426_BM_pos_1-30_MS50_HA_43	MS	50	MS50	HA	43	15 1ary Motor (BA4)	Primary cortex
+1	170426_pos_1-30_MS76_HA_119	MS	76	MS76	HA	119	18 1ary Somatosensory (BA3/1/2)	Primary cortex
+1	170426_BM_pos_1-30_MS43_HA_66	MS	43	MS43	HA	66	34 Dorsolateral Prefrontal (BA9)	Associative cortex
+1	170426_pos_1-30_MS74_HA_498	MS	74	MS74	HA	498	64 Globus Pallidus	Basal Ganglia
+1	170426_BM_pos_1-30_MS38_HA_460	MS	38	MS38	HA	460	69 Hypothalamus	Hypothalamus
+1	170426_BM_pos_1-30_MS42_HA_355	MS	42	MS42	HA	355	52 Amygdala	Limbic cortex
+1	170426_BM_pos_1-30_MS48_HA_506	MS	48	MS48	HA	506	54 Entorhinal Cortex	Limbic cortex
+1	170426_BM_pos_1-30_MS35_HA_254	MS	35	MS35	HA	254	37 2ary Auditory Anterior (BA21a)	Secondary cortex
+1	170426_BM_pos_1-30_MS25_HA_409	MS	25	MS25	HA	409	33 Anterior Inferior Temporal (BA20a)	Associative cortex
+1	170426_pos_1-30_MS63_HA_159	MS	63	MS63	HA	159	16 1ary Auditory (BA41/42)	Primary cortex
+1	170426_pos_1-30_MS64_HA_539	MS	64	MS64	HA	539	47 Cingulate Posterior (BA31)	Limbic cortex
+1	170426_BM_pos_1-30_MS14_HA_140	MS	14	MS14	HA	140	53 Insular Posterior Cortex	Associative cortex
+1	170426_BM_pos_1-30_MS27_HA_459	MS	27	MS27	HA	459	68 Medial Dorsal Thalamus	Thalamus
+1	170426_pos_1-30_MS67_HA_479	MS	67	MS67	HA	479	63 Substantia Nigra	Basal Ganglia
+1	170426_BM_pos_1-30_MS16_HA_149	MS	16	MS16	HA	149	55 Hippocampus, CA3 / Dentate Gyrus	Limbic cortex
+1	170426_BM_pos_1-30_MS7_HA_37	MS	7	MS7	HA	37	28 2ary Auditory, Wernicke (BA22p)	Secondary cortex
+1	170426_pos_1-30_MS75_HA_116	MS	75	MS75	HA	116	74 Corpus Callosum Posterior	White matter
+1	170426_BM_pos_1-30_MS26_HA_615	MS	26	MS26	HA	615	31 Supramarginal Posterior (BA40p)	Associative cortex
+1	170426_BM_pos_1-30_MS5_HA_98	MS	5	MS5	HA	98	29 Precuneus (BA7m)	Associative cortex
+1	170426_BM_pos_1-30_MS21_HA_428	MS	21	MS21	HA	428	17 1ary Visual Anterior (BA17a)	Primary cortex
+1	170426_BM_pos_1-30_MS9_HA_381	MS	9	MS9	HA	381	27 2ary/3ary Visual Anterior (BA18/19a)	Secondary cortex
+1	170426_BM_pos_1-30_MS33_HA_147	MS	33	MS33	HA	147	50 Orbitofrontal (BA11)	Associative cortex
+1	170426_BM_pos_1-30_MS47_HA_30	MS	47	MS47	HA	30	75 Cerebellar White Matter	Cerebellum
+1	170426_BM_pos_1-30_MS34_HA_237	MS	34	MS34	HA	237	1  Cerebellar Grey Matter	Cerebellum
+1	170426_pos_1-30_MS73_HA_1	MS	73	MS73	HA	1	46 Prefrontal Medial (BA10m)	Associative cortex
+1	170426_pos_1-30_MS283_HB_231	MS	283	MS283	HB	231	32 Ventrolateral Prefrontal, Broca (BA44)	Associative cortex
+1	170426_pos_1-30_MS304_HB_591	MS	304	MS304	HB	591	49 Cingulate Anterior (BA32)	Limbic cortex
+1	170426_pos_1-30_MS243_HB_194	MS	243	MS243	HB	194	57 Caudate	Basal Ganglia
+1	170426_pos_1-30_MS295_HB_120	MS	295	MS295	HB	120	56 Nucleus Accumbens	Basal Ganglia
+1	170426_pos_1-30_MS281_HB_251	MS	281	MS281	HB	251	73 Corpus Callosum Anterior	White matter
+1	170426_pos_1-30_MS305_HB_665	MS	305	MS305	HB	665	43 Temporopolar (BA38)	Associative cortex
+1	170426_pos_1-30_MS291_HB_548	MS	291	MS291	HB	548	30 Premotor Anterior Lateral (BA6a)	Secondary cortex
+1	170426_pos_1-30_MS244_HB_26	MS	244	MS244	HB	26	48 Cingulate Anterior (BA24)	Limbic cortex
+1	170426_pos_1-30_MS288_HB_397	MS	288	MS288	HB	397	58 Putamen	Basal Ganglia
+1	170426_pos_1-30_MS270_HB_171	MS	270	MS270	HB	171	72 Internal Capsule	White matter
+1	170426_pos_1-30_MS254_HB_379	MS	254	MS254	HB	379	15 1ary Motor (BA4)	Primary cortex
+1	170426_pos_1-30_MS309_HB_63	MS	309	MS309	HB	63	18 1ary Somatosensory (BA3/1/2)	Primary cortex
+1	170426_pos_1-30_MS299_HB_38	MS	299	MS299	HB	38	34 Dorsolateral Prefrontal (BA9)	Associative cortex
+1	170426_pos_1-30_MS257_HB_347	MS	257	MS257	HB	347	64 Globus Pallidus	Basal Ganglia
+1	170426_pos_1-30_MS272_HB_102	MS	272	MS272	HB	102	69 Hypothalamus	Hypothalamus
+1	170426_pos_1-30_MS241_HB_226	MS	241	MS241	HB	226	52 Amygdala	Limbic cortex
+1	170426_pos_1-30_MS273_HB_616	MS	273	MS273	HB	616	54 Entorhinal Cortex	Limbic cortex
+1	170426_pos_1-30_MS271_HB_298	MS	271	MS271	HB	298	37 2ary Auditory Anterior (BA21a)	Secondary cortex
+1	170426_pos_1-30_MS292_HB_286	MS	292	MS292	HB	286	33 Anterior Inferior Temporal (BA20a)	Associative cortex
+1	170426_pos_1-30_MS287_HB_264	MS	287	MS287	HB	264	16 1ary Auditory (BA41/42)	Primary cortex
+1	170426_pos_1-30_MS259_HB_465	MS	259	MS259	HB	465	47 Cingulate Posterior (BA31)	Limbic cortex
+1	170426_pos_1-30_MS255_HB_469	MS	255	MS255	HB	469	53 Insular Posterior Cortex	Associative cortex
+1	170426_pos_1-30_MS252_HB_208	MS	252	MS252	HB	208	68 Medial Dorsal Thalamus	Thalamus
+1	170426_pos_1-30_MS269_HB_430	MS	269	MS269	HB	430	63 Substantia Nigra	Basal Ganglia
+1	170426_pos_1-30_MS266_HB_424	MS	266	MS266	HB	424	55 Hippocampus, CA3 / Dentate Gyrus	Limbic cortex
+1	170426_pos_1-30_MS238_HB_161	MS	238	MS238	HB	161	28 2ary Auditory, Wernicke (BA22p)	Secondary cortex
+1	170426_pos_1-30_MS239_HB_531	MS	239	MS239	HB	531	74 Corpus Callosum Posterior	White matter
+1	170426_pos_1-30_MS290_HB_535	MS	290	MS290	HB	535	31 Supramarginal Posterior (BA40p)	Associative cortex
+1	170426_pos_1-30_MS242_HB_160	MS	242	MS242	HB	160	29 Precuneus (BA7m)	Associative cortex
+1	170426_pos_1-30_MS258_HB_429	MS	258	MS258	HB	429	17 1ary Visual Anterior (BA17a)	Primary cortex
+1	170426_pos_1-30_MS280_HB_634	MS	280	MS280	HB	634	27 2ary/3ary Visual Anterior (BA18/19a)	Secondary cortex
+1	170426_pos_1-30_MS285_HB_403	MS	285	MS285	HB	403	50 Orbitofrontal (BA11)	Associative cortex
+1	170426_pos_1-30_MS253_HB_443	MS	253	MS253	HB	443	75 Cerebellar White Matter	Cerebellum
+1	170426_pos_1-30_MS300_HB_308	MS	300	MS300	HB	308	1  Cerebellar Grey Matter	Cerebellum
+1	170426_pos_1-30_MS296_HB_361	MS	296	MS296	HB	361	46 Prefrontal Medial (BA10m)	Associative cortex
+1	170426_pos_1-30_MS481_HC_399	MS	481	MS481	HC	399	32 Ventrolateral Prefrontal, Broca (BA44)	Associative cortex
+1	170426_pos_1-30_MS497_HC_28	MS	497	MS497	HC	28	49 Cingulate Anterior (BA32)	Limbic cortex
+1	170426_pos_1-30_MS521_HC_126	MS	521	MS521	HC	126	57 Caudate	Basal Ganglia
+1	170426_pos_1-30_MS542_HC_62	MS	542	MS542	HC	62	56 Nucleus Accumbens	Basal Ganglia
+1	170426_pos_1-30_MS513_HC_191	MS	513	MS513	HC	191	73 Corpus Callosum Anterior	White matter
+1	170426_pos_1-30_MS510_HC_410	MS	510	MS510	HC	410	43 Temporopolar (BA38)	Associative cortex
+1	170426_pos_1-30_MS485_HC_277	MS	485	MS485	HC	277	30 Premotor Anterior Lateral (BA6a)	Secondary cortex
+1	170426_pos_1-30_MS505_HC_559	MS	505	MS505	HC	559	48 Cingulate Anterior (BA24)	Limbic cortex
+1	170426_pos_1-30_MS496_HC_239	MS	496	MS496	HC	239	58 Putamen	Basal Ganglia
+1	170426_pos_1-30_MS537_HC_425	MS	537	MS537	HC	425	72 Internal Capsule	White matter
+1	170426_pos_1-30_MS503_HC_322	MS	503	MS503	HC	322	15 1ary Motor (BA4)	Primary cortex
+1	170426_pos_1-30_MS511_HC_370	MS	511	MS511	HC	370	18 1ary Somatosensory (BA3/1/2)	Primary cortex
+1	170426_pos_1-30_MS543_HC_590	MS	543	MS543	HC	590	34 Dorsolateral Prefrontal (BA9)	Associative cortex
+1	170426_pos_1-30_MS487_HC_582	MS	487	MS487	HC	582	64 Globus Pallidus	Basal Ganglia
+1	170426_pos_1-30_MS491_HC_207	MS	491	MS491	HC	207	69 Hypothalamus	Hypothalamus
+1	170426_pos_1-30_MS550_HC_415	MS	550	MS550	HC	415	52 Amygdala	Limbic cortex
+1	170426_pos_1-30_MS547_HC_451	MS	547	MS547	HC	451	54 Entorhinal Cortex	Limbic cortex
+1	170426_pos_1-30_MS502_HC_225	MS	502	MS502	HC	225	37 2ary Auditory Anterior (BA21a)	Secondary cortex
+1	170426_pos_1-30_MS512_HC_587	MS	512	MS512	HC	587	33 Anterior Inferior Temporal (BA20a)	Associative cortex
+1	170426_pos_1-30_MS476_HC_339	MS	476	MS476	HC	339	16 1ary Auditory (BA41/42)	Primary cortex
+1	170426_pos_1-30_MS495_HC_600	MS	495	MS495	HC	600	47 Cingulate Posterior (BA31)	Limbic cortex
+1	170426_pos_1-30_MS484_HC_662	MS	484	MS484	HC	662	53 Insular Posterior Cortex	Associative cortex
+1	170426_pos_1-30_MS522_HC_447	MS	522	MS522	HC	447	68 Medial Dorsal Thalamus	Thalamus
+1	170426_pos_1-30_MS536_HC_528	MS	536	MS536	HC	528	63 Substantia Nigra	Basal Ganglia
+1	170426_pos_1-30_MS519_HC_601	MS	519	MS519	HC	601	55 Hippocampus, CA3 / Dentate Gyrus	Limbic cortex
+1	170426_pos_1-30_MS520_HC_54	MS	520	MS520	HC	54	28 2ary Auditory, Wernicke (BA22p)	Secondary cortex
+1	170426_pos_1-30_MS482_HC_423	MS	482	MS482	HC	423	74 Corpus Callosum Posterior	White matter
+1	170426_pos_1-30_MS479_HC_404	MS	479	MS479	HC	404	31 Supramarginal Posterior (BA40p)	Associative cortex
+1	170426_pos_1-30_MS493_HC_680	MS	493	MS493	HC	680	29 Precuneus (BA7m)	Associative cortex
+1	170426_pos_1-30_MS538_HC_271	MS	538	MS538	HC	271	17 1ary Visual Anterior (BA17a)	Primary cortex
+1	170426_pos_1-30_MS533_HC_124	MS	533	MS533	HC	124	27 2ary/3ary Visual Anterior (BA18/19a)	Secondary cortex
+1	170426_pos_1-30_MS535_HC_320	MS	535	MS535	HC	320	50 Orbitofrontal (BA11)	Associative cortex
+1	170426_pos_1-30_MS534_HC_211	MS	534	MS534	HC	211	75 Cerebellar White Matter	Cerebellum
+1	170426_pos_1-30_MS549_HC_647	MS	549	MS549	HC	647	1  Cerebellar Grey Matter	Cerebellum
+1	170426_pos_1-30_MS490_HC_169	MS	490	MS490	HC	169	46 Prefrontal Medial (BA10m)	Associative cortex
+1	170426_pos_1-30_MS642_HD_206	MS	642	MS642	HD	206	32 Ventrolateral Prefrontal, Broca (BA44)	Associative cortex
+1	170426_pos_1-30_MS679_HD_265	MS	679	MS679	HD	265	49 Cingulate Anterior (BA32)	Limbic cortex
+1	170426_pos_1-30_MS705_HD_501	MS	705	MS705	HD	501	57 Caudate	Basal Ganglia
+1	170426_pos_1-30_MS653_HD_400	MS	653	MS653	HD	400	56 Nucleus Accumbens	Basal Ganglia
+1	170426_pos_1-30_MS695_HD_683	MS	695	MS695	HD	683	73 Corpus Callosum Anterior	White matter
+1	170426_pos_1-30_MS697_HD_579	MS	697	MS697	HD	579	43 Temporopolar (BA38)	Associative cortex
+1	170426_pos_1-30_MS638_HD_83	MS	638	MS638	HD	83	30 Premotor Anterior Lateral (BA6a)	Secondary cortex
+1	170426_pos_1-30_MS685_HD_530	MS	685	MS685	HD	530	48 Cingulate Anterior (BA24)	Limbic cortex
+1	170426_pos_1-30_MS644_HD_367	MS	644	MS644	HD	367	58 Putamen	Basal Ganglia
+1	170426_pos_1-30_MS671_HD_360	MS	671	MS671	HD	360	72 Internal Capsule	White matter
+1	170426_pos_1-30_MS666_HD_462	MS	666	MS666	HD	462	15 1ary Motor (BA4)	Primary cortex
+1	170426_pos_1-30_MS674_HD_204	MS	674	MS674	HD	204	18 1ary Somatosensory (BA3/1/2)	Primary cortex
+1	170426_pos_1-30_MS650_HD_346	MS	650	MS650	HD	346	34 Dorsolateral Prefrontal (BA9)	Associative cortex
+1	170426_pos_1-30_MS647_HD_481	MS	647	MS647	HD	481	64 Globus Pallidus	Basal Ganglia
+1	170426_pos_1-30_MS676_HD_474	MS	676	MS676	HD	474	69 Hypothalamus	Hypothalamus
+1	170426_pos_1-30_MS634_HD_593	MS	634	MS634	HD	593	52 Amygdala	Limbic cortex
+1	170426_pos_1-30_MS651_HD_209	MS	651	MS651	HD	209	54 Entorhinal Cortex	Limbic cortex
+1	170426_pos_1-30_MS646_HD_422	MS	646	MS646	HD	422	37 2ary Auditory Anterior (BA21a)	Secondary cortex
+1	170426_pos_1-30_MS663_HD_335	MS	663	MS663	HD	335	33 Anterior Inferior Temporal (BA20a)	Associative cortex
+1	170426_pos_1-30_MS639_HD_580	MS	639	MS639	HD	580	16 1ary Auditory (BA41/42)	Primary cortex
+1	170426_pos_1-30_MS637_HD_128	MS	637	MS637	HD	128	47 Cingulate Posterior (BA31)	Limbic cortex
+1	170426_pos_1-30_MS692_HD_6	MS	692	MS692	HD	6	53 Insular Posterior Cortex	Associative cortex
+1	170426_pos_1-30_MS702_HD_623	MS	702	MS702	HD	623	68 Medial Dorsal Thalamus	Thalamus
+1	170426_pos_1-30_MS636_HD_44	MS	636	MS636	HD	44	63 Substantia Nigra	Basal Ganglia
+1	170426_pos_1-30_MS649_HD_570	MS	649	MS649	HD	570	55 Hippocampus, CA3 / Dentate Gyrus	Limbic cortex
+1	170426_pos_1-30_MS689_HD_78	MS	689	MS689	HD	78	28 2ary Auditory, Wernicke (BA22p)	Secondary cortex
+1	170426_pos_1-30_MS680_HD_24	MS	680	MS680	HD	24	74 Corpus Callosum Posterior	White matter
+1	170426_pos_1-30_MS677_HD_58	MS	677	MS677	HD	58	31 Supramarginal Posterior (BA40p)	Associative cortex
+1	170426_pos_1-30_MS652_HD_87	MS	652	MS652	HD	87	29 Precuneus (BA7m)	Associative cortex
+1	170426_pos_1-30_MS675_HD_463	MS	675	MS675	HD	463	17 1ary Visual Anterior (BA17a)	Primary cortex
+1	170426_pos_1-30_MS699_HD_549	MS	699	MS699	HD	549	27 2ary/3ary Visual Anterior (BA18/19a)	Secondary cortex
+1	170426_pos_1-30_MS682_HD_516	MS	682	MS682	HD	516	50 Orbitofrontal (BA11)	Associative cortex
+1	170426_pos_1-30_MS657_HD_197	MS	657	MS657	HD	197	75 Cerebellar White Matter	Cerebellum
+1	170426_pos_1-30_MS686_HD_34	MS	686	MS686	HD	34	1  Cerebellar Grey Matter	Cerebellum
+1	170426_pos_1-30_MS662_HD_129	MS	662	MS662	HD	129	46 Prefrontal Medial (BA10m)	Associative cortex

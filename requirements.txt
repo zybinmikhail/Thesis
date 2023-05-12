@@ -3,6 +3,7 @@ numpy
 pandas
 seaborn
 scikit-learn
+scikit-learn-intelex
 scipy
 statsmodels
 tqdm
