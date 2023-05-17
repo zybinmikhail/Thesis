@@ -1,0 +1,51 @@
+,Region,accuracy
+0,1ary Visual Anterior (BA17a),0.9287410926365796
+1,1ary Auditory (BA41/42),0.9579207920792079
+2,Dorsolateral Prefrontal (BA46),0.9602122015915119
+3,1ary Motor (BA4),0.9673024523160763
+4,Anterior Middle Temporal (BA37-aMT),0.973753280839895
+5,Anterior Supramarginal (BA40a),0.9738717339667459
+6,Anterior Superior Parietal (BA5/BA7a),0.9775
+7,Posterior Middle Temporal (BA37-pMT),0.9790697674418605
+8,Supramarginal Posterior (BA40p),0.9794344473007712
+9,Insular Anterior Cortex,0.9800995024875622
+10,Anterior Inferior Temporal (BA20a),0.9822784810126582
+11,Anterior Prefrontal (BA10),0.9824561403508771
+12,Prefrontal Medial (BA10m),0.9826302729528535
+13,Temporopolar (BA38),0.989501312335958
+14,Insular Posterior Cortex,0.98989898989899
+15,Dorsolateral Prefrontal (BA9),0.9899497487437185
+16,"2ary Auditory, Wernicke (BA22p)",0.9925373134328358
+17,2ary Auditory Anterior (BA21a),0.9927884615384616
+18,Medial Dorsal Thalamus,0.9942363112391931
+19,Posterior Superior Parietal (BA7p),0.9944903581267218
+20,Putamen,0.9944903581267218
+21,Cingulate Posterior (BA31),0.9949109414758269
+22,Premotor Medial (BA6m),0.9950980392156863
+23,Cingulate Posterior (BA23a),0.9973821989528796
+24,Pulvinar Thalamus,0.9974358974358974
+25,Nucleus Accumbens,0.9974424552429667
+26,Angular (BA39),0.9974554707379135
+27,Orbitofrontal (BA11),0.9975
+28,Amygdala,0.9975369458128078
+29,Posterior Inferior Temporal (BA20p),0.9975903614457832
+30,1ary Somatosensory (BA3/1/2),0.9975961538461539
+31,"Hippocampus, CA1",0.9976415094339622
+32,Corpus Callosum Posterior,1.0
+33,Corpus Callosum Anterior,1.0
+34,Internal Capsule,1.0
+35,Ventral Lateral Thalamus,1.0
+36,Orbitofrontal (BA47),1.0
+37,2ary/3ary Visual Posterior (BA18/19p),1.0
+38,Globus Pallidus,1.0
+39,Cerebellar White Matter,1.0
+40,1ary Visual Posterior (BA17p),1.0
+41,Frontopolar (BA10fp),1.0
+42,Cingulate Anterior (BA24),1.0
+43,"2ary Auditory, language (BA22a)",1.0
+44,Premotor Anterior Lateral (BA6a),1.0
+45,"Ventrolateral Prefrontal, Broca (BA44)",1.0
+46,FEF Medial (BA8m),1.0
+47,Cingulate Subcallosal (BA25),1.0
+48,Substantia Nigra,1.0
+49,Cerebellar Grey Matter,1.0
