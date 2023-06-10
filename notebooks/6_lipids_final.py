@@ -1,15 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In this notebook we launch the following pipeline
-# - comparison of variences between 75_regions dataset and OneBatch dataset
-# - estimation of the parameters of lipids distributions in OneBatch
-# - generation of fake brains from the estimated distributions
-# - applying Random Forest ML algorithm to the generated data
-# - identifying the most important features
-
-# In[1]:
-
 
 import numpy as np
 import pandas as pd
@@ -125,7 +116,7 @@ use_genes = False
 # In[6]:
 
 
-onebatch = pd.read_csv("../data/OneBatch3_FINAL2.csv").sort_values(by=["Donor", "Region"])
+onebatch = pd.read_csv("../data/OneBatch3_FINAL2_2023-05-20.csv").sort_values(by=["Donor", "Region"])
 
 h_molecules = pd.read_csv("../data/ours_maria_version/rtmz_H_pos_std_weight_norm_TL_COMBINED.csv", index_col=0)
 sz_molecules = pd.read_csv("../data/ours_maria_version/rtmz_SZ_pos_std_weight_norm_TL_COMBINED.csv", index_col=0)
@@ -292,28 +283,11 @@ check_normalization(h_molecules)
 all_observations_combined_75 = np.concatenate([h_molecules.iloc[:, 2:].values, sz_molecules.iloc[:, 2:].values]).reshape(-1,)
 
 
-# In[19]:
-
-
-all_observations_combined_75.shape
-
-
-# In[20]:
-
-
-all_observations_combined_75
-
-
-# In[21]:
-
 
 left_point = norm.ppf(0.0001, loc=all_observations_combined_75.mean(), scale=all_observations_combined_75.std())
 right_point = norm.ppf(0.9999, loc=all_observations_combined_75.mean(), scale=all_observations_combined_75.std()),
 x = np.linspace(left_point, right_point, 1000)
-plt.plot(x, norm.pdf(x), c="C1", label="Normal distribution with the same mean and variance")
-sns.histplot(all_observations_combined_75, stat="density", label="Observed distribution")
-plt.legend()
-plt.show()
+
 
 
 # ## Data visualization
@@ -336,9 +310,9 @@ plt.scatter(lipids_dim_reduction[4:, 0], lipids_dim_reduction[4:, 1], label="SZ"
 # plt.ylabel(f"PC2, {dim_reduction.explained_variance_ratio_[1] * 100 :.1f} %")
 # plt.title(f"75 regions dataset (50 taken)")
 
-plt.legend()
-plt.savefig(f"../data/pics/{'genes' if use_genes else 'lipids'}_brain_as_object_real.png", dpi=200)
-plt.show()
+# plt.legend()
+# plt.savefig(f"../data/pics/{'genes' if use_genes else 'lipids'}_brain_as_object_real.png", dpi=200)
+# plt.show()
 
 
 # In[23]:
@@ -359,9 +333,9 @@ plt.scatter(lipids_dim_reduction[border:, 0], lipids_dim_reduction[border:, 1], 
 # plt.ylabel(f"PC2, {dim_reduction.explained_variance_ratio_[1] * 100 :.1f} %")
 # plt.title(f"75 regions dataset (50 taken)")
 
-plt.legend()
-plt.savefig(f"../data/pics/{'genes' if use_genes else 'lipids'}_region_as_object_real.png", dpi=200)
-plt.show()
+# plt.legend()
+# plt.savefig(f"../data/pics/{'genes' if use_genes else 'lipids'}_region_as_object_real.png", dpi=200)
+# plt.show()
 
 
 # ### One batch (normalized), brain as object
@@ -379,10 +353,10 @@ dim_reduction = PCA(n_components=2)
 
 dim_reduction_fitted = dim_reduction.fit_transform(new_onebatch)
 
-plt.scatter(dim_reduction_fitted[:12, 0], dim_reduction_fitted[:12, 1], label="HC")
-plt.scatter(dim_reduction_fitted[12:, 0], dim_reduction_fitted[12:, 1], label="SZ")
-plt.legend()
-plt.show()
+# plt.scatter(dim_reduction_fitted[:12, 0], dim_reduction_fitted[:12, 1], label="HC")
+# plt.scatter(dim_reduction_fitted[12:, 0], dim_reduction_fitted[12:, 1], label="SZ")
+# plt.legend()
+# plt.show()
 
 
 # ## Example lipid profile
@@ -567,13 +541,13 @@ fake_dataset_75_reduction.shape
 
 dim_reduction = PCA(n_components=2)
 fake_dataset_dim_reduction = dim_reduction.fit_transform(fake_dataset_75_reduction)
-plt.scatter(fake_dataset_dim_reduction[:N_SAMPLES, 0], fake_dataset_dim_reduction[:N_SAMPLES, 1], label="HC")
-plt.scatter(fake_dataset_dim_reduction[N_SAMPLES:, 0], fake_dataset_dim_reduction[N_SAMPLES:, 1], label="SZ")
-plt.xlabel(f"PC1, {dim_reduction.explained_variance_ratio_[0] * 100 :.1f} %")
-plt.ylabel(f"PC2, {dim_reduction.explained_variance_ratio_[1] * 100 :.1f} %")
-# plt.title(f"n={N_SAMPLES} for each class")
-plt.legend()
-plt.savefig(f"../data/pics/{'genes' if use_genes else 'lipids'}_brain_as_object_75_gen.png", dpi=200)
+# plt.scatter(fake_dataset_dim_reduction[:N_SAMPLES, 0], fake_dataset_dim_reduction[:N_SAMPLES, 1], label="HC")
+# plt.scatter(fake_dataset_dim_reduction[N_SAMPLES:, 0], fake_dataset_dim_reduction[N_SAMPLES:, 1], label="SZ")
+# plt.xlabel(f"PC1, {dim_reduction.explained_variance_ratio_[0] * 100 :.1f} %")
+# plt.ylabel(f"PC2, {dim_reduction.explained_variance_ratio_[1] * 100 :.1f} %")
+# # plt.title(f"n={N_SAMPLES} for each class")
+# plt.legend()
+# plt.savefig(f"../data/pics/{'genes' if use_genes else 'lipids'}_brain_as_object_75_gen.png", dpi=200)
 
 
 # ### region as object
@@ -617,22 +591,22 @@ border = fake_dataset_dim_reduction.shape[0] // 2
 # In[44]:
 
 
-plt.scatter(
-    fake_dataset_dim_reduction[:border, 0],
-    fake_dataset_dim_reduction[:border, 1],
-    label="HC", s=1
-)
-plt.scatter(
-    fake_dataset_dim_reduction[border:, 0],
-    fake_dataset_dim_reduction[border:, 1],
-    label="SZ", s=1
-)
-if use_PCA:
-    plt.xlabel(f"PC1, {dim_reduction.explained_variance_ratio_[0] * 100 :.1f} %")
-    plt.ylabel(f"PC2, {dim_reduction.explained_variance_ratio_[1] * 100 :.1f} %")
-# plt.title(f"Each point is a region\nn={N_SAMPLES} for each class\ndataset is normalized\nno variance added")
-plt.legend()
-plt.savefig(f"../data/pics/{'genes' if use_genes else 'lipids'}_region_as_object_75_gen_{'PCA' if use_PCA else 'tsne'}.png", dpi=200)
+# plt.scatter(
+#     fake_dataset_dim_reduction[:border, 0],
+#     fake_dataset_dim_reduction[:border, 1],
+#     label="HC", s=1
+# )
+# plt.scatter(
+#     fake_dataset_dim_reduction[border:, 0],
+#     fake_dataset_dim_reduction[border:, 1],
+#     label="SZ", s=1
+# )
+# if use_PCA:
+#     plt.xlabel(f"PC1, {dim_reduction.explained_variance_ratio_[0] * 100 :.1f} %")
+#     plt.ylabel(f"PC2, {dim_reduction.explained_variance_ratio_[1] * 100 :.1f} %")
+# # plt.title(f"Each point is a region\nn={N_SAMPLES} for each class\ndataset is normalized\nno variance added")
+# plt.legend()
+# plt.savefig(f"../data/pics/{'genes' if use_genes else 'lipids'}_region_as_object_75_gen_{'PCA' if use_PCA else 'tsne'}.png", dpi=200)
 
 
 # ## Plot lipids
@@ -693,12 +667,6 @@ rf.fit(X_train, y_train)
 accuracy_score(rf.predict(X_test), y_test)
 
 
-# In[51]:
-
-
-plt.hist(rf.feature_importances_)
-plt.show()
-
 
 # In[52]:
 
@@ -718,7 +686,7 @@ importances_df = pd.DataFrame(np.vstack([feature_names, rf.feature_importances_]
 
 importances_df = importances_df.sort_values(by="importance", ascending=False).reset_index(drop=True)
 
-importances_df.to_csv(f"../data/importances/{'genes' if use_genes else 'lipids'}_brain_rf.csv")
+importances_df.to_csv(f"../data/importances/{'genes' if use_genes else 'lipids'}_brain_rf_2023-05-20.csv")
 
 
 # ### Logreg + permutation
@@ -765,7 +733,7 @@ result = permutation_importance(clf, X_train_scaled, y_train, n_repeats=5,
 
 importances_df = pd.DataFrame(np.vstack([feature_names, result.importances_mean]).T, columns=["feature name", "importance"])
 importances_df = importances_df.sort_values(by="importance", ascending=False).reset_index(drop=True)
-importances_df.to_csv(f"../data/importances/{'genes' if use_genes else 'lipids'}_brain_perm.csv")
+importances_df.to_csv(f"../data/importances/{'genes' if use_genes else 'lipids'}_brain_perm_2023-05-20.csv")
 
 
 # ## Region as object
@@ -819,7 +787,7 @@ clf_res.index = clf_res.index.str.split().str[1:].str.join(" ")
 clf_res = pd.DataFrame(clf_res).reset_index()
 clf_res.columns = ["Region", "accuracy"]
 clf_res = clf_res.sort_values(by="accuracy").reset_index(drop=True)
-clf_res.to_csv("../data/importances/clf_res_regions_rf.csv")
+clf_res.to_csv("../data/importances/clf_res_regions_rf_2023-05-20.csv")
 
 # In[66]:
 
@@ -861,9 +829,6 @@ cv.mean()
 # In[ ]:
 
 
-plt.hist(rf.feature_importances_)
-plt.show()
-
 
 # In[ ]:
 
@@ -888,7 +853,7 @@ X_train.shape
 
 importances_df = pd.DataFrame(np.vstack([np.array(common_molecules), rf.feature_importances_]).T, columns=["feature name", "importance"])
 importances_df = importances_df.sort_values(by="importance", ascending=False).reset_index(drop=True)
-importances_df.to_csv(f"../data/importances/{'genes' if use_genes else 'lipids'}_regions_rf.csv")
+importances_df.to_csv(f"../data/importances/{'genes' if use_genes else 'lipids'}_regions_rf_2023-05-20.csv")
 
 
 # ### Logreg + permutations (not suitable for genes, too slow)
@@ -941,4 +906,4 @@ result = permutation_importance(clf, X_train_scaled, y_train, n_repeats=5,
 
 importances_df = pd.DataFrame(np.vstack([np.array(common_molecules), result.importances_mean]).T, columns=["feature name", "importance"])
 importances_df = importances_df.sort_values(by="importance", ascending=False).reset_index(drop=True)
-importances_df.to_csv(f"../data/importances/{'genes' if use_genes else 'lipids'}_regions_perm.csv")
+importances_df.to_csv(f"../data/importances/{'genes' if use_genes else 'lipids'}_regions_perm_2023-05-20.csv")
