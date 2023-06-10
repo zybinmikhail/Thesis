@@ -3,4 +3,11 @@ __pycache__/
 papers/
 data/GEO
 data/refine.bio
+data/intermediate/
+data/hamazaki_lipids_from_maria/
+data/oncotarget-07
+data/ours_counts/
+data/white matter lipids
+data/to_normalize/
+*.docx
 
