@@ -2,14 +2,14 @@
 # coding: utf-8
 
 
+import warnings
+from copy import copy
+
+import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
-import matplotlib.pyplot as plt
 import seaborn as sns
-
-# from sklearnex import patch_sklearn
-# patch_sklearn()
-
+from scipy.stats import norm
 from sklearn.decomposition import PCA
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.inspection import permutation_importance
@@ -18,12 +18,14 @@ from sklearn.manifold import MDS
 from sklearn.metrics import accuracy_score
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
-from scipy.stats import norm
 
-from copy import copy
+# from sklearnex import patch_sklearn
+# patch_sklearn()
 
-import warnings
-warnings.filterwarnings('ignore')
+
+
+
+warnings.filterwarnings("ignore")
 
 
 # In[2]:
@@ -40,17 +42,17 @@ sns.set_palette("Set2")
 
 
 def get_only_four(lipids):
-    """Obtain the regions for which exactly four observations for distinct brains are available.
-    """
-    brains_per_region = lipids.groupby("region")["human"].apply(lambda x: str(sorted(list(x))))
+    """Obtain the regions for which exactly four observations for distinct brains are available."""
+    brains_per_region = lipids.groupby("region")["human"].apply(
+        lambda x: str(sorted(list(x)))
+    )
     brains_set = str(sorted(list(set(lipids.human.unique()))))
     only_four = set(brains_per_region[brains_per_region == brains_set].index)
     return only_four
 
 
 def normalize_slow(dataset):
-    """Subtract mean over regions for every molecule in each brain.
-    """
+    """Subtract mean over regions for every molecule in each brain."""
     new_dataset = []
     for brain in sorted(dataset.human.unique()):
         existing_values = dataset[dataset["human"] == brain].iloc[:, 2:]
@@ -66,21 +68,23 @@ def normalize_slow(dataset):
 
 def normalize(dataset):
     means = dataset.drop(columns=["region"]).groupby("human").mean().reset_index()
-    mean_repeated = means.iloc[means.index.repeat(dataset.region.nunique())].reset_index(drop=True)
+    mean_repeated = means.iloc[
+        means.index.repeat(dataset.region.nunique())
+    ].reset_index(drop=True)
     dataset.iloc[:, 2:] = dataset.iloc[:, 2:] - mean_repeated.iloc[:, 1:]
     return dataset
 
 
 def prepare_for_dim_reduction(dataset):
-    """Reshape the dataset in such a way that all observation for each brain become a single vector.
-    """
+    """Reshape the dataset in such a way that all observation for each brain become a single vector."""
     new_dataset = []
     for brain in sorted(dataset.human.unique()):
-        existing_values = dataset[dataset["human"] == brain].iloc[:, 2:].values.reshape(1, -1)
+        existing_values = (
+            dataset[dataset["human"] == brain].iloc[:, 2:].values.reshape(1, -1)
+        )
         new_dataset.append(existing_values)
     new_dataset = np.concatenate(new_dataset)
     return new_dataset
-
 
 
 def check_normalization(dataset):
@@ -95,15 +99,12 @@ def check_normalization(dataset):
 # In[ ]:
 
 
-
-
-
 # In[4]:
 
 import sys
+
 sys.path.append("..")
 from utils import get_tr_data
-
 
 # # read the data
 
@@ -116,10 +117,17 @@ use_genes = False
 # In[6]:
 
 
-onebatch = pd.read_csv("../data/OneBatch3_FINAL2_2023-05-20.csv").sort_values(by=["Donor", "Region"])
+onebatch = pd.read_csv("../data/OneBatch3_FINAL2_2023-05-20.csv").sort_values(
+    by=["Donor", "Region"]
+)
 
-h_molecules = pd.read_csv("../data/ours_maria_version/rtmz_H_pos_std_weight_norm_TL_COMBINED.csv", index_col=0)
-sz_molecules = pd.read_csv("../data/ours_maria_version/rtmz_SZ_pos_std_weight_norm_TL_COMBINED.csv", index_col=0)
+h_molecules = pd.read_csv(
+    "../data/ours_maria_version/rtmz_H_pos_std_weight_norm_TL_COMBINED.csv", index_col=0
+)
+sz_molecules = pd.read_csv(
+    "../data/ours_maria_version/rtmz_SZ_pos_std_weight_norm_TL_COMBINED.csv",
+    index_col=0,
+)
 
 h_molecules.index = h_molecules.index.str.split(".").str[0]
 
@@ -133,37 +141,30 @@ h_molecules = meta.join(h_molecules, how="inner")
 # h_molecules["region_id"] = h_molecules.Region_detailed.str.split(" ").str[0].astype(int)
 
 meta_lipids = pd.read_csv("../data/ours_maria_version/TL_combined.csv")
-lipid_species_colon_replaced = meta_lipids["Lipid.species"].str.replace(":", " ", regex=False).tolist()
+lipid_species_colon_replaced = (
+    meta_lipids["Lipid.species"].str.replace(":", " ", regex=False).tolist()
+)
 lipids_columns = ["Brain_abbr", "Region_detailed"] + lipid_species_colon_replaced
 h_molecules.columns = lipids_columns
 sz_molecules.columns = lipids_columns
 
 h_molecules = (
-    h_molecules
-    .sort_values(by=["Brain_abbr", "Region_detailed"])
+    h_molecules.sort_values(by=["Brain_abbr", "Region_detailed"])
     .rename(columns={"Brain_abbr": "human", "Region_detailed": "region"})
     .reset_index(drop=True)
 )
-sz_molecules = (
-    sz_molecules
-    .sort_values(by=["Brain_abbr", "Region_detailed"])
-    .rename(columns={"Brain_abbr": "human", "Region_detailed": "region"})
+sz_molecules = sz_molecules.sort_values(by=["Brain_abbr", "Region_detailed"]).rename(
+    columns={"Brain_abbr": "human", "Region_detailed": "region"}
 )
-        
+
 if use_genes:
-    h_molecules = (
-        get_tr_data(True)
-        .reset_index()
-        .drop(columns=["batch"])
+    h_molecules = get_tr_data(True).reset_index().drop(columns=["batch"])
+    sz_molecules = get_tr_data(False).reset_index().drop(columns=["batch"])
+    common_columns = list(h_molecules.columns[:2]) + sorted(
+        list(set(h_molecules.columns[2:]) & set(sz_molecules.columns[2:]))
     )
-    sz_molecules = (
-        get_tr_data(False)
-        .reset_index()
-        .drop(columns=["batch"])
-    )
-    common_columns = list(h_molecules.columns[:2]) + sorted(list(set(h_molecules.columns[2:]) & set(sz_molecules.columns[2:])))    
     h_molecules = h_molecules[common_columns]
-    sz_molecules = sz_molecules[common_columns]    
+    sz_molecules = sz_molecules[common_columns]
 
 
 # In[7]:
@@ -211,7 +212,9 @@ common_molecules = list(set(regions_75_lipids) & set(onebatch_molecules))
 common_molecules = np.array(common_molecules)
 print("Lipids in 75 regions dataset, lipids in onebathc dataset, common lipids:")
 print(len(regions_75_lipids), len(onebatch_molecules), len(common_molecules))
-duplicates = h_molecules.columns.value_counts()[h_molecules.columns.value_counts() != 1].index
+duplicates = h_molecules.columns.value_counts()[
+    h_molecules.columns.value_counts() != 1
+].index
 print("\nCommon lipids after removing duplicates:")
 common_molecules = list(set(common_molecules) - set(duplicates))
 print(len(common_molecules))
@@ -257,14 +260,18 @@ onebatch = new_dataset
 # In[15]:
 
 
-sz_molecules = sz_molecules[sz_molecules.region.isin(regions_only_four)].reset_index(drop=True)
+sz_molecules = sz_molecules[sz_molecules.region.isin(regions_only_four)].reset_index(
+    drop=True
+)
 sz_molecules = normalize(sz_molecules)
 
 
 # In[16]:
 
 
-h_molecules = h_molecules[h_molecules.region.isin(regions_only_four)].reset_index(drop=True)
+h_molecules = h_molecules[h_molecules.region.isin(regions_only_four)].reset_index(
+    drop=True
+)
 h_molecules = normalize(h_molecules)
 
 
@@ -280,14 +287,26 @@ check_normalization(h_molecules)
 # In[18]:
 
 
-all_observations_combined_75 = np.concatenate([h_molecules.iloc[:, 2:].values, sz_molecules.iloc[:, 2:].values]).reshape(-1,)
+all_observations_combined_75 = np.concatenate(
+    [h_molecules.iloc[:, 2:].values, sz_molecules.iloc[:, 2:].values]
+).reshape(
+    -1,
+)
 
 
-
-left_point = norm.ppf(0.0001, loc=all_observations_combined_75.mean(), scale=all_observations_combined_75.std())
-right_point = norm.ppf(0.9999, loc=all_observations_combined_75.mean(), scale=all_observations_combined_75.std()),
+left_point = norm.ppf(
+    0.0001,
+    loc=all_observations_combined_75.mean(),
+    scale=all_observations_combined_75.std(),
+)
+right_point = (
+    norm.ppf(
+        0.9999,
+        loc=all_observations_combined_75.mean(),
+        scale=all_observations_combined_75.std(),
+    ),
+)
 x = np.linspace(left_point, right_point, 1000)
-
 
 
 # ## Data visualization
@@ -297,12 +316,18 @@ x = np.linspace(left_point, right_point, 1000)
 # In[22]:
 
 
-h_molecules_dim_reduction = prepare_for_dim_reduction(h_molecules[h_molecules.region.isin(regions_only_four)])
-sz_molecules_dim_reduction = prepare_for_dim_reduction(sz_molecules[sz_molecules.region.isin(regions_only_four)])
+h_molecules_dim_reduction = prepare_for_dim_reduction(
+    h_molecules[h_molecules.region.isin(regions_only_four)]
+)
+sz_molecules_dim_reduction = prepare_for_dim_reduction(
+    sz_molecules[sz_molecules.region.isin(regions_only_four)]
+)
 
 dim_reduction = PCA(n_components=2)
 
-lipids_dim_reduction = dim_reduction.fit_transform(np.concatenate([h_molecules_dim_reduction, sz_molecules_dim_reduction]))
+lipids_dim_reduction = dim_reduction.fit_transform(
+    np.concatenate([h_molecules_dim_reduction, sz_molecules_dim_reduction])
+)
 
 plt.scatter(lipids_dim_reduction[:4, 0], lipids_dim_reduction[:4, 1], label="HC")
 plt.scatter(lipids_dim_reduction[4:, 0], lipids_dim_reduction[4:, 1], label="SZ")
@@ -318,17 +343,27 @@ plt.scatter(lipids_dim_reduction[4:, 0], lipids_dim_reduction[4:, 1], label="SZ"
 # In[23]:
 
 
-h_molecules_dim_reduction = h_molecules[h_molecules.region.isin(regions_only_four)].iloc[:, 2:]
-sz_molecules_dim_reduction = sz_molecules[sz_molecules.region.isin(regions_only_four)].iloc[:, 2:]
+h_molecules_dim_reduction = h_molecules[
+    h_molecules.region.isin(regions_only_four)
+].iloc[:, 2:]
+sz_molecules_dim_reduction = sz_molecules[
+    sz_molecules.region.isin(regions_only_four)
+].iloc[:, 2:]
 
 dim_reduction = PCA(n_components=2)
 
-lipids_dim_reduction = dim_reduction.fit_transform(np.concatenate([h_molecules_dim_reduction, sz_molecules_dim_reduction]))
+lipids_dim_reduction = dim_reduction.fit_transform(
+    np.concatenate([h_molecules_dim_reduction, sz_molecules_dim_reduction])
+)
 
 border = lipids_dim_reduction.shape[0] // 2
 
-plt.scatter(lipids_dim_reduction[:border, 0], lipids_dim_reduction[:border, 1], label="HC")
-plt.scatter(lipids_dim_reduction[border:, 0], lipids_dim_reduction[border:, 1], label="SZ")
+plt.scatter(
+    lipids_dim_reduction[:border, 0], lipids_dim_reduction[:border, 1], label="HC"
+)
+plt.scatter(
+    lipids_dim_reduction[border:, 0], lipids_dim_reduction[border:, 1], label="SZ"
+)
 # plt.xlabel(f"PC1, {dim_reduction.explained_variance_ratio_[0] * 100 :.1f} %")
 # plt.ylabel(f"PC2, {dim_reduction.explained_variance_ratio_[1] * 100 :.1f} %")
 # plt.title(f"75 regions dataset (50 taken)")
@@ -345,7 +380,9 @@ plt.scatter(lipids_dim_reduction[border:, 0], lipids_dim_reduction[border:, 1], 
 
 new_onebatch = []
 for brain in onebatch.human.unique():
-    existing_values = onebatch[onebatch["human"] == brain].iloc[:, 9:].values.reshape(1, -1)
+    existing_values = (
+        onebatch[onebatch["human"] == brain].iloc[:, 9:].values.reshape(1, -1)
+    )
     new_onebatch.append(existing_values)
 new_onebatch = np.concatenate(new_onebatch)
 
@@ -365,7 +402,11 @@ dim_reduction_fitted = dim_reduction.fit_transform(new_onebatch)
 
 
 if False:
-    sns.lineplot(h_molecules[h_molecules["human"] == "HA"].loc[:, h_molecules.columns.str.contains("FA")])
+    sns.lineplot(
+        h_molecules[h_molecules["human"] == "HA"].loc[
+            :, h_molecules.columns.str.contains("FA")
+        ]
+    )
     plt.ylim(-6, 10)
     plt.title("All Fatty Acid profiles in one of the brains")
     plt.legend(ncols=4)
@@ -386,9 +427,9 @@ if False:
 # }
 
 region_translate = {
-    '74 Corpus Callosum Posterior': "CCp",
+    "74 Corpus Callosum Posterior": "CCp",
     "34 Dorsolateral Prefrontal (BA9)": "BA9",
-    '73 Corpus Callosum Anterior': "Cca",
+    "73 Corpus Callosum Anterior": "Cca",
     "28 2ary Auditory, Wernicke (BA22p)": "BA22",
 }
 
@@ -400,7 +441,7 @@ region_translate = {
 # In[27]:
 
 
-N_SAMPLES = 100 if use_genes else 1000 
+N_SAMPLES = 100 if use_genes else 1000
 # for each class SZ and SZ
 # 100 for lipids is too few
 # 1000 for genes makes the kernel die
@@ -411,7 +452,9 @@ brains_labels_hc = [f"HC{i + 1}" for i in range(N_SAMPLES)] * len(regions_only_f
 brains_labels_sz = [f"SZ{i + 1}" for i in range(N_SAMPLES)] * len(regions_only_four)
 brains_labels = np.array(brains_labels_hc + brains_labels_sz)
 
-regions_labels = np.concatenate([np.array([region] * N_SAMPLES) for region in regions_only_four])
+regions_labels = np.concatenate(
+    [np.array([region] * N_SAMPLES) for region in regions_only_four]
+)
 regions_labels = np.concatenate([regions_labels, regions_labels])
 
 
@@ -439,24 +482,30 @@ region_nm_column = []
 
 for human_type in ["HC", "SZ"]:
     for region_nm in regions_only_four:
-        
+
         # First, we generate the data based on 75_regions (taking 50 of them)
         # In this loop we generate N_SAMPLES individuals for each region_nm
         if human_type == "HC":
-            regions_75_lipids = h_molecules[h_molecules["region"] == region_nm][common_molecules]
+            regions_75_lipids = h_molecules[h_molecules["region"] == region_nm][
+                common_molecules
+            ]
         else:
-            regions_75_lipids = sz_molecules[sz_molecules["region"] == region_nm][common_molecules]
+            regions_75_lipids = sz_molecules[sz_molecules["region"] == region_nm][
+                common_molecules
+            ]
 
         generated_75 = np.random.normal(
-            loc=regions_75_lipids.mean(), scale=regions_75_lipids.std(), size=(N_SAMPLES, len(common_molecules))
+            loc=regions_75_lipids.mean(),
+            scale=regions_75_lipids.std(),
+            size=(N_SAMPLES, len(common_molecules)),
         )
         fake_dataset_75.append(generated_75)
-        
+
         # Second, we generate the data based on OneBatch
 #         if not use_genes:
 #             if region_nm in region_translate:
 #                 to_plot = onebatch_only_common[
-#                     (onebatch_only_common.SZ == human_type) 
+#                     (onebatch_only_common.SZ == human_type)
 #                     & (onebatch_only_common.Region == region_translate[region_nm])
 #                 ]
 #                 onebatch_molecules = to_plot[common_molecules]
@@ -485,7 +534,6 @@ for human_type in ["HC", "SZ"]:
 
 
 fake_dataset_75 = pd.DataFrame(np.concatenate(fake_dataset_75))
-    
 
 
 # In[32]:
@@ -561,13 +609,12 @@ fake_dataset_75.shape
 # In[ ]:
 
 
+from sklearn.decomposition import KernelPCA, TruncatedSVD
 from sklearn.manifold import TSNE, Isomap, LocallyLinearEmbedding
-
 
 # In[ ]:
 
 
-from sklearn.decomposition import KernelPCA, TruncatedSVD
 
 
 # In[ ]:
@@ -578,7 +625,7 @@ if use_PCA:
     dim_reduction = PCA(n_components=2)
 else:
     dim_reduction = Isomap(n_components=2)
-    
+
 fake_dataset_dim_reduction = dim_reduction.fit_transform(fake_dataset_75.iloc[:, 2:])
 
 
@@ -649,7 +696,9 @@ train_dataset.shape
 # In[48]:
 
 
-X_train, X_test, y_train, y_test = train_test_split(train_dataset, y, test_size=0.2, shuffle=True, random_state=435132)
+X_train, X_test, y_train, y_test = train_test_split(
+    train_dataset, y, test_size=0.2, shuffle=True, random_state=435132
+)
 
 
 # ### Random Forest
@@ -657,7 +706,7 @@ X_train, X_test, y_train, y_test = train_test_split(train_dataset, y, test_size=
 # In[49]:
 
 
-rf = RandomForestClassifier(criterion='gini', random_state=3643216)
+rf = RandomForestClassifier(criterion="gini", random_state=3643216)
 
 
 # In[50]:
@@ -665,7 +714,6 @@ rf = RandomForestClassifier(criterion='gini', random_state=3643216)
 
 rf.fit(X_train, y_train)
 accuracy_score(rf.predict(X_test), y_test)
-
 
 
 # In[52]:
@@ -682,11 +730,18 @@ print(feature_names[rf.feature_importances_.argsort()[:-5:-1]])
 # In[53]:
 
 
-importances_df = pd.DataFrame(np.vstack([feature_names, rf.feature_importances_]).T, columns=["feature name", "importance"])
+importances_df = pd.DataFrame(
+    np.vstack([feature_names, rf.feature_importances_]).T,
+    columns=["feature name", "importance"],
+)
 
-importances_df = importances_df.sort_values(by="importance", ascending=False).reset_index(drop=True)
+importances_df = importances_df.sort_values(
+    by="importance", ascending=False
+).reset_index(drop=True)
 
-importances_df.to_csv(f"../data/importances/{'genes' if use_genes else 'lipids'}_brain_rf_2023-05-20.csv")
+importances_df.to_csv(
+    f"../data/importances/{'genes' if use_genes else 'lipids'}_brain_rf_2023-05-20.csv"
+)
 
 
 # ### Logreg + permutation
@@ -718,22 +773,32 @@ X_train.shape
 # In[58]:
 
 
-clf = LogisticRegression(solver='lbfgs', random_state=9843595, n_jobs=-1).fit(X_train_scaled, y_train)
+clf = LogisticRegression(solver="lbfgs", random_state=9843595, n_jobs=-1).fit(
+    X_train_scaled, y_train
+)
 
 
 # In[59]:
 
 
-result = permutation_importance(clf, X_train_scaled, y_train, n_repeats=5, 
-                                random_state=234325, n_jobs=-1)
+result = permutation_importance(
+    clf, X_train_scaled, y_train, n_repeats=5, random_state=234325, n_jobs=-1
+)
 
 
 # In[ ]:
 
 
-importances_df = pd.DataFrame(np.vstack([feature_names, result.importances_mean]).T, columns=["feature name", "importance"])
-importances_df = importances_df.sort_values(by="importance", ascending=False).reset_index(drop=True)
-importances_df.to_csv(f"../data/importances/{'genes' if use_genes else 'lipids'}_brain_perm_2023-05-20.csv")
+importances_df = pd.DataFrame(
+    np.vstack([feature_names, result.importances_mean]).T,
+    columns=["feature name", "importance"],
+)
+importances_df = importances_df.sort_values(
+    by="importance", ascending=False
+).reset_index(drop=True)
+importances_df.to_csv(
+    f"../data/importances/{'genes' if use_genes else 'lipids'}_brain_perm_2023-05-20.csv"
+)
 
 
 # ## Region as object
@@ -749,12 +814,14 @@ fake_dataset_75.head()
 
 train_dataset = fake_dataset_75.iloc[:, 2:]
 y = np.ones(fake_dataset_75.shape[0])
-y[:fake_dataset_75.shape[0] // 2] = 0
-X_train, X_test, y_train, y_test, regions_train, regions_test = (
-    train_test_split(
-        train_dataset, y, fake_dataset_75.region,
-        test_size=0.2, shuffle=True, random_state=435132
-    )
+y[: fake_dataset_75.shape[0] // 2] = 0
+X_train, X_test, y_train, y_test, regions_train, regions_test = train_test_split(
+    train_dataset,
+    y,
+    fake_dataset_75.region,
+    test_size=0.2,
+    shuffle=True,
+    random_state=435132,
 )
 
 
@@ -775,13 +842,15 @@ y_pred = rf.predict(X_test)
 # In[64]:
 
 
-correst_classification = (y_pred == y_test)
+correst_classification = y_pred == y_test
 
 
 # In[65]:
 
 
-clf_res = pd.concat([regions_test.reset_index(drop=True), pd.Series(correst_classification)], axis=1)
+clf_res = pd.concat(
+    [regions_test.reset_index(drop=True), pd.Series(correst_classification)], axis=1
+)
 clf_res = clf_res.groupby("region")[0].apply(np.mean)
 clf_res.index = clf_res.index.str.split().str[1:].str.join(" ")
 clf_res = pd.DataFrame(clf_res).reset_index()
@@ -807,7 +876,6 @@ clf_res.to_csv("../data/importances/clf_res_regions_rf_2023-05-20.csv")
 from sklearn.model_selection import cross_val_score
 from sklearn.utils import shuffle
 
-
 # In[ ]:
 
 
@@ -817,7 +885,9 @@ X_train, y_train = shuffle(train_dataset, y, random_state=239875)
 # In[ ]:
 
 
-cv = cross_val_score(RandomForestClassifier(random_state=3643216), X_train, y_train, cv=5, n_jobs=-1)
+cv = cross_val_score(
+    RandomForestClassifier(random_state=3643216), X_train, y_train, cv=5, n_jobs=-1
+)
 
 
 # In[ ]:
@@ -827,7 +897,6 @@ cv.mean()
 
 
 # In[ ]:
-
 
 
 # In[ ]:
@@ -851,9 +920,16 @@ X_train.shape
 # In[69]:
 
 
-importances_df = pd.DataFrame(np.vstack([np.array(common_molecules), rf.feature_importances_]).T, columns=["feature name", "importance"])
-importances_df = importances_df.sort_values(by="importance", ascending=False).reset_index(drop=True)
-importances_df.to_csv(f"../data/importances/{'genes' if use_genes else 'lipids'}_regions_rf_2023-05-20.csv")
+importances_df = pd.DataFrame(
+    np.vstack([np.array(common_molecules), rf.feature_importances_]).T,
+    columns=["feature name", "importance"],
+)
+importances_df = importances_df.sort_values(
+    by="importance", ascending=False
+).reset_index(drop=True)
+importances_df.to_csv(
+    f"../data/importances/{'genes' if use_genes else 'lipids'}_regions_rf_2023-05-20.csv"
+)
 
 
 # ### Logreg + permutations (not suitable for genes, too slow)
@@ -865,9 +941,6 @@ X_train = np.array(X_train)
 
 
 # In[ ]:
-
-
-
 
 
 # In[71]:
@@ -891,19 +964,29 @@ X_train.shape
 # In[75]:
 
 
-clf = LogisticRegression(solver='lbfgs', random_state=9843595, n_jobs=-1).fit(X_train_scaled, y_train)
+clf = LogisticRegression(solver="lbfgs", random_state=9843595, n_jobs=-1).fit(
+    X_train_scaled, y_train
+)
 
 
 # In[ ]:
 
 
-result = permutation_importance(clf, X_train_scaled, y_train, n_repeats=5, 
-                                random_state=234325, n_jobs=-1)
+result = permutation_importance(
+    clf, X_train_scaled, y_train, n_repeats=5, random_state=234325, n_jobs=-1
+)
 
 
 # In[ ]:
 
 
-importances_df = pd.DataFrame(np.vstack([np.array(common_molecules), result.importances_mean]).T, columns=["feature name", "importance"])
-importances_df = importances_df.sort_values(by="importance", ascending=False).reset_index(drop=True)
-importances_df.to_csv(f"../data/importances/{'genes' if use_genes else 'lipids'}_regions_perm_2023-05-20.csv")
+importances_df = pd.DataFrame(
+    np.vstack([np.array(common_molecules), result.importances_mean]).T,
+    columns=["feature name", "importance"],
+)
+importances_df = importances_df.sort_values(
+    by="importance", ascending=False
+).reset_index(drop=True)
+importances_df.to_csv(
+    f"../data/importances/{'genes' if use_genes else 'lipids'}_regions_perm_2023-05-20.csv"
+)
